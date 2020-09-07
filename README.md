@@ -4,7 +4,9 @@ This is the improvement project for the MSFS default TBM 930.
 Current features of this modification are:
 
 -Removed the 30% gap between 0 and 30% throttle;
+
 -Ajusted ITT slightly;
+
 -Ajusted autopilot maximum pitch (was 10, now 30).
 
 To install:
