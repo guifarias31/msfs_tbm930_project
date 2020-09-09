@@ -10,6 +10,7 @@ tp_high_idle_throttle_pos = 0; throttle position of high idle (Percent)
 ###### Ajusted ITT slightly;
 
 itt_peak_temperature = 1150
+
 itt_tuning_constant = 2
 
 -Ajusted autopilot maximum pitch (was 10, now 20).
