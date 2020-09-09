@@ -35,6 +35,10 @@ density_on_torque_table=0.000737:0.141, 0.000889:0.188, 0.001065:.241, 0.001267:
 
 drag_coef_gear = 0.04700
 
+## Known issues:
+
+-Inertial Separator is hiting too much the torque.
+
 **How to install:**
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
