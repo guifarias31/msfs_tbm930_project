@@ -52,6 +52,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
 My Discord: Guilherme Farias#9971
+
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
 
 ## How to Install:
