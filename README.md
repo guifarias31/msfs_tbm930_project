@@ -27,11 +27,11 @@ rated_shaft_hp = 850
 
 n1_to_shaft_torque_table = ... 68:0.12 ...
 
-**Corrected torque vs air density (by PositiveZero)**
+**Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me)**
 
-density_on_torque_table=0.000737:0.141, 0.000889:0.188, 0.001065:.241, 0.001267:.316, 0.001496:.42, 0.001755:.55, 0.002048:.72, 0.002377:.965
+density_on_torque_table = 0.000737:0.441, 0.000889:0.588, 0.001065:0.641, 0.001267:0.716, 0.001496:0.82, 0.001755:0.95, 0.002048:0.96, 0.002377:0.965
 
-**Landing gear creates more drag (by PositiveZero)**
+**Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary))**
 
 drag_coef_gear = 0.04700
 
