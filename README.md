@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project version 0.2 Beta
+# MSFS TBM 930 Project version 0.2
 This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
