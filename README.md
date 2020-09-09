@@ -3,43 +3,55 @@ This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
 
-**Removed the 30% gap between 0 and 30% throttle;**
+**Removed the 30% gap between 0 and 30% throttle:**
 
-tp_high_idle_throttle_pos = 0; throttle position of high idle (Percent)
+tp_high_idle_throttle_pos = 0; *(default = 30)*
 
-**Ajusted ITT slightly;**
+**Ajusted ITT slightly:**
 
-itt_peak_temperature = 1150
+itt_peak_temperature = 1150 *(default = 2100)*
 
-itt_tuning_constant = 2
+itt_tuning_constant = 2 *(default = 1)*
 
-**Ajusted autopilot maximum pitch (was 10, now 20).**
+**Ajusted autopilot maximum pitch:**
 
-max_pitch = 20
+max_pitch = 15 *(default = 10)*
 
-**Corrected some numbers**
+**Corrected some numbers:**
 
-min_n1_for_starter_cutoff = 52 ; %
+pitch_takeoff_ga = 10 *(default = 8)*
 
-min_n2_for_starter_cutoff = 80 ; %
+min_n1_for_starter_cutoff = 52 *(default = 50)*
 
-rated_shaft_hp = 850
+min_n2_for_starter_cutoff = 80 *(default = 200)*
+
+rated_shaft_hp = 850 (default = 0)
 
 n1_to_shaft_torque_table = ... 68:0.12 ...
 
-**Corrected torque vs air density (by PositiveZero)**
+CG_aft_limit = 0.355 *(default = 0.36)*
 
-density_on_torque_table=0.000737:0.141, 0.000889:0.188, 0.001065:.241, 0.001267:.316, 0.001496:.42, 0.001755:.55, 0.002048:.72, 0.002377:.965
+rotation_speed_min = 80 *(default = 90)*
 
-**Landing gear creates more drag (by PositiveZero)**
+cruise_alt = 31000 *(default = 30000)*
 
-drag_coef_gear = 0.04700
+best_glide = 120 *(default = 0)*
 
-## Known issues:
+**Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me):**
 
--Inertial Separator is hiting too much the torque.
+density_on_torque_table = 0.000737:0.441, 0.000889:0.588, 0.001065:0.641, 0.001267:0.716, 0.001496:0.82, 0.001755:0.95, 0.002048:0.96, 0.002377:0.965
 
-**How to install:**
+**Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
+
+drag_coef_gear = 0.04700 *(default = 0.01000)*
+
+## Known Issues:
+
+- Inertial Separator is hiting too much the torque;
+
+- Still testing fuel consumption.
+
+## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
