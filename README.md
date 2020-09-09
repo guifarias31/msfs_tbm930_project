@@ -1,4 +1,4 @@
-MSFS TBM 930 Project version 0.1
+# MSFS TBM 930 Project version 0.1
 This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
@@ -9,9 +9,9 @@ Current features of this modification are:
 
 -Ajusted autopilot maximum pitch (was 10, now 30).
 
-To install:
+How to install:
 
-1: Click on the green button in the top right corner that sais 'code' and download as zip
+1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
 2: Unzip and put the folder "aircraft-tbm930-performance" in your MSFS Community folder
 
