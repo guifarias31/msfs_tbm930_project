@@ -13,11 +13,13 @@ itt_peak_temperature = 1150
 
 itt_tuning_constant = 2
 
-**Ajusted autopilot maximum pitch (was 10, now 20).**
+**Ajusted autopilot maximum pitch (was 10, now 15).**
 
-max_pitch = 20
+max_pitch = 15
 
 **Corrected some numbers**
+
+pitch_takeoff_ga = 10
 
 min_n1_for_starter_cutoff = 52 ; %
 
