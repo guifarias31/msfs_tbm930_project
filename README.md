@@ -39,7 +39,7 @@ best_glide = 120 *(default = 0)*
 
 **Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me):**
 
-density_on_torque_table = 0.000737:0.441, 0.000889:0.588, 0.001065:0.641, 0.001267:0.716, 0.001496:0.82, 0.001755:0.95, 0.002048:0.96, 0.002377:0.965
+density_on_torque_table=0.000737:0.441, 0.000889:0.488, 0.001065:0.541, 0.001267:0.616, 0.001496:0.72, 0.001755:0.85, 0.002048:0.92, 0.002377:0.965
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
 
