@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project version 0.1
+# MSFS TBM 930 Project version 0.1.1
 This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
@@ -7,7 +7,9 @@ Current features of this modification are:
 
 -Ajusted ITT slightly;
 
--Ajusted autopilot maximum pitch (was 10, now 30).
+-Ajusted autopilot maximum pitch (was 10, now 20).
+
+-Corrected some numbers
 
 How to install:
 
