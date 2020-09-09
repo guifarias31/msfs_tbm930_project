@@ -5,7 +5,7 @@ Current features of this modification are:
 
 **Removed the 30% gap between 0 and 30% throttle;**
 
-tp_high_idle_throttle_pos = 0; throttle position of high idle (Percent)
+tp_high_idle_throttle_pos = 0;
 
 **Ajusted ITT slightly;**
 
