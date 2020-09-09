@@ -10,6 +10,7 @@ tp_high_idle_throttle_pos = 0; throttle position of high idle (Percent)
 ###### Ajusted ITT slightly;
 
 itt_peak_temperature = 1150
+
 itt_tuning_constant = 2
 
 -Ajusted autopilot maximum pitch (was 10, now 20).
@@ -17,8 +18,11 @@ itt_tuning_constant = 2
 ###### Corrected some numbers
 
 min_n1_for_starter_cutoff = 52 ; %
+
 min_n2_for_starter_cutoff = 80 ; %
+
 rated_shaft_hp = 850
+
 n1_to_shaft_torque_table = ... 68:0.12 ...
 
 ###### Corrected torque vs air density (by PositiveZero)
