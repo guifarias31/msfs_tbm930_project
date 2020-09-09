@@ -47,7 +47,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 ## Known Issues:
 
-- Inertial Separator is hiting too much the torque;
+- Inertial Separator is decreasing too much the torque (around 30%);
 
 - Still testing fuel consumption.
 
