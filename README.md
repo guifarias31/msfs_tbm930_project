@@ -5,29 +5,37 @@ Current features of this modification are:
 
 **Removed the 30% gap between 0 and 30% throttle;**
 
-tp_high_idle_throttle_pos = 0;
+tp_high_idle_throttle_pos = 0; *(default = 30)*
 
 **Ajusted ITT slightly;**
 
-itt_peak_temperature = 1150
+itt_peak_temperature = 1150 *(default = 2100)*
 
-itt_tuning_constant = 2
+itt_tuning_constant = 2 *(default = 1)*
 
-**Ajusted autopilot maximum pitch (was 10, now 15).**
+**Ajusted autopilot maximum pitch.**
 
-max_pitch = 15
+max_pitch = 15 *(default = 10)*
 
 **Corrected some numbers**
 
-pitch_takeoff_ga = 10
+pitch_takeoff_ga = 10 *(default = 8)*
 
-min_n1_for_starter_cutoff = 52 ; %
+min_n1_for_starter_cutoff = 52 *(default = 50)*
 
-min_n2_for_starter_cutoff = 80 ; %
+min_n2_for_starter_cutoff = 80 *(default = 200)*
 
-rated_shaft_hp = 850
+rated_shaft_hp = 850 (default = 0)
 
 n1_to_shaft_torque_table = ... 68:0.12 ...
+
+CG_aft_limit = 0.355 *(default = 0.36)*
+
+rotation_speed_min = 80 *(default = 0.90)*
+
+cruise_alt = 31000 *(default = 30000)*
+
+best_glide = 120 *(default = 0)*
 
 **Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me)**
 
@@ -35,11 +43,12 @@ density_on_torque_table = 0.000737:0.441, 0.000889:0.588, 0.001065:0.641, 0.0012
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary))**
 
-drag_coef_gear = 0.04700
+drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 ## Known issues:
 
--Inertial Separator is hiting too much the torque.
+- Inertial Separator is hiting too much the torque;
+- Still testing fuel consumption.
 
 **How to install:**
 
