@@ -31,7 +31,7 @@ n1_to_shaft_torque_table = ... 68:0.12 ...
 
 CG_aft_limit = 0.355 *(default = 0.36)*
 
-rotation_speed_min = 80 *(default = 0.90)*
+rotation_speed_min = 80 *(default = 90)*
 
 cruise_alt = 31000 *(default = 30000)*
 
