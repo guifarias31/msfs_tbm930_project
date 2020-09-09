@@ -3,21 +3,21 @@ This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
 
-**Removed the 30% gap between 0 and 30% throttle;**
+**Removed the 30% gap between 0 and 30% throttle:**
 
 tp_high_idle_throttle_pos = 0; *(default = 30)*
 
-**Ajusted ITT slightly;**
+**Ajusted ITT slightly:**
 
 itt_peak_temperature = 1150 *(default = 2100)*
 
 itt_tuning_constant = 2 *(default = 1)*
 
-**Ajusted autopilot maximum pitch.**
+**Ajusted autopilot maximum pitch:**
 
 max_pitch = 15 *(default = 10)*
 
-**Corrected some numbers**
+**Corrected some numbers:**
 
 pitch_takeoff_ga = 10 *(default = 8)*
 
@@ -37,20 +37,21 @@ cruise_alt = 31000 *(default = 30000)*
 
 best_glide = 120 *(default = 0)*
 
-**Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me)**
+**Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me):**
 
 density_on_torque_table = 0.000737:0.441, 0.000889:0.588, 0.001065:0.641, 0.001267:0.716, 0.001496:0.82, 0.001755:0.95, 0.002048:0.96, 0.002377:0.965
 
-**Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary))**
+**Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-## Known issues:
+## Known Issues:
 
 - Inertial Separator is hiting too much the torque;
+
 - Still testing fuel consumption.
 
-**How to install:**
+## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
