@@ -39,7 +39,7 @@ cruise_alt = 31000 *(default = 30000)*
 
 best_glide = 120 *(default = 0)*
 
-**Corrected torque vs air density:**
+**Ajusted torque vs air density:**
 
 density_on_torque_table = ... 0.000975:0.965, 0.002378:0.965
 
