@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project version 0.2.1
+# MSFS TBM 930 Project version 0.3
 This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
@@ -39,17 +39,19 @@ cruise_alt = 31000 *(default = 30000)*
 
 best_glide = 120 *(default = 0)*
 
-**Corrected torque vs air density (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary), modified by me):**
+**Corrected torque vs air density:**
 
-density_on_torque_table=0.000737:0.541, 0.000889:0.688, 0.001065:0.741, 0.001267:0.816, 0.001496:0.853, 0.001755:0.890, 0.002048:0.927, 0.002378:0.965
+density_on_torque_table = ... 0.000975:0.965, 0.002378:0.965
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-## Known Issues:
+**Ajusted inertial separator decrease in torque to half:**
 
-- Inertial Separator is decreasing too much the torque (around 30%). (I think that's not caused by this modifications).
+(L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+
+## Known Issues:
 
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
