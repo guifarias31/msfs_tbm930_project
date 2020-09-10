@@ -47,7 +47,7 @@ density_on_torque_table = ... 0.000975:0.965, 0.002378:0.965
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-**Ajusted inertial separator decrease in torque to half:**
+**Ajusted inertial separator decrease in torque to half (this might reflect to other aircraft as well):**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
