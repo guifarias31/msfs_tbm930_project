@@ -3,6 +3,10 @@
     {
       "name": "fs-base-propdefs",
       "package_version": "0.1.2"
+    },
+    {
+      "name": "fs-base-aircraft-common",
+      "package_version": "0.1.61"
     }
   ],
   "content_type": "AIRCRAFT",
