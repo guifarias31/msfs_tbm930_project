@@ -53,6 +53,10 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
+**Transponder now starts on Stand by when cold and dark**
+
+**COM1, COM2 and ADF frequency changed when started cold and dark**
+
 ## Known Issues:
 
 - ITT is a big problem. If I increase too much, it overheats on the ground, and if a decrease too much it stays too low on cruise level.
