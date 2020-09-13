@@ -40,7 +40,9 @@ best_glide = 120 *(default = 0)*
 **Ajusted torque vs air density:**
 
 density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.727, 0.000895:0.771, 0.001144:0.817, 0.001459:0.866, 0.001862:0.911, 0.002378:0.965
+
 (Calculated using 5,6% decrease on torque every 21.63% decrease on density.)
+
 *(default = 0.0005:0.01, 0.0006:0.4, 0.0007:0.6, 0.0008:0.75,  0.0009:0.9,0.000975:1.0, 0.002378:1.000000)*
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
