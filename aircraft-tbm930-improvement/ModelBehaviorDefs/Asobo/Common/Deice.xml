@@ -183,7 +183,7 @@
 		<WWISE_EVENT_1>deice_inertsep_switch_on</WWISE_EVENT_1>
 		<WWISE_EVENT_2>deice_inertsep_switch_off</WWISE_EVENT_2>
 		<ID>1</ID>
-		<TIME_TO_DEPLOY_SEC>30</TIME_TO_DEPLOY_SEC>
+		<TIME_TO_DEPLOY_SEC>40</TIME_TO_DEPLOY_SEC>
 	</DefaultTemplateParameters>
 	<OverrideTemplateParameters>
 		<DEPLOYMENT_PER_SECOND Process="Float">1 #TIME_TO_DEPLOY_SEC# /</DEPLOYMENT_PER_SECOND>
@@ -204,7 +204,7 @@
 				(L:XMLVAR_InertSep#ID#_Deployment) #DEPLOYMENT_PER_SECOND# - 0 max (&gt;L:XMLVAR_InertSep#ID#_Deployment)
 			}
 			(L:XMLVAR_InertSep#ID#_Active) if{
-				(L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#)
+				(L:XMLVAR_InertSep#ID#_Deployment) 12288 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#)
 			}
 		</Update>
 		<Update Once="True">
