@@ -41,32 +41,32 @@
       "date": 132408494923410865
     },
     {
-      "path": "Effects/LIGHT_TBM_Landing.fx",
+      "path": "effects/LIGHT_TBM_Landing.fx",
       "size": 1230,
       "date": 1599689586371
     },
     {
-      "path": "Effects/LIGHT_TBM_NavigationGreen.fx",
+      "path": "effects/LIGHT_TBM_NavigationGreen.fx",
       "size": 1230,
       "date": 1599434142438
     },
     {
-      "path": "Effects/LIGHT_TBM_NavigationRed.fx",
+      "path": "effects/LIGHT_TBM_NavigationRed.fx",
       "size": 1227,
       "date": 1599434144532
     },
     {
-      "path": "Effects/LIGHT_TBM_StrobeSimple.fx",
+      "path": "effects/LIGHT_TBM_StrobeSimple.fx",
       "size": 1233,
       "date": 1599690896130
     },
     {
-      "path": "Effects/LIGHT_TBM_Taxi.fx",
+      "path": "effects/LIGHT_TBM_Taxi.fx",
       "size": 1279,
       "date": 1599407386268
     },
     {
-      "path": "Effects/LIGHT_TBM_TBM930_Pulse.fx",
+      "path": "effects/LIGHT_TBM_TBM930_Pulse.fx",
       "size": 1345,
       "date": 1599601300519
     },
