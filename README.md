@@ -13,10 +13,6 @@ tp_high_idle_throttle_pos = 0; *(default = 30)*
 
 n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ...
 
-**Ajusted ITT slightly:**
-
-itt_tuning_constant = 1.1 *(default = 1)*
-
 **Ajusted autopilot maximum pitch:**
 
 max_pitch = 15 *(default = 10)*
