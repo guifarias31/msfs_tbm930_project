@@ -1,6 +1,8 @@
 # MSFS TBM 930 Project version 0.4.1
 This is the improvement project for the MSFS default TBM 930.
 
+And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+
 Current features of this modification are:
 
 **Removed the 30% gap between 0 and 30% throttle:**
