@@ -86,6 +86,11 @@
       "date": 132387737630000000
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/apron.FLT",
+      "size": 3056,
+      "date": 132395409590000000
+    },
+    {
       "path": "ModelBehaviorDefs/Asobo/Common/Deice.xml",
       "size": 9954,
       "date": 132395409590000000
