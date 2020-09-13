@@ -1,5 +1,7 @@
-# MSFS TBM 930 Project version 0.4
+# MSFS TBM 930 Project version 0.4.1
 This is the improvement project for the MSFS default TBM 930.
+
+And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
 Current features of this modification are:
 
@@ -13,9 +15,7 @@ n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ...
 
 **Ajusted ITT slightly:**
 
-itt_peak_temperature = 1150 *(default = 2100)*
-
-itt_tuning_constant = 2 *(default = 1)*
+itt_tuning_constant = 1.1 *(default = 1)*
 
 **Ajusted autopilot maximum pitch:**
 
@@ -41,19 +41,25 @@ best_glide = 120 *(default = 0)*
 
 **Ajusted torque vs air density:**
 
-density_on_torque_table = ... 0.000975:0.965, 0.002378:0.965
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.727, 0.000895:0.771, 0.001144:0.817, 0.001459:0.866, 0.001862:0.911, 0.002378:0.965
+
+(Calculated using 5,6% decrease on torque every 21.63% decrease on density.)
+
+*(default = 0.0005:0.01, 0.0006:0.4, 0.0007:0.6, 0.0008:0.75,  0.0009:0.9,0.000975:1.0, 0.002378:1.000000)*
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-**Ajusted inertial separator decrease in torque to half (this might reflect to other aircraft as well):**
+**Ajusted inertial separator decrease in torque to 3/4 (now 19%, instead of 25%):**
 
-(L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+(L:XMLVAR_InertSep#ID#_Deployment) 12288 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
 **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
 ## Known Issues:
+
+- ITT is a big problem. If I increase too much, it overheats on the ground, and if a decrease too much it stays too low on cruise level.
 
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
