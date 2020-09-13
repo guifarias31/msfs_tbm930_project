@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project version 0.3
+# MSFS TBM 930 Project version 0.4
 This is the improvement project for the MSFS default TBM 930.
 
 Current features of this modification are:
@@ -50,6 +50,8 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 **Ajusted inertial separator decrease in torque to half (this might reflect to other aircraft as well):**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+
+**Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
 ## Known Issues:
 
