@@ -59,7 +59,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 ## Known Issues:
 
-- ITT is a big problem. If I increase too much, it overheats on the ground, and if a decrease too much it stays too low on cruise level.
+- ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited.
 
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
