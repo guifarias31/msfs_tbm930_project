@@ -13,9 +13,7 @@ n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ...
 
 **Ajusted ITT slightly:**
 
-itt_peak_temperature = 1150 *(default = 2100)*
-
-itt_tuning_constant = 2 *(default = 1)*
+itt_tuning_constant = 1.1 *(default = 1)*
 
 **Ajusted autopilot maximum pitch:**
 
@@ -41,15 +39,16 @@ best_glide = 120 *(default = 0)*
 
 **Ajusted torque vs air density:**
 
-density_on_torque_table = ... 0.000975:0.965, 0.002378:0.965
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.727, 0.000895:0.771, 0.001144:0.817, 0.001459:0.866, 0.001862:0.911, 0.002378:0.965
+(Calculated using 5,6% decrease on torque every 21.63% decrease on density.)
 
 **Landing gear creates more drag (by [PositiveZero](https://forums.flightsimulator.com/u/positivezero/summary)):**
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-**Ajusted inertial separator decrease in torque to half (this might reflect to other aircraft as well):**
+**Ajusted inertial separator decrease in torque to 3/4 (this might reflect to other aircraft as well):**
 
-(L:XMLVAR_InertSep#ID#_Deployment) 8192 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+(L:XMLVAR_InertSep#ID#_Deployment) 12288 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
 **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
