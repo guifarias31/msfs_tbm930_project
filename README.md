@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project version 0.4.2
+# MSFS TBM 930 Project version 0.4.3
 This is the improvement project for the MSFS default TBM 930.
 
 And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
@@ -37,7 +37,7 @@ best_glide = 120 *(default = 0)*
 
 **Ajusted torque vs air density:**
 
-density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.727, 0.000895:0.771, 0.001144:0.817, 0.001459:0.866, 0.001862:0.911, 0.002378:0.965
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.75, 0.000895:0.794, 0.001144:0.841, 0.001459:0.891, 0.001862:0.944, 0.002378:1.000
 
 (Calculated using 5,6% decrease on torque every 21.63% decrease on density.)
 
@@ -47,9 +47,9 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.727, 0.000895:0.771,
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-**Ajusted inertial separator decrease in torque to 3/4 (now 19%, instead of 25%):**
+**Ajusted inertial separator decrease in torque to 7/8 (now 22%, instead of 25%):**
 
-(L:XMLVAR_InertSep#ID#_Deployment) 12288 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
 **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
