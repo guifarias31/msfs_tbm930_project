@@ -5,7 +5,7 @@ And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/
 
 Current features of this modification are:
 
-* Removed the 30% gap between 0 and 30% throttle:
+* **Removed the 30% gap between 0 and 30% throttle:
 
 tp_high_idle_throttle_pos = 0; *(default = 30)*
 
