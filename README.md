@@ -35,7 +35,7 @@ cruise_alt = 31000 *(default = 30000)*
 
 best_glide = 120 *(default = 0)*
 
-**Ajusted torque vs air density:**
+**Ajusted torque vs air density table:**
 
 density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.75, 0.000895:0.794, 0.001144:0.841, 0.001459:0.891, 0.001862:0.944, 0.002378:1.000
 
@@ -47,15 +47,15 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.75, 0.000895:0.794, 
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-**Ajusted inertial separator decrease in torque to 7/8 (now 22%, instead of 25%):**
+**Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
 **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
 
-**Transponder now starts on Stand by when cold and dark**
+**Transponder now starts on Stand by when started cold and dark**
 
-**COM1, COM2 and ADF frequency changed when started cold and dark**
+**COM1, COM2 and ADF frequencies changed when started cold and dark**
 
 ## Known Issues:
 
@@ -65,6 +65,8 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
+For any other suggestions or bug reports, feel free to contact me:
+
 My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
@@ -73,6 +75,6 @@ My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
-2: Unzip and put the folder "aircraft-tbm930-performance" in your MSFS Community folder
+2: Unzip and put the folder "aircraft-tbm930-improvement" in your MSFS Community folder
 
-For more liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
+For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
