@@ -61,7 +61,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 - ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited. I decided to don't touch on ITT until the next patch comes;
 
-- Inertial Separator is working but no indicating on in the panel;
+- Inertial Separator is working but not indicating as "ON" in the panel;
 
 - Still testing fuel consumption. If you enconter any problems, let me know.
 
