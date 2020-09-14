@@ -82,3 +82,7 @@ For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-mas
 ## How to Uninstall:
 
 To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS Community folder.
+
+## Donation
+
+If you want to support me, here my PayPal donation link: http://bit.ly/PaypalFarias
