@@ -71,10 +71,14 @@ My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
 
+For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
+
 ## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
 2: Unzip and put the folder "aircraft-tbm930-improvement" in your MSFS Community folder
 
-For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
+## How to Uninstall:
+
+To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS Community folder.
