@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.4 Beta
+# MSFS TBM 930 Project 0.4.5 Beta
 This is the improvement project for the MSFS default TBM 930.
 
 And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
