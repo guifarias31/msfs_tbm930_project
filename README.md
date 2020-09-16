@@ -1,6 +1,10 @@
 # MSFS TBM 930 Project 0.4.5 Beta
 This is the improvement project for the MSFS default TBM 930.
 
+**About my mod and the latest 1.8.3.0 update:**
+Apparently, Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights, which is related to Uwa’s light fix mod that I added to mine. So you most likely are safe to continue using my mod and most likely will not loose any new official feature/correction.
+Although, if you encounter any problems, please message me.
+
 And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
 Current features of this modification are:
