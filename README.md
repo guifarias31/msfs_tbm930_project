@@ -7,7 +7,7 @@ Although, if you encounter any problems, please message me.
 
 I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
-And for changing the PFD color, go check you my [other mod](https://github.com/guifarias31/msfs_pfd_color_modification).
+For changing the PFD color, go check you my [other mod](https://github.com/guifarias31/msfs_pfd_color_modification).
 
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
