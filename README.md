@@ -5,7 +5,8 @@ This is the improvement project for the MSFS default TBM 930.
 Apparently Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights (which are related to [Uwa’s light fix](https://github.com/Uwajimaya/FS2020) mod that I added to mine) and a very little change on deice.xml, which I have already updated. So you are most likely safe to continue using my mod and most likely will not loose any new official feature/correction.
 Although, if you encounter any problems, please message me.
 
-And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+And for changing the PFD color, go check you my [other mod](https://github.com/guifarias31/msfs_pfd_color_modification).
 
 Current features of this modification are:
 
