@@ -9,6 +9,8 @@ I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs
 
 And for changing the PFD color, go check you my [other mod](https://github.com/guifarias31/msfs_pfd_color_modification).
 
+And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
+
 Current features of this modification are:
 
 * **Removed the 30% gap between 0 and 30% throttle:**
@@ -76,8 +78,6 @@ For any other suggestions or bug reports, feel free to contact me:
 My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
-
-For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
 
 ## How to Install:
 
