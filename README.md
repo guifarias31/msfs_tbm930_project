@@ -63,6 +63,9 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **COM1, COM2 and ADF frequencies changed when started cold and dark**
 
+* **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
+
+
 ## Known Issues:
 
 - ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited. I decided to don't touch on ITT until the next patch comes;
