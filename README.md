@@ -1,11 +1,13 @@
-# MSFS TBM 930 Project 0.4.5 Beta
+# MSFS TBM 930 Project 0.4.6 Beta
 This is the improvement project for the MSFS default TBM 930.
 
 **About my mod and the latest 1.8.3.0 update:**
-Apparently, Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights, which is related to [Uwa’s light fix](https://github.com/Uwajimaya/FS2020) mod that I added to mine. So you most likely are safe to continue using my mod and most likely will not loose any new official feature/correction.
+Apparently Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights (which are related to [Uwa’s light fix](https://github.com/Uwajimaya/FS2020) mod that I added to mine) and a very little change on deice.xml, which I have already updated. So you are most likely safe to continue using my mod and most likely will not loose any new official feature/correction.
 Although, if you encounter any problems, please message me.
 
-And I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+
+And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
 Current features of this modification are:
 
@@ -61,6 +63,9 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **COM1, COM2 and ADF frequencies changed when started cold and dark**
 
+* **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
+
+
 ## Known Issues:
 
 - ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited. I decided to don't touch on ITT until the next patch comes;
@@ -75,8 +80,6 @@ My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
 
-For liveries see this thread: https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16
-
 ## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
@@ -89,4 +92,6 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 
 ## Donation
 
-If you want to support me, here my PayPal donation link: http://bit.ly/PaypalFarias
+If you want to support me, here my PayPal donation link:
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AAQXMM62KALU6&source=url)
