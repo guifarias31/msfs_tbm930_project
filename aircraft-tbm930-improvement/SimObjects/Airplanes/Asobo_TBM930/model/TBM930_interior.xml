@@ -1006,6 +1006,7 @@
 	<Component ID="ENGINE_Overhead">
 		<!--
 			TODO: Faire un autre event !
+
 			L'event TOGGLE_MASTER_STARTER_SWITCH actuel pose probleme, car il fait trop de choses.
 			voir turbine.cpp : set_individual_master_turbine_starter_switch
 			pTurbEng->bMasterEngineStarter = bOn;
@@ -1720,6 +1721,13 @@
 		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Autopilot_Template">
 			<ANIM_NAME>PUSH_AUTOPILOT_AP</ANIM_NAME>
 			<NODE_ID>push_autopilot_ap</NODE_ID>
+			<ON_AP_MASTER_SWITCH>
+				(L:XMLVAR_APTrim) 0 == if{ 
+					(A:AUTOPILOT YAW DAMPER, Bool) ! (A:AUTOPILOT MASTER, bool) and if{
+						(&gt;K:YAW_DAMPER_TOGGLE) 
+					}
+				}
+			</ON_AP_MASTER_SWITCH>
 			<TOOLTIPID>%((A:AUTOPILOT MASTER, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_AP_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_AP_OFF%{end}</TOOLTIPID>
 		</UseTemplate>
 
@@ -1834,9 +1842,15 @@
 		</UseTemplate>
 
 		<!-- VNAV - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
-		<UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template">
-			<ANIM_NAME>push_autopilot_vnv</ANIM_NAME>
-			<NODE_ID>push_autopilot_vnv</NODE_ID>
+		<Template Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template">
+			<NODE_ID>btn_autopilot_vnav</NODE_ID>
+			<ANIM_NAME>autopilot_push_vnav</ANIM_NAME>	
+			<EMISSIVE_NODE_ID>btn_autopilot_vnav_seq1</EMISSIVE_NODE_ID>
+			<ACTIVE_NODE_ID>btn_autopilot_vnav_seq2</ACTIVE_NODE_ID>
+			<AUTOPILOT_PUSH_BUTTON_ON>autopilot_largepush_button_on</AUTOPILOT_PUSH_BUTTON_ON>
+			<AUTOPILOT_PUSH_BUTTON_OFF>autopilot_largepush_button_off</AUTOPILOT_PUSH_BUTTON_OFF>
+			<TOOLTIPID>%((A:AUTOPILOT NAV1 LOCK, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_VNAV_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_VNAV_OFF%{end}</TOOLTIPID>
+			<TYPE>TBM930</TYPE>
 		</UseTemplate>
 
 		<!-- SPEED - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
@@ -2021,7 +2035,7 @@
 	<Component ID="AS3000_MFD">
 		<UseTemplate Name="ASOBO_AS3000_MFD">
 			<DONT_APPEND_ID>True</DONT_APPEND_ID>
-			<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
+			<USE_STATIC_SCREEN_EMISSIVE/>
 			<SCREEN_NODE_ID>AS1000_MFD</SCREEN_NODE_ID>
 		</UseTemplate>
 		<CameraTitle>MFD</CameraTitle>
@@ -2220,3 +2234,5 @@
 
 </ModelBehaviors>
 
+
+	
