@@ -71,6 +71,11 @@
       "date": 1599601300519
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
+      "size": 90112,
+      "date": 132395409590000000
+    },
+    {
       "path": "SimObjects/Airplanes/Asobo_TBM930/engines.cfg",
       "size": 15587,
       "date": 132387737630000000
