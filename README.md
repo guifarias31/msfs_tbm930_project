@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.7 Beta
+# MSFS TBM 930 Project 0.4.8 Beta
 This is the improvement project for the MSFS default TBM 930.
 
 **About my mod and the latest 1.8.3.0 update:**
