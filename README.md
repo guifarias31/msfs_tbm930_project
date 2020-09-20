@@ -3,7 +3,7 @@ This is the improvement project for the MSFS default TBM 930.
 
 I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
-([Working-Title](https://github.com/Working-Title-MSFS-Mods/fspackages) is also working on a G3000 mod)
+([Working-Title](https://github.com/Working-Title-MSFS-Mods/fspackages) guys are also working on a G3000 mod)
 
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
