@@ -1,11 +1,9 @@
 # MSFS TBM 930 Project 0.4.8 Beta
 This is the improvement project for the MSFS default TBM 930.
 
-**About my mod and the latest 1.8.3.0 update:**
-Apparently Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights (which are related to [Uwa’s light fix](https://github.com/Uwajimaya/FS2020) mod that I added to mine) and a very little change on deice.xml, which I have already updated. So you are most likely safe to continue using my mod and most likely will not loose any new official feature/correction.
-Although, if you encounter any problems, please message me.
+I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
-I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+([Working-Title](https://github.com/Working-Title-MSFS-Mods/fspackages) is also working on a G3000 mod)
 
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
