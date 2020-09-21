@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "asobo-aircraft-tbm930",
-      "package_version": "0.1.54"
+      "package_version": "0.1.56"
     },
     {
       "name": "fs-base-aircraft-common",
@@ -17,8 +17,8 @@
   "title": "TBM 930",
   "manufacturer": "Daher",
   "creator": "Asobo Studio",
-  "package_version": "0.1.54",
-  "minimum_game_version": "1.7.12",
+  "package_version": "0.1.56",
+  "minimum_game_version": "1.8.2",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
