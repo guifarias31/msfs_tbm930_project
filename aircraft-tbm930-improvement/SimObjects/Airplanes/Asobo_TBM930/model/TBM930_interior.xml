@@ -2035,7 +2035,7 @@
 	<Component ID="AS3000_MFD">
 		<UseTemplate Name="ASOBO_AS3000_MFD">
 			<DONT_APPEND_ID>True</DONT_APPEND_ID>
-			<USE_STATIC_SCREEN_EMISSIVE/>
+			<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
 			<SCREEN_NODE_ID>AS1000_MFD</SCREEN_NODE_ID>
 		</UseTemplate>
 		<CameraTitle>MFD</CameraTitle>

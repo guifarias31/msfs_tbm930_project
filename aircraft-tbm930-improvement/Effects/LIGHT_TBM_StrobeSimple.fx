@@ -49,10 +49,10 @@ Face=1, 1, 1
 
 [ParticleAttributes.0]
 Blend Mode=2
-Texture=fx_0.png
+Texture=FX_0.PNG
 Bounce=0.0
-Color Start=209, 227, 255, 10
-Color End=209, 227, 255, 10
+Color Start=87, 87, 172, 65
+Color End=87, 87, 172, 65
 Jitter Distance=0.0
 Jitter Time=0.0
 uv1=0.0, 0.0
