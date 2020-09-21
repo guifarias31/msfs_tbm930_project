@@ -55,7 +55,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
-* **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
 
 * **Transponder now starts on Stand by when started cold and dark**
 
