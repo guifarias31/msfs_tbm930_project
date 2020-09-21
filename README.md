@@ -63,6 +63,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
+* **Primary VNAV code, thanks to Javier1235**
 
 ## Known Issues:
 
