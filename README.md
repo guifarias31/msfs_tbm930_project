@@ -1,11 +1,9 @@
-# MSFS TBM 930 Project 0.4.7 Beta
+# MSFS TBM 930 Project 0.4.8 Beta
 This is the improvement project for the MSFS default TBM 930.
 
-**About my mod and the latest 1.8.3.0 update:**
-Apparently Asobo did not update the files related to my mod, except for “systems.cfg” in some lines regarding to lights (which are related to [Uwa’s light fix](https://github.com/Uwajimaya/FS2020) mod that I added to mine) and a very little change on deice.xml, which I have already updated. So you are most likely safe to continue using my mod and most likely will not loose any new official feature/correction.
-Although, if you encounter any problems, please message me.
+I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
 
-I suggest using the [msfs-navsystems-performance](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
+([Working-Title](https://github.com/Working-Title-MSFS-Mods/fspackages) guys are also working on a G3000 mod)
 
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
@@ -57,7 +55,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
 
-* **Added [Uwa’s lighting fix](https://github.com/Uwajimaya/FS2020) v1.1**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
 
 * **Transponder now starts on Stand by when started cold and dark**
 
@@ -65,10 +63,11 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
+* **Primary VNAV code, thanks to Javier1235**
 
 ## Known Issues:
 
-- ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited. I decided to don't touch on ITT until the next patch comes;
+- ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited.
 
 - Inertial Separator is working but not indicating as "ON" in the panel;
 
