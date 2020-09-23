@@ -58,6 +58,8 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 * **Fuel flow tweaked:**
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
+ThrustSpecificFuelConsumption = 0.008 *(default = 0.011)*
+PowerSpecificFuelConsumption = 0.358 *(default = 0.493)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
 
@@ -65,7 +67,7 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 ## Known Issues:
 
-- ITT is a big problem. Increasing it, makes the engine overheat on the ground, and decreasing it, it stays too low on cruise level. Asobo's cfg is very limited.
+- ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited.
 
 - Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed.
 
