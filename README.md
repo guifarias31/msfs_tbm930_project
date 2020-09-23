@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.9
+# MSFS TBM 930 Project 0.4.10
 This is the improvement project for the MSFS default TBM 930.
 
 I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
@@ -41,9 +41,9 @@ best_glide = 120 *(default = 0)*
 
 * **Ajusted torque vs air density table:**
 
-density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.75, 0.000895:0.794, 0.001144:0.841, 0.001459:0.891, 0.001862:0.944, 0.002378:1.000
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000857:0.667, 0.000951:0.744, 0.002378:1.000
 
-(Calculated using 5,6% decrease on torque every 21.63% decrease on density.)
+(Calculated using POH Maximum Cruise Chart)
 
 *(default = 0.0005:0.01, 0.0006:0.4, 0.0007:0.6, 0.0008:0.75,  0.0009:0.9,0.000975:1.0, 0.002378:1.000000)*
 
@@ -63,15 +63,13 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
-* **Primary VNAV code, thanks to Javier1235**
-
 ## Known Issues:
 
-- ITT is a big problem. If I increase it, it overheats on the ground, and if a decrease it, it stays too low on cruise level. Asobo's cfg is very limited.
+- ITT is a big problem. Increasing it, makes the engine overheat on the ground, and decreasing it, it stays too low on cruise level. Asobo's cfg is very limited.
 
-- Inertial Separator is working but not indicating as "ON" in the panel;
+- Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed.
 
-- Still testing fuel consumption. If you enconter any problems, let me know.
+- Fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. Couldn't fix it yet.
 
 For any other suggestions or bug reports, feel free to contact me:
 
