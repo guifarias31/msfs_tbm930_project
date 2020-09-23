@@ -41,7 +41,7 @@ best_glide = 120 *(default = 0)*
 
 * **Ajusted torque vs air density table:**
 
-density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000857:0.667, 0.000951:0.744, 0.002378:1.000
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.000950:0.745, 0.002378:1.000
 
 (Calculated using POH Maximum Cruise Chart)
 
@@ -57,7 +57,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Fuel flow tweaked:**
 
-fuel_flow_scalar = 0.72 *(default = 16384)*
+fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
 
