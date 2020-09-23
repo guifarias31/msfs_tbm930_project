@@ -59,7 +59,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Transponder now starts on Stand by when started cold and dark**
 
-* **COM1, COM2 and ADF frequencies changed when started cold and dark**
+* **COM1, COM2 and ADF frequencies changed when started cold and dark / on the runway**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
