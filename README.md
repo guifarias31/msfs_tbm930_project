@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.10
+# MSFS TBM 930 Project 0.4.11
 This is the improvement project for the MSFS default TBM 930.
 
 I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
@@ -53,13 +53,13 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
 
-(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
+
+* **Fuel flow tweaked:**
+
+fuel_flow_scalar = 0.72 *(default = 16384)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
-
-* **Transponder now starts on Stand by when started cold and dark**
-
-* **COM1, COM2 and ADF frequencies changed when started cold and dark / on the runway**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
