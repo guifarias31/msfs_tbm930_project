@@ -1842,15 +1842,9 @@
 		</UseTemplate>
 
 		<!-- VNAV - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
-		<Template Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template">
-			<NODE_ID>btn_autopilot_vnav</NODE_ID>
-			<ANIM_NAME>autopilot_push_vnav</ANIM_NAME>	
-			<EMISSIVE_NODE_ID>btn_autopilot_vnav_seq1</EMISSIVE_NODE_ID>
-			<ACTIVE_NODE_ID>btn_autopilot_vnav_seq2</ACTIVE_NODE_ID>
-			<AUTOPILOT_PUSH_BUTTON_ON>autopilot_largepush_button_on</AUTOPILOT_PUSH_BUTTON_ON>
-			<AUTOPILOT_PUSH_BUTTON_OFF>autopilot_largepush_button_off</AUTOPILOT_PUSH_BUTTON_OFF>
-			<TOOLTIPID>%((A:AUTOPILOT NAV1 LOCK, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_VNAV_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_VNAV_OFF%{end}</TOOLTIPID>
-			<TYPE>TBM930</TYPE>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template">
+			<ANIM_NAME>push_autopilot_vnv</ANIM_NAME>
+			<NODE_ID>push_autopilot_vnv</NODE_ID>
 		</UseTemplate>
 
 		<!-- SPEED - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->	
