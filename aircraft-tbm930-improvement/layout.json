@@ -96,6 +96,11 @@
       "date": 132395409590000000
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/runway.FLT",
+      "size": 2814,
+      "date": 132395409590000000
+    },
+    {
       "path": "ModelBehaviorDefs/Asobo/Common/Deice.xml",
       "size": 9954,
       "date": 132395409590000000
