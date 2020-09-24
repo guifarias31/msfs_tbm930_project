@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.10
+# MSFS TBM 930 Project 0.4.11
 This is the improvement project for the MSFS default TBM 930.
 
 I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
@@ -41,7 +41,7 @@ best_glide = 120 *(default = 0)*
 
 * **Ajusted torque vs air density table:**
 
-density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000857:0.667, 0.000951:0.744, 0.002378:1.000
+density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.000950:0.745, 0.002378:1.000
 
 (Calculated using POH Maximum Cruise Chart)
 
@@ -53,19 +53,23 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 * **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
 
-(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) (default = 16384)
+(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
+
+* **Fuel flow tweaked:**
+
+fuel_flow_scalar = 0.72 *(default = 1.0)*
+
+ThrustSpecificFuelConsumption = 0.008 *(default = 0.011)*
+
+PowerSpecificFuelConsumption = 0.358 *(default = 0.493)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
-
-* **Transponder now starts on Stand by when started cold and dark**
-
-* **COM1, COM2 and ADF frequencies changed when started cold and dark / on the runway**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
 ## Known Issues:
 
-- ITT is a big problem. Increasing it, makes the engine overheat on the ground, and decreasing it, it stays too low on cruise level. Asobo's cfg is very limited.
+- ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited.
 
 - Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed.
 
