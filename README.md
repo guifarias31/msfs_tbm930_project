@@ -77,6 +77,8 @@ My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
 
+My e-mail: guidemartini@gmail.com
+
 ## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
@@ -92,3 +94,5 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 If you want to support me, here my PayPal donation link:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AAQXMM62KALU6&source=url)
+
+Or my Paypal e-mail: guidemartini@gmail.com
