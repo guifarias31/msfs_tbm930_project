@@ -1,10 +1,6 @@
 # MSFS TBM 930 Project 0.4.11
 This is the improvement project for the MSFS default TBM 930.
 
-I suggest using the [msfs-navsystems-performance mod](https://github.com/Smirow/msfs-navsystems-performance) for G3000 extra funcionalities and performance.
-
-([Working-Title](https://github.com/Working-Title-MSFS-Mods/fspackages) guys are also working on a G3000 mod)
-
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
 Current features of this modification are:
@@ -55,27 +51,29 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
 
-* **Fuel flow tweaked:**
+* **Fuel flow ajusted:**
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
-* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) 1.0**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.01**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
 ## Known Issues:
 
-- ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited.
+- ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that.
 
-- Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed.
+- Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed, but I don't understand about coding.
 
-- Fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. Couldn't fix it yet.
+- As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a general MSFS issue.
 
 For any other suggestions or bug reports, feel free to contact me:
 
 My Discord: Guilherme Farias#9971
 
 My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
+
+My e-mail: guidemartini@gmail.com
 
 ## How to Install:
 
@@ -92,3 +90,5 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 If you want to support me, here my PayPal donation link:
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AAQXMM62KALU6&source=url)
+
+Or my Paypal e-mail: guidemartini@gmail.com
