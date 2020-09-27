@@ -1,6 +1,8 @@
 # MSFS TBM 930 Project 0.4.12
 This is the improvement project for the MSFS default TBM 930.
 
+I recommend using [G3000-Touchscreens-Restyled mod](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from StuTozer.
+
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
 Current features of this modification are:
@@ -38,8 +40,6 @@ best_glide = 120 *(default = 0)*
 * **Ajusted torque vs air density table:**
 
 density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.000950:0.745, 0.002378:1.000
-
-(Calculated using POH Maximum Cruise Chart)
 
 *(default = 0.0005:0.01, 0.0006:0.4, 0.0007:0.6, 0.0008:0.75,  0.0009:0.9,0.000975:1.0, 0.002378:1.000000)*
 
