@@ -1,7 +1,7 @@
 # MSFS TBM 930 Project 0.4.12
 This is the improvement project for the MSFS default TBM 930.
 
-I recommend using [GTC 580 Touchscreens Restyled mod](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from StuTozer.
+I recommend using [GTC 580 Touchscreens Restyled mod](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
 
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
