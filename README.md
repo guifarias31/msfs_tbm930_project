@@ -13,7 +13,7 @@ tp_high_idle_throttle_pos = 0; *(default = 30)*
 
 ...so then I needed to ajust:
 
-n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ...
+n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ... *(default = ... 68:0.09, 87:1.0)*
 
 * **Ajusted autopilot maximum pitch:**
 
