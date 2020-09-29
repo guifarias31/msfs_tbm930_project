@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.12
+# MSFS TBM 930 Project 0.4.13 Beta
 This is the improvement project for the MSFS default TBM 930.
 
 ~~I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary)~~ (Not working with update 1.9.3)
