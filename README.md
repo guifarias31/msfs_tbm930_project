@@ -1,6 +1,8 @@
 # MSFS TBM 930 Project 0.4.12
 This is the improvement project for the MSFS default TBM 930.
 
+~~I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary)~~ (Not working with update 1.9.3)
+
 And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
 
 Current features of this modification are:
@@ -11,7 +13,7 @@ tp_high_idle_throttle_pos = 0; *(default = 30)*
 
 ...so then I needed to ajust:
 
-n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ...
+n1_to_shaft_torque_table = ... 68:0.12, 87:0.88 ... *(default = ... 68:0.09, 87:1.0)*
 
 * **Ajusted autopilot maximum pitch:**
 
@@ -55,7 +57,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
-* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.01**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.02**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
