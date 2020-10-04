@@ -73,7 +73,7 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 For any other suggestions or bug reports, feel free to contact us:
 
-Discord: [Guilherme Farias#9971](https://discordapp.com/channels/@me/207215431654572032) and [withinboredom#9657](https://discordapp.com/channels/@me/762021447962066944]
+Discord: [Guilherme Farias#9971](https://discordapp.com/channels/@me/207215431654572032) and [withinboredom#9657](https://discordapp.com/channels/@me/762021447962066944)
 
 ## How to Install:
 
