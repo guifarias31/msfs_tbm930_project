@@ -2076,13 +2076,13 @@
 		<Component ID="GLASS_COCKPIT">
 			<Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
 				<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-					<EMISSIVE_CODE>0.5</EMISSIVE_CODE>
+					<EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100)</EMISSIVE_CODE>
 				</UseTemplate>
 			</Component>
 
 			<Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
 				<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-					<EMISSIVE_CODE>0.5</EMISSIVE_CODE>
+					<EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100)</EMISSIVE_CODE>
 				</UseTemplate>
 			</Component>
 		</Component>
