@@ -1,7 +1,7 @@
 # MSFS TBM 930 Project 0.4.15 Hotfix
 This is the improvement project for the MSFS default TBM 930.
 
-I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary)
+I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary)
 
 And also have a look on [G3000 enhanced]( https://github.com/cywang90/msfs2020-G3000-enhanced) by [cywang90](https://forums.flightsimulator.com/u/aznricepuff/summary)
 
