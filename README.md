@@ -69,13 +69,9 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 - As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a general MSFS issue.
 
-For any other suggestions or bug reports, feel free to contact me:
+For any other suggestions or bug reports, feel free to contact us:
 
-My Discord: Guilherme Farias#9971
-
-My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
-
-My e-mail: guidemartini@gmail.com
+Discord: Guilherme Farias#9971 and withinboredom#9657
 
 ## How to Install:
 
