@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.13
+# MSFS TBM 930 Project 0.4.14
 This is the improvement project for the MSFS default TBM 930.
 
 I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) from [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary)
@@ -49,7 +49,7 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.0
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
+* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%) and Caution Light now working:**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
 
@@ -66,8 +66,6 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 ## Known Issues:
 
 - ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that.
-
-- Inertial Separator is working but not indicating as "ON" in the panel. Light code needs to be fixed, but I don't understand about coding.
 
 - As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a general MSFS issue.
 
