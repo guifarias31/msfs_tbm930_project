@@ -49,7 +49,7 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.0
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%) and Caution Light now working:**
+* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
 
