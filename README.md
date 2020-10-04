@@ -49,7 +49,7 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.0
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%) and Caution Light now working:**
+* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
 
 (L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
 
@@ -69,13 +69,9 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 - As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a general MSFS issue.
 
-For any other suggestions or bug reports, feel free to contact me:
+For any other suggestions or bug reports, feel free to contact us:
 
-My Discord: Guilherme Farias#9971
-
-My forum profile: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary)
-
-My e-mail: guidemartini@gmail.com
+Discord: Guilherme Farias#9971 and withinboredom#9657
 
 ## How to Install:
 
