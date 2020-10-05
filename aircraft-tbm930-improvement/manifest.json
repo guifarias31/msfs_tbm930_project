@@ -6,7 +6,7 @@
     },
     {
       "name": "fs-base-aircraft-common",
-       "package_version": "0.1.61"
+       "package_version": "0.1.65"
     },
     {
       "name": "fs-base-propdefs",
@@ -17,7 +17,7 @@
   "title": "TBM 930",
   "manufacturer": "Daher",
   "creator": "Asobo Studio",
-  "package_version": "0.4.12",
+  "package_version": "0.4.16",
   "minimum_game_version": "1.9.2",
   "release_notes": {
     "neutral": {
