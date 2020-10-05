@@ -75,6 +75,8 @@ For any other suggestions or bug reports, feel free to contact us:
 
 Discord: [Guilherme Farias#9971](https://discordapp.com/channels/@me/207215431654572032) and [withinboredom#9657](https://discordapp.com/channels/@me/762021447962066944)
 
+Forum: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary) and [CastTrout888930](https://forums.flightsimulator.com/u/casttrout888930/summary)
+
 ## How to Install:
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
