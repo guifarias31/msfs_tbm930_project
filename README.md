@@ -3,9 +3,7 @@ This is the improvement project for the MSFS default TBM 930.
 
 I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
 
-And have a look on [G3000 enhanced](https://github.com/cywang90/msfs2020-G3000-enhanced) by [cywang90](https://forums.flightsimulator.com/u/aznricepuff/summary). (std version)
-
-And for liveries, see [this thread](https://forums.flightsimulator.com/t/turboprop-master-livery-list/168196/16) on forum.
+And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
 
 Current features of this modification are:
 
