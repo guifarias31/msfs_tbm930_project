@@ -57,7 +57,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
-* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.04**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.05**
 
 * **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
 
@@ -66,8 +66,6 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 ## Known Issues:
 
 - ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that for now;
-
--Inertial Separator CAS message not working since the decrease of the inertial separator effect on torque. If you prefer having the CAS light and the default 25% decrease on torque, you can remove "Deice.xml" file from the mod and remove it's line from layout.json;
 
 - As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a vanilla MSFS issue. The fuel flow will match closely on cruise altitudes, and will be way lower on lower altitudes.
 
