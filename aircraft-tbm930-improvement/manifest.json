@@ -14,9 +14,9 @@
     }
   ],
   "content_type": "AIRCRAFT",
-  "title": "TBM 930",
+  "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
-  "creator": "Asobo Studio",
+  "creator": "GuiFarias31",
   "package_version": "0.4.16",
   "minimum_game_version": "1.9.2",
   "release_notes": {
@@ -25,5 +25,5 @@
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000482767837"
+  "total_package_size": "00000000000000639513"
 }
