@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.4.16
+# MSFS TBM 930 Project 0.5.0
 This is the improvement project for the MSFS default TBM 930.
 
 I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
@@ -63,11 +63,11 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 * **Added [Audible Alert Fixes by Positive Zero](https://forums.flightsimulator.com/t/tbm-930-audible-alert-fixes-updated/278815)**
 
-## Known Issues:
+## Known Issues (both vanilla issues):
 
 - ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that for now;
 
-- As default, fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a vanilla MSFS issue. The fuel flow will match closely on cruise altitudes, and will be way lower on lower altitudes.
+- Fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a vanilla MSFS issue. The fuel flow will match closely on cruise altitudes, and will be way lower on lower altitudes.
 
 For any other suggestions or bug reports, feel free to contact us:
 
@@ -79,7 +79,7 @@ Forum: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary) a
 
 1: Click on the green button in the top right corner that says 'Code' and click "Download as ZIP"
 
-2: Unzip and put the folder "aircraft-tbm930-improvement" in your MSFS Community folder
+2: Unzip and put the folder "aircraft-tbm930-improvement" inside your MSFS Community folder
 
 ## How to Uninstall:
 

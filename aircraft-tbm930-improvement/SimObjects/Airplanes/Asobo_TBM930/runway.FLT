@@ -9,7 +9,7 @@ SimOnGround=True
 
 [Avionics.0]
 Comm1Active=121.900
-Comm1Standby=120.100
+Comm1Standby=118.100
 Comm2Active=122.800
 Comm2Standby=132.350
 Comm3Active=122.800
@@ -22,7 +22,7 @@ Nav2Standby=114.70
 OBS2=360
 
 TransponderState=4
-ADFActive=315
+ADFActive=345
 ADF2Active=330
 DMESelected=1
 ComTransmit=1
