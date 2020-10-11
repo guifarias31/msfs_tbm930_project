@@ -616,11 +616,11 @@
       <Type>Caution</Type>
       <Text>INERT SEP ON</Text>
       <Condition>
-				<Greater>
-					<Simvar name="GENERAL ENG ANTI ICE POSITION:1" unit="number"/>
-					<Constant>0.874</Constant>
-				</Greater>
-			</Condition>
+		<Greater>
+			<Simvar name="GENERAL ENG ANTI ICE POSITION:1" unit="number"/>
+			<Constant>0.874</Constant>
+		</Greater>
+      </Condition>
     </Annunciation>
 
     <Annunciation>
