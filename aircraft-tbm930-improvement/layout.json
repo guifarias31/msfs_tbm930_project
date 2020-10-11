@@ -1,46 +1,6 @@
 {
   "content": [
     {
-      "path": "de-DE.locPak",
-      "size": 2203,
-      "date": 132458709320441768
-    },
-    {
-      "path": "en-US.locPak",
-      "size": 1806,
-      "date": 132458709320441768
-    },
-    {
-      "path": "es-ES.locPak",
-      "size": 2000,
-      "date": 132458709320441768
-    },
-    {
-      "path": "fr-FR.locPak",
-      "size": 2050,
-      "date": 132458709320441768
-    },
-    {
-      "path": "it-IT.locPak",
-      "size": 2014,
-      "date": 132458709320441768
-    },
-    {
-      "path": "pl-PL.locPak",
-      "size": 2151,
-      "date": 132458709320441768
-    },
-    {
-      "path": "pt-BR.locPak",
-      "size": 1952,
-      "date": 132458709320441768
-    },
-    {
-      "path": "ru-RU.locPak",
-      "size": 2967,
-      "date": 132458709320441768
-    },
-    {
       "path": "Effects/texture/FX_ulm01.PNG.dds",
       "size": 87556,
       "date": 1601171156951
