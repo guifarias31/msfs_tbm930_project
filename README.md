@@ -3,6 +3,8 @@ This is the improvement project for the MSFS default TBM 930.
 
 I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
 
+For a guide on how to change your ATC callsign from "Daher" to "TBM", check [this topic](https://forums.flightsimulator.com/t/want-your-pilot-and-atc-to-call-you-tbm-instead-of-daher-heres-how/299603) from Uwajimaya.
+
 And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
 
 Current features of this modification are:
@@ -87,8 +89,6 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 
 ## Donation
 
-If you want to support me, here my PayPal donation link:
+If you want to support me, here's my donation link:
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=AAQXMM62KALU6&source=url)
-
-Or my Paypal e-mail: guidemartini@gmail.com
+[![Donation](https://i.imgur.com/vQyI7N5.png)](https://www.buymeacoffee.com/guifarias31)
