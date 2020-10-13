@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "asobo-aircraft-tbm930",
-      "package_version": "0.1.58"
+      "package_version": "0.1.59"
     },
     {
       "name": "fs-base-aircraft-common",
@@ -18,12 +18,12 @@
   "manufacturer": "Daher",
   "creator": "GuiFarias31",
   "package_version": "0.5.0",
-  "minimum_game_version": "1.9.2",
+  "minimum_game_version": "1.9.5",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000000639513"
+  "total_package_size": "00000000000000563138"
 }
