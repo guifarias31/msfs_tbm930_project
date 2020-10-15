@@ -5,10 +5,6 @@
       "package_version": "0.1.59"
     },
     {
-      "name": "fs-base-aircraft-common",
-       "package_version": "0.1.66"
-    },
-    {
       "name": "fs-base-propdefs",
       "package_version": "0.1.2"
     }
@@ -17,7 +13,7 @@
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "GuiFarias31",
-  "package_version": "0.5.0",
+  "package_version": "0.5.1",
   "minimum_game_version": "1.9.5",
   "release_notes": {
     "neutral": {
@@ -25,5 +21,5 @@
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000000563138"
+  "total_package_size": "00000000000000552688"
 }
