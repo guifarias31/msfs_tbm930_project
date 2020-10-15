@@ -57,7 +57,7 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.05**
 
-* **Added [dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix) by [kaosfere](https://github.com/kaosfere/)**
+* **Added [dimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix) by [kaosfere](https://github.com/kaosfere/)**
 
 * **Added [Audible Alert Fixes](https://forums.flightsimulator.com/t/tbm-930-audible-alert-fixes-updated/278815) by [PositeZero](https://forums.flightsimulator.com/u/positivezero/summary)**
 
