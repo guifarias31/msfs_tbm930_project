@@ -1,7 +1,7 @@
 # MSFS TBM 930 Project 0.5.1
 This is the improvement project for the MSFS default TBM 930.
 
-I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
+I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages) **OR** [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary). They are not compatible with each other at the moment, but should be in the future.
 
 For a guide on how to change your ATC callsign from "Daher" to "TBM", check [this topic](https://forums.flightsimulator.com/t/want-your-pilot-and-atc-to-call-you-tbm-instead-of-daher-heres-how/299603) from Uwajimaya.
 
