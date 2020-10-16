@@ -1,7 +1,7 @@
-# MSFS TBM 930 Project 0.5.0
+# MSFS TBM 930 Project 0.5.1
 This is the improvement project for the MSFS default TBM 930.
 
-I recommend using [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary).
+I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages) **OR** [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary). They are not compatible with each other at the moment, but should be in the future.
 
 For a guide on how to change your ATC callsign from "Daher" to "TBM", check [this topic](https://forums.flightsimulator.com/t/want-your-pilot-and-atc-to-call-you-tbm-instead-of-daher-heres-how/299603) from Uwajimaya.
 
@@ -51,25 +51,21 @@ density_on_torque_table = 0.0005:0.01, 0.0006:0.4, 0.0007:0.5, 0.000850:0.7, 0.0
 
 drag_coef_gear = 0.04700 *(default = 0.01000)*
 
-* **Decreased inertial separator effect in torque to 7/8 (now 22%, instead of 25%):**
-
-(L:XMLVAR_InertSep#ID#_Deployment) 14336 * (&gt;K:ANTI_ICE_GRADUAL_SET_ENG#ID#) *(default = 16384)*
-
 * **Fuel flow ajusted:**
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.05**
 
-* **Added [kaosfere's dmimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix)**
+* **Added [dimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix) by [kaosfere](https://github.com/kaosfere/)**
 
-* **Added [Audible Alert Fixes by Positive Zero](https://forums.flightsimulator.com/t/tbm-930-audible-alert-fixes-updated/278815)**
+* **Added [Audible Alert Fixes](https://forums.flightsimulator.com/t/tbm-930-audible-alert-fixes-updated/278815) by [PositeZero](https://forums.flightsimulator.com/u/positivezero/summary)**
 
-## Known Issues (both vanilla issues):
+## Known Issues:
 
-- ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that for now;
+- (Vanilla issue) ITT is a big problem. Increasing it makes the engine overheat on the ground, and decreasing it makes it stays too low on cruise level. Asobo's cfg is very limited, so I decided not to make any chances on that for now;
 
-- Fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a vanilla MSFS issue. The fuel flow will match closely on cruise altitudes, and will be way lower on lower altitudes.
+- (Vanilla issue) Fuel consumption is increasing during climb, which is the opposite that should happen. It's lower than it should be at lower altitudes and higher than it should be at higher altuitudes. That's not happening only on the TBM, and it's a vanilla MSFS issue. The fuel flow will match closely on cruise altitudes, and will be way lower on lower altitudes.
 
 For any other suggestions or bug reports, feel free to contact us:
 
