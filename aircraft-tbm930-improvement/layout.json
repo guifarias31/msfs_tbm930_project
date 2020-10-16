@@ -61,34 +61,49 @@
       "date": 1600258154529
     },
     {
-      "path": "effects/LIGHT_TBM_Landing.fx",
-      "size": 1230,
-      "date": 132458709320441768
+      "path": "Effects/LIGHT_TBM_Landing.fx",
+      "size": 1232,
+      "date": 1601765787002
     },
     {
-      "path": "effects/LIGHT_TBM_NavigationGreen.fx",
-      "size": 1230,
-      "date": 132458709320441768
+      "path": "Effects/LIGHT_TBM_vLanding.fx",
+      "size": 1232,
+      "date": 1601765787002
     },
     {
-      "path": "effects/LIGHT_TBM_NavigationRed.fx",
-      "size": 1227,
-      "date": 132458709320441768
+      "path": "Effects/LIGHT_TBM_NavigationGreen.fx",
+      "size": 1158,
+      "date": 1601602695597
     },
     {
-      "path": "effects/LIGHT_TBM_StrobeSimple.fx",
-      "size": 1233,
-      "date": 132458709320441768
+      "path": "Effects/LIGHT_TBM_NavigationRed.fx",
+      "size": 1155,
+      "date": 1601602695599
     },
     {
-      "path": "effects/LIGHT_TBM_Taxi.fx",
-      "size": 1279,
-      "date": 132458709320441768
+      "path": "Effects/LIGHT_TBM_NavigationWhite.fx",
+      "size": 1353,
+      "date": 1601678123008
     },
     {
-      "path": "effects/LIGHT_TBM_TBM930_Pulse.fx",
+      "path": "Effects/LIGHT_TBM_StrobeSimple.fx",
+      "size": 4704,
+      "date": 1601844335713
+    },
+    {
+      "path": "Effects/LIGHT_TBM_Taxi.fx",
+      "size": 1281,
+      "date": 1601765787007
+    },
+    {
+      "path": "Effects/LIGHT_TBM_vTaxi.fx",
+      "size": 1281,
+      "date": 1601765787007
+    },
+    {
+      "path": "Effects/LIGHT_TBM_TBM930_Pulse.fx",
       "size": 1345,
-      "date": 132458709320441768
+      "date": 1601765787011
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
