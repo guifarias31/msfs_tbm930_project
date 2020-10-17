@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.5.1
+# MSFS TBM 930 Project 0.5.2
 This is the improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages) **OR** [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary). They are not compatible with each other at the moment, but should be in the future.
@@ -55,7 +55,7 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
-* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.05**
+* **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.06**
 
 * **Added [dimmable G3000 panels](https://github.com/kaosfere/msfs-fixes/tree/master/fixes/tbm930_lighting_fix) by [kaosfere](https://github.com/kaosfere/)**
 
