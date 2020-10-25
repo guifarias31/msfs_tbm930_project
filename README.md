@@ -3,7 +3,17 @@ This is the improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages) **OR** [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary). They are not compatible with each other at the moment, but should be in the future.
 
-For a guide on how to change your ATC callsign from "Daher" to "TBM", check [this topic](https://forums.flightsimulator.com/t/want-your-pilot-and-atc-to-call-you-tbm-instead-of-daher-heres-how/299603) from Uwajimaya.
+### Change ATC call sign to "TBM"
+In the real world the TBM 930's ATC call sign is not "Daher" but "TBM". To change this:
+1. Open in `<MSFS2020 Install Dir>\Official\OneStore\fs-base\en-US.locPak` in a text editor
+2. Search for `"ATCCOM.ATC_NAME_DAHER.0.tts":`
+3. Change `Daher` to `TBM`
+
+```json
+      "ATCCOM.ATC_NAME_DAHER.0.text": "TBM",
+      "ATCCOM.ATC_NAME_DAHER.0.tts": "TBM",
+```
+**Note:** This will reset after every update of MSFS.
 
 And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
 
