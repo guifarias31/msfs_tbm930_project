@@ -1,7 +1,9 @@
-# MSFS TBM 930 Project 0.5.2
+# MSFS TBM 930 Project 0.5.3
 This is the improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages) **OR** [GTC 580 Touchscreens-Restyled](https://github.com/StuTozer/G3000-Touchscreens-Restyled/) by [StuTozer](https://forums.flightsimulator.com/u/electrikkar/summary). They are not compatible with each other at the moment, but should be in the future.
+
+And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
 
 ### Change ATC call sign to "TBM"
 In the real world the TBM 930's ATC call sign is not "Daher" but "TBM". To change this:
@@ -14,8 +16,6 @@ In the real world the TBM 930's ATC call sign is not "Daher" but "TBM". To chang
       "ATCCOM.ATC_NAME_DAHER.0.tts": "TBM",
 ```
 **Note:** This will reset after every update of MSFS.
-
-And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
 
 Current features of this modification are:
 
@@ -64,6 +64,12 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 * **Fuel flow ajusted:**
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
+
+* **Improved ITT behaviour**
+
+itt_peak_temperature = 3270 *(default = 2100)*
+itt_tc = 0.2 *(default = 2)*
+itt_tuning_constant = 0.66 *(default = 1)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.06**
 
