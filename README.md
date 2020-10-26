@@ -65,10 +65,12 @@ drag_coef_gear = 0.04700 *(default = 0.01000)*
 
 fuel_flow_scalar = 0.72 *(default = 1.0)*
 
-* **Improved ITT behaviour**
+* **Improved ITT behaviour:**
 
 itt_peak_temperature = 3270 *(default = 2100)*
+
 itt_tc = 0.4 *(default = 2)*
+
 itt_tuning_constant = 0.62 *(default = 1)*
 
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.06**
