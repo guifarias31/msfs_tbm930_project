@@ -22,8 +22,8 @@ Nav2Standby=114.70
 OBS2=360
 
 TransponderState=4
-ADFActive=345
-ADF2Active=330
+ADFActive=330
+ADF2Active=3450
 DMESelected=1
 ComTransmit=1
 ComReceiveBoth=False
@@ -85,6 +85,7 @@ BleedAirSource=0
 
 [LocalVars.0]
 XMLVAR_LANDING_TAXI_OFF_Switch_Position=0
+XMLVAR_FuelSelectorAuto=1
 
 [Switches.0]
 PitotHeat=True

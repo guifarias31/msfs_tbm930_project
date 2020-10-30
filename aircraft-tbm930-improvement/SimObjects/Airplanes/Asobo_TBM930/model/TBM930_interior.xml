@@ -1279,8 +1279,9 @@
 				<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.STROBE_LIGHT_OFF</ANIMTIP_0>							
 				<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.STROBE_LIGHT_ON</ANIMTIP_1>
 			</UseTemplate>
-			<UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+			<UseTemplate Name="ASOBO_LIGHTING_Panel_Emissive_Template">
 				<NODE_ID>cockpit_texts</NODE_ID> 
+				<POTENTIOMETER>4</POTENTIOMETER>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_LIGHTING_Switch_Template">
 				<LIGHT_TYPE>Dimmer</LIGHT_TYPE>
@@ -1334,27 +1335,43 @@
 			</UseTemplate>
 			<!-- Sets the light intensity control to the potentiometer index 1 -->
 			<Component ID="LIGHTING_Knob_Panel" Node="intlights_knob_panel"> 
+				<UseTemplate Name="ASOBO_GT_Update">
+					<UPDATE_ONCE>True</UPDATE_ONCE>
+					<UPDATE_CODE>
+						15 100 (A:LIGHT PANEL, Bool) ? 4 (&gt;K:2:LIGHT_POTENTIOMETER_SET)
+					</UPDATE_CODE>
+				</UseTemplate>
+				<UseTemplate Name="ASOBO_GT_Update">
+					<UPDATE_CODE>
+						(A:LIGHT POTENTIOMETER:4, Percent) 100 &lt; if{
+							(A:LIGHT PANEL, Bool) ! (A:LIGHT PEDESTRAL, Bool) ! or if{
+								1 (&gt;K:PANEL_LIGHTS_SET) 
+								1 (&gt;K:PEDESTRAL_LIGHTS_SET) 							
+							}
+						} els{
+							(A:LIGHT PANEL, Bool) (A:LIGHT PEDESTRAL, Bool) or if{
+								0 (&gt;K:PANEL_LIGHTS_SET) 
+								0 (&gt;K:PEDESTRAL_LIGHTS_SET) 							
+							}
+						}
+					</UPDATE_CODE>
+				</UseTemplate>
 				<UseTemplate Name="ASOBO_GT_Knob_Finite_Code">
 					<PART_ID>INTERIOR_LIGHTS_Knob_Panel</PART_ID>
-					<ANIM_CODE>
-						(A:LIGHT POTENTIOMETER:4, Percent) sp1
-						l1 0.9 * 
-						l1 0.1 * (A:LIGHT PANEL, Bool) ! * + 
-					</ANIM_CODE>
+					<ANIM_CODE>(A:LIGHT POTENTIOMETER:4, Percent)</ANIM_CODE>
 					<ANIM_NAME>intlights_knob_panel</ANIM_NAME>
 					<ANTICLOCKWISE_CODE>
+						(A:LIGHT POTENTIOMETER:4, Percent) 5 + 100 min 4 (&gt;K:2:LIGHT_POTENTIOMETER_SET) 
 						(A:LIGHT POTENTIOMETER:4, Percent) 100 == if{ 
 							0 (&gt;K:PANEL_LIGHTS_SET) 
 							0 (&gt;K:PEDESTRAL_LIGHTS_SET) 
-						}
-						4 (&gt;K:LIGHT_POTENTIOMETER_INC)
+						} 
 					</ANTICLOCKWISE_CODE>
 					<CLOCKWISE_CODE>
+						(A:LIGHT POTENTIOMETER:4, Percent) 5 - 0 max 4 (&gt;K:2:LIGHT_POTENTIOMETER_SET)
 						(A:LIGHT PANEL, Bool) ! (A:LIGHT PEDESTRAL, Bool) ! or if{ 
 							1 (&gt;K:PANEL_LIGHTS_SET) 
 							1 (&gt;K:PEDESTRAL_LIGHTS_SET) 
-						} els{
-							(A:LIGHT POTENTIOMETER:4, Percent) 5 &gt; if{ 4 (&gt;K:LIGHT_POTENTIOMETER_DEC) }
 						}
 					</CLOCKWISE_CODE>
 					<ANIMREF_ID>0</ANIMREF_ID>
@@ -1367,8 +1384,9 @@
 					<WWISE_EVENT>intlights_knob</WWISE_EVENT>
 					<COUNT>28</COUNT>
 				</UseTemplate>
-				<UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+				<UseTemplate Name="ASOBO_LIGHTING_Panel_Emissive_Template">
 					<NODE_ID>intlights_knob_panel_text</NODE_ID>
+					<POTENTIOMETER>4</POTENTIOMETER>
 				</UseTemplate>
 			</Component>
 			<Component ID="LIGHTING_Push_Copilot" Node="push_light_copilot"> 
@@ -1523,11 +1541,6 @@
 		<!-- ELECTRICAL ################################# -->
 		<Component ID="ELECTRICAL">
 			<!-- Initialize default switch position. Most of these will be overridden by SimVars -->
-			<!-- 
-				Fuel Selector is initialized to the Pitot Heat value. While they have nothing to do with each other,
-				As the fuel selector is XML only and cannot be set through a variable, it has to be set by following
-				The behaviour of a simvar which is disabled at gate but enable on runway.
-			-->
 			<Update Frequency="1">
 				(O:GeneralInit) 0 == 
 				if{ 
@@ -1539,7 +1552,6 @@
 
 					(A:PITOT HEAT, Bool) (&gt;L:XMLVAR_Pitot_1)
 					(A:PITOT HEAT, Bool) (&gt;L:XMLVAR_Pitot_2)
-					(A:PITOT HEAT, Bool) (&gt;L:XMLVAR_FuelSelectorAuto)
 				}
 			</Update>
 			<Component ID="ELECTRICAL_Switch_Source" Node="electricpower_switch_source"> 
@@ -1662,6 +1674,8 @@
 		<Component ID="AUTOPILOT">
 			<DefaultTemplateParameters>
 				<DONT_APPEND_ID>True</DONT_APPEND_ID>
+				<DEFAULT_TEMPLATE_EMISSIVE>ASOBO_LIGHTING_Panel_Emissive_Template</DEFAULT_TEMPLATE_EMISSIVE>
+				<POTENTIOMETER>4</POTENTIOMETER>
 			</DefaultTemplateParameters>
 
 			<!-- BARO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --> 
@@ -2023,43 +2037,60 @@
 		</Component>
 
 		<!-- AS3000 ######################################-->
-		<Component ID="AS3000_MFD">
-			<UseTemplate Name="ASOBO_AS3000_MFD">
-				<DONT_APPEND_ID>True</DONT_APPEND_ID>
-				<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
-				<SCREEN_NODE_ID>AS1000_MFD</SCREEN_NODE_ID>
-			</UseTemplate>
-			<CameraTitle>MFD</CameraTitle>
-		</Component>
-
-		<Component ID="AS3000_PFD">
+		<Component ID="AS3000">
 			<DefaultTemplateParameters>
-				<DONT_APPEND_ID>True</DONT_APPEND_ID>
+				<USE_STATIC_SCREEN_EMISSIVE/>
+				<STATIC_SCREEN_EMISSIVE_VALUE>0.25</STATIC_SCREEN_EMISSIVE_VALUE>
 			</DefaultTemplateParameters>
-			
-			<UseTemplate Name="ASOBO_AS3000_PFD">
-				<ID>1</ID>
-				<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
-				<SCREEN_NODE_ID>AS1000_PFD_1</SCREEN_NODE_ID>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_AS3000_PFD">
-				<ID>2</ID>
-				<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
-				<SCREEN_NODE_ID>AS1000_PFD_2</SCREEN_NODE_ID>
-			</UseTemplate>
-			<CameraTitle>PFD</CameraTitle>
-		</Component>
+			<Component ID="AS3000_MFD">
+				<UseTemplate Name="ASOBO_AS3000_MFD">
+					<DONT_APPEND_ID>True</DONT_APPEND_ID>
+					<SCREEN_NODE_ID>AS1000_MFD</SCREEN_NODE_ID>
+				</UseTemplate>
+				<CameraTitle>MFD</CameraTitle>
+			</Component>
 
-		<Component ID="AS3000_TSC"> 		
-			<UseTemplate Name="ASOBO_AS3000_TSC">
-				<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
-				<ID>1</ID>
-			</UseTemplate>
-			<UseTemplate Name="ASOBO_AS3000_TSC">
-				<!-- <USE_STATIC_SCREEN_EMISSIVE/> -->
-				<ID>2</ID>
-			</UseTemplate>
-			<CameraTitle>MFD</CameraTitle>
+			<Component ID="AS3000_PFD">
+				<DefaultTemplateParameters>
+					<DONT_APPEND_ID>True</DONT_APPEND_ID>
+				</DefaultTemplateParameters>
+				
+				<UseTemplate Name="ASOBO_AS3000_PFD">
+					<ID>1</ID>
+					<SCREEN_NODE_ID>AS1000_PFD_1</SCREEN_NODE_ID>
+				</UseTemplate>
+				<UseTemplate Name="ASOBO_AS3000_PFD">
+					<ID>2</ID>
+					<SCREEN_NODE_ID>AS1000_PFD_2</SCREEN_NODE_ID>
+				</UseTemplate>
+				<CameraTitle>PFD</CameraTitle>
+			</Component>
+
+			<Component ID="AS3000_TSC"> 		
+				<UseTemplate Name="ASOBO_AS3000_TSC">
+					<ID>1</ID>
+				</UseTemplate>
+				<UseTemplate Name="ASOBO_AS3000_TSC">
+					<ID>2</ID>
+				</UseTemplate>
+				<CameraTitle>MFD</CameraTitle>
+			</Component>
+			
+			
+			<!-- GLASS_COCKPIT ##############################-->
+			<Component ID="GLASS_COCKPIT">
+				<Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
+					<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+						<EMISSIVE_CODE>#STATIC_SCREEN_EMISSIVE_VALUE#</EMISSIVE_CODE>
+					</UseTemplate>
+				</Component>
+
+				<Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
+					<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+						<EMISSIVE_CODE>#STATIC_SCREEN_EMISSIVE_VALUE#</EMISSIVE_CODE>
+					</UseTemplate>
+				</Component>
+			</Component>
 		</Component>
 
 		<!-- AS580 #####################################-->
@@ -2070,21 +2101,6 @@
 			
 			<UseTemplate Name="ASOBO_AS580"/>
 			<CameraTitle>MFD</CameraTitle>
-		</Component>
-
-		<!-- GLASS_COCKPIT ##############################-->
-		<Component ID="GLASS_COCKPIT">
-			<Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
-				<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-					<EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100)</EMISSIVE_CODE>
-				</UseTemplate>
-			</Component>
-
-			<Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
-				<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-					<EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100)</EMISSIVE_CODE>
-				</UseTemplate>
-			</Component>
 		</Component>
 
 		<!-- SAFETY #####################################-->
