@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "asobo-aircraft-tbm930",
-      "package_version": "0.1.59"
+      "package_version": "0.1.62"
     },
     {
       "name": "fs-base-propdefs",
@@ -13,13 +13,13 @@
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "GuiFarias31",
-  "package_version": "0.5.3",
-  "minimum_game_version": "1.9.5",
+  "package_version": "0.5.4",
+  "minimum_game_version": "1.10.4",
   "release_notes": {
     "neutral": {
       "LastUpdate": "",
       "OlderHistory": ""
     }
   },
-  "total_package_size": "00000000000000552688"
+  "total_package_size": "00000000000000556652"
 }
