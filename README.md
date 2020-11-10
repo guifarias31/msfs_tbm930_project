@@ -1,4 +1,4 @@
-# MSFS TBM 930 Project 0.5.4 Beta
+# MSFS TBM 930 Project 0.5.5
 This is the improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages).
@@ -64,6 +64,8 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 * **Added [Uwa’s light mod](https://github.com/Uwajimaya/FS2020) v1.08**
 
 * **Added [Audible Alert Fixes](https://forums.flightsimulator.com/t/tbm-930-audible-alert-fixes-updated/278815) by [PositeZero](https://forums.flightsimulator.com/u/positivezero/summary)**
+
+* **Light changes by mixMugz**
 
 ## Known Issues:
 
