@@ -1114,10 +1114,6 @@
 						<Simvar name="FLAPS HANDLE INDEX" unit="number"/>
 						<Constant>1</Constant>
 					</Greater>
-					<Equal>
-						<Simvar name="GENERAL ENG THROTTLE LEVER POSITION:1" unit="percent"/>
-						<Constant>0</Constant>
-					</Equal>
 				</Or>
 			</And>
 		</Condition>
