@@ -101,8 +101,23 @@
       "date": 1601765787007
     },
     {
-      "path": "Effects/LIGHT_TBM_TBM930_Pulse.fx",
+      "path": "Effects/LIGHT_TBM_Pulse.fx",
       "size": 1345,
+      "date": 1601765787011
+    },
+    {
+      "path": "Effects/LIGHT_TBM_CockpitSpotNarrow.fx",
+      "size": 1352,
+      "date": 1601765787011
+    },
+    {
+      "path": "Effects/LIGHT_TBM_CockpitMinimalAmbiant.fx",
+      "size": 1364,
+      "date": 1601765787011
+    },
+    {
+      "path": "Effects/LIGHT_TBM_ScreenBlue.fx",
+      "size": 1358,
       "date": 1601765787011
     },
     {
