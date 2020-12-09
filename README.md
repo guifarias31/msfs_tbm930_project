@@ -1,6 +1,8 @@
 # MSFS TBM 930 Project 0.5.5
 This is the improvement project for the MSFS default TBM 930.
 
+# Due to professional reasons, I had to move to another city and I no longer have access to a flight simulator. This project is now closed, and if anyone wants to continue its development, just fork this repository and do so. Thanks for all the support so far!
+
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages).
 
 And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
