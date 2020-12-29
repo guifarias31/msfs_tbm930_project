@@ -23,7 +23,7 @@ OBS2=360
 
 TransponderState=4
 ADFActive=330
-ADF2Active=3450
+ADF2Active=345
 DMESelected=1
 ComTransmit=1
 ComReceiveBoth=False
@@ -99,7 +99,7 @@ RecognitionLights=True
 StrobeLights=True
 TaxiLights=False
 WingLights=False
-CabinLights=False
+CabinLights=True
 GlareshieldLights=False
 PedestalLights=False
 
