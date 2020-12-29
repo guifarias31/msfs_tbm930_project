@@ -1,10 +1,8 @@
 <PlaneHTMLConfig>
-
-	<Instrument>
-		<Name>AS3000_PFD_1</Name>
-		<RadarAltitude>True</RadarAltitude>
-	</Instrument> 
-
+  <Instrument>
+    <Name>AS3000_PFD_1</Name>
+    <RadarAltitude>True</RadarAltitude>
+  </Instrument>
   <Annunciations>
 
     <Annunciation>
