@@ -13,13 +13,13 @@
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "GuiFarias31",
-  "package_version": "0.5.4",
+  "package_version": "0.5.6",
   "minimum_game_version": "1.10.4",
   "release_notes": {
     "neutral": {
-      "LastUpdate": "",
-      "OlderHistory": ""
+      "LastUpdate": "VERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2",
+      "OlderHistory": "VERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
     }
   },
-  "total_package_size": "00000000000000556652"
+  "total_package_size": "00000000000000576189"
 }
