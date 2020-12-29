@@ -154,6 +154,16 @@
       "path": "SimObjects/Airplanes/Asobo_TBM930/panel/panel.xml",
       "size": 46425,
       "date": 132536566901418883
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/texture/TBM_930_COCKPIT_WINDSHIELD_COMP.PNG.dds",
+      "size": 1398276,
+      "date": 132537543411140903
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/texture/TBM_930_COCKPIT_WINDSHIELD_COMP.PNG.DDS.json",
+      "size": 191,
+      "date": 132522684732754054
     }
   ]
 }
