@@ -4,8 +4,6 @@ This is the improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages).
 
-And for liveries, see [this post](https://www.nexusmods.com/microsoftflightsimulator/mods/44) on NexusMods.
-
 ### Change ATC call sign to "TBM"
 In the real world the TBM 930's ATC call sign is not "Daher" but "TBM". To change this:
 1. Open in `<MSFS2020 Install Dir>\Official\OneStore\fs-base\en-US.locPak` in a text editor
@@ -92,4 +90,4 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 
 If you want to support me, here's my donation link:
 
-[![Donation](https://i.imgur.com/vQyI7N5.png)](https://www.buymeacoffee.com/guifarias31)
+[![Donation](https://i.imgur.com/vQyI7N5.png)](https://paypal.me/mixmugz)
