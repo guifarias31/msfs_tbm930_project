@@ -4,12 +4,12 @@
     <!-- Highest LOD -->
     <!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
     <!-- default minSize is 0 -->
-    <LOD minSize="100" ModelFile="TBM930_interior_LOD00.gltf"/>
-    <LOD minSize="70" ModelFile="TBM930_interior_LOD01.gltf"/>
-    <LOD minSize="20" ModelFile="TBM930_interior_LOD02.gltf"/>
-    <LOD minSize="10" ModelFile="TBM930_interior_LOD03.gltf"/>
-    <LOD minSize="5" ModelFile="TBM930_interior_LOD04.gltf"/>
-    <LOD minSize="2" ModelFile="TBM930_interior_LOD05.gltf"/>
+    <LOD minSize="150" ModelFile="TBM930_interior_LOD00.gltf"/>
+    <LOD minSize="110" ModelFile="TBM930_interior_LOD01.gltf"/>
+    <LOD minSize="60" ModelFile="TBM930_interior_LOD02.gltf"/>
+    <LOD minSize="35" ModelFile="TBM930_interior_LOD03.gltf"/>
+    <LOD minSize="15" ModelFile="TBM930_interior_LOD04.gltf"/>
+    <LOD minSize="1" ModelFile="TBM930_interior_LOD05.gltf"/>
   </LODS>
   <Behaviors>
     <!-- Includes ###################################### -->
@@ -99,6 +99,7 @@
         <UseTemplate Name="ASOBO_HANDLING_Push_Timer_Template">
           <NODE_ID>YOKE_PUSH_TIMER_RIGHT</NODE_ID>
           <ANIM_NAME>YOKE_PUSH_TIMER_RIGHT</ANIM_NAME>
+          <TOOLTIPID>TT:COCKPIT.TOOLTIPS.YOKE_BUTTON_TIMER_START</TOOLTIPID>
         </UseTemplate>
 
         <UseTemplate Name="ASOBO_HANDLING_Push_StormClear_Template">
@@ -242,8 +243,8 @@
         <NODE_ID>parkbrake_knob_l</NODE_ID>
         <ANIM_NAME>parkbrake_knob_l</ANIM_NAME>
         <ANIM_SIMVAR_SCALE>100</ANIM_SIMVAR_SCALE>
-
-
+        <AXIS>X</AXIS>
+        <INVERT_WHEEL_INTERACTION>True</INVERT_WHEEL_INTERACTION>
       </UseTemplate>
       <Component ID="LANDING_GEAR_Lever" Node="landing_gear_lever">
         <UseTemplate Name="ASOBO_LANDING_GEAR_Lever_Gear_Template">
@@ -427,7 +428,7 @@
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_AUTO</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_MAXDIFF</ANIMTIP_1>
         <ANIMTIP_2>TT:COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_OFF</ANIMTIP_2>
-
+        <THRESHOLD_MOUSE>0.01</THRESHOLD_MOUSE>
       </UseTemplate>
       <UseTemplate Name="ASOBO_PRESSURIZATION_Push_Dump_Template">
         <NODE_ID>PRESSURIZATION_PUSH_DUMP</NODE_ID>
@@ -456,6 +457,7 @@
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_GUARD_OFF</ANIMTIP_1>
       </UseTemplate>
       <UseTemplate Name="ASOBO_PRESSURIZATION_Push_MicroMask_Template">
+        <IS_SWITCH>False</IS_SWITCH>
         <NODE_ID>PUSH_BUTTON</NODE_ID>
         <ANIM_NAME>PUSH_BUTTON</ANIM_NAME>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_MIC</ANIMTIP_0>
@@ -477,6 +479,7 @@
         <PART_ID>OXYGEN_Switch_Passenger</PART_ID>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.PASSENGER_OXYGEN_TURN_ON</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.PASSENGER_OXYGEN_TURN_OFF</ANIMTIP_1>
+        <INVERT_SWITCH_ON_CONDITION>True</INVERT_SWITCH_ON_CONDITION>
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_PRESSURIZATION_Switch_Oxygen_Template">
@@ -485,6 +488,7 @@
         <PART_ID>OXYGEN_Switch_Copilot</PART_ID>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.OXYGEN_TURN_ON</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.OXYGEN_TURN_OFF</ANIMTIP_1>
+        <INVERT_SWITCH_ON_CONDITION>True</INVERT_SWITCH_ON_CONDITION>
       </UseTemplate>
 
       <CameraTitle>Overhead</CameraTitle>
@@ -513,8 +517,8 @@
     <Macro Name="AutoMoveSpeed"> 30 </Macro>
     <Macro Name="AutoMoveSpeedCondition"> 2 </Macro>
     <Macro Name="AutoMoveSpeedProp"> 20 </Macro>
-    <Macro Name="PropSideDragMin">15</Macro>
-    <Macro Name="ThrottleDragMin">15</Macro>
+    <Macro Name="PropSideDragMin">1 15 (M:InputType) 1 == ?</Macro>
+    <Macro Name="ThrottleDragMin">1 15 (M:InputType) 1 == ?</Macro>
 
     <Macro Name="ManOverrideTreshhold">50</Macro>
 
@@ -844,14 +848,16 @@
             </UPDATE_CODE>
           </UseTemplate>
           <UseTemplate Name="ASOBO_GT_MouseRect">
+          <DRAG_SCALAR>0.005</DRAG_SCALAR><!-- for input_actions base sensitivity -->
+          <HIGHLIGHT_NODE_ID>LEVER_THROTTLE</HIGHLIGHT_NODE_ID>
           <TOOLTIPID>%((L:XMLVAR_ThrottlePos_XAxis) 0 &lt;)%{if}%((A:GENERAL ENG FUEL VALVE:1, Bool) !)%{if}TT:COCKPIT.TOOLTIPS.THROTTLE_CUTOFF%{else}%((L:XMLVAR_ThrottlePos_YAxis) 16 &lt;=)%{if}TT:COCKPIT.TOOLTIPS.THROTTLE_LOW_IDLE%{else}TT:COCKPIT.TOOLTIPS.THROTTLE_HIGH_IDLE%{end}%{end}%{else}TT:COCKPIT.TOOLTIPS.THROTTLE_CONTROL</TOOLTIPID>
-
             <MOUSEFLAGS>LeftSingle+LeftDrag</MOUSEFLAGS>
             <CURSOR>Grab</CURSOR>
             <CALLBACKCODE>
               (A:GENERAL ENG THROTTLE LEVER POSITION:1, position 16k) sp0
               (A:GENERAL ENG PROPELLER LEVER POSITION:1, position 16k) sp1
               (M:Event) 'LeftSingle' scmp 0 == if{
+              (M:InputType) 1 != if{
                 (M:RelativeY) (&gt;O:PrevY, Number)
                 (M:RelativeX) (&gt;O:PrevX, Number)
 
@@ -862,7 +868,20 @@
                 0 (&gt;O:IsLimitedToIdleLO)
                 0 (&gt;O:IsLimitedToIdleHI)
               }
+            }
               (M:Event) 'LeftDrag' scmp 0 == if{
+              (M:InputType) 1 == if{
+                (O:_ResetLimitsTime) (E:SIMULATION TIME, second) &lt; if{
+                  0 (&gt;O:IsLimitedToAny)
+                  0 (&gt;O:IsLimitedToCutoff)
+                  0 (&gt;O:IsLimitedToIdleLO)
+                  0 (&gt;O:IsLimitedToIdleHI)
+                  (O:GateStep) 1 == if{
+                    2 (&gt;O:GateStep)
+                  }
+                }
+                (E:SIMULATION TIME, second) 0.1 + (&gt;O:_ResetLimitsTime)
+              }
                 (*Storing Variables, which are then called using ShortHand Macros*)
                 (O:PrevX) (M:RelativeX) - 1000 * @XSpeed * sp2
                 (O:PrevY) (M:RelativeY) - 1000 * @YSpeed * sp3
@@ -881,7 +900,7 @@
                 if{
                   (*If X Movement is Greater than Y Movement and Throttle is at Junction - horizontal movement is allowed*)
                   @IsAtPropJunctionInThrust
-                  @dMoveX -@PropSideDragMin &lt; and if{
+                  @dMoveX @PropSideDragMin -1 * &lt; and if{
                       @SetToFeathered
                   } els{
                     @IsAtPropJunctionInCondition
@@ -906,7 +925,7 @@
                     }
                   } els{
                     (*Feathered movement - can only move by one notch without releasing*)
-                    @dMoveY -@ThrottleDragMin &lt; if{
+                    @dMoveY @ThrottleDragMin -1 * &lt; if{
                       @IsOnCutoff if{
                         @SetToConditionPosIdleLo
                         @SetLimitedToCutoff
@@ -1215,10 +1234,13 @@
 
     <!-- LIGHTING ################################### -->
     <Component ID="LIGHTING_Emissives">
+      <DefaultTemplateParameters>
+        <DIMMING_SCALE>(L:XMLVAR_LightDimmer,bool) if{ 0.4 } els{ 1 }</DIMMING_SCALE>
+      </DefaultTemplateParameters>
       <UseTemplate Name="ASOBO_LIGHTING_Ambient_Template">
         <BOUNCE_POTENTIOMETER_PERCENT>
           (A:LIGHT CABIN, Bool) 0.65 * (A:LIGHT POTENTIOMETER:5, Percent) *
-          (A:LIGHT CABIN, Bool) 0.35 * (A:LIGHT POTENTIOMETER:4, Percent) * +
+          (A:LIGHT CABIN, Bool) 0.35 * (A:LIGHT POTENTIOMETER:4, Percent) #DIMMING_SCALE# * * +
         </BOUNCE_POTENTIOMETER_PERCENT>
         <POTENTIOMETER>14</POTENTIOMETER>
         <ID>1</ID>
@@ -1234,7 +1256,11 @@
       </UseTemplate>
       <UseTemplate Name="ASOBO_LIGHTING_Ambient_Template">
         <BOUNCE_POTENTIOMETER_PERCENT>
-          (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_PFD_1_ScreenLuminosity) *
+          (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+            (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_PFD_1_ScreenLuminosity) * #DIMMING_SCALE# *
+          } els{
+            (A:LIGHT POTENTIOMETER:4, Percent over 100) 90 * (L:AS3000_PFD_1_ScreenLuminosity) * #DIMMING_SCALE# *
+          }
           (L:AS3000_PFD_1_ScreenLuminosity) 10 * +
         </BOUNCE_POTENTIOMETER_PERCENT>
         <POTENTIOMETER>16</POTENTIOMETER>
@@ -1242,14 +1268,71 @@
       </UseTemplate>
       <UseTemplate Name="ASOBO_LIGHTING_Ambient_Template">
         <BOUNCE_POTENTIOMETER_PERCENT>
-          (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_MFD_ScreenLuminosity) *
+          (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+            (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
+          } els{
+            (A:LIGHT POTENTIOMETER:4, Percent over 100) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
+          }
           (L:AS3000_MFD_ScreenLuminosity) 10 * +
         </BOUNCE_POTENTIOMETER_PERCENT>
         <POTENTIOMETER>17</POTENTIOMETER>
         <ID>4</ID>
       </UseTemplate>
     </Component>
+    <Component ID="LIGHTING_Static">
+      <DefaultTemplateParameters>
+        <POTENTIOMETER>1</POTENTIOMETER>
+        <DIMMING_SCALE>0.2</DIMMING_SCALE>
+      </DefaultTemplateParameters>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>intlights_knob_panel_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>cylinder_compass</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>ELT_PUSH_ELT_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>ELECSTINSTRU_KNOB_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>AC_KNOB_FAN_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>AC_KNOB_TEMP_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>PARKBRAKE_KNOB_L_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>HOTAIRFLOW_KNOB_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>PUSH_AIL_TRIM_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>KNOB_FUEL_TANK_SELECTION_TEXT</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+        <NODE_ID>CREWMUSIC_KNOB_SOURCE_text</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:1, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
+      </UseTemplate>
+    </Component>
     <Component ID="LIGHTING_Overhead">
+      <DefaultTemplateParameters>
+        <DIMMING_SCALE>(L:XMLVAR_LightDimmer,bool) if{ 0.15 } els{ 1 }</DIMMING_SCALE>
+      </DefaultTemplateParameters>
       <Update Frequency="5">
         (A:LIGHT LANDING, Bool) if{
           100 (&gt;K:LIGHT_POTENTIOMETER_10_SET)
@@ -1313,16 +1396,15 @@
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.STROBE_LIGHT_OFF</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.STROBE_LIGHT_ON</ANIMTIP_1>
       </UseTemplate>
-      <UseTemplate Name="ASOBO_LIGHTING_Fuel_Tank_Emissive_Template">
-        <NODE_ID>knob_fuel_tank_selection_text</NODE_ID>
-      </UseTemplate>
       <UseTemplate Name="ASOBO_LIGHTING_Panel_Emissive_Template">
         <NODE_ID>cockpit_texts</NODE_ID>
         <POTENTIOMETER>4</POTENTIOMETER>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
       <UseTemplate Name="ASOBO_LIGHTING_Panel_Emissive_Template">
         <NODE_ID>decal_elt</NODE_ID>
         <POTENTIOMETER>4</POTENTIOMETER>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
       <UseTemplate Name="ASOBO_LIGHTING_Switch_Template">
         <LIGHT_TYPE>Dimmer</LIGHT_TYPE>
@@ -1381,35 +1463,23 @@
         <UseTemplate Name="ASOBO_GT_Update">
           <UPDATE_CODE>
             (A:LIGHT POTENTIOMETER:4, Percent) 100 &lt; if{
-              (A:LIGHT PANEL, Bool) ! (A:LIGHT PEDESTRAL, Bool) ! or if{
+              (A:LIGHT PANEL, Bool) ! or if{
                 1 (&gt;K:CABIN_LIGHTS_SET)
                 1 (&gt;K:PANEL_LIGHTS_SET)
-                1 (&gt;K:PEDESTRAL_LIGHTS_SET)
-              }
-            } els{
-              (A:LIGHT PANEL, Bool) (A:LIGHT PEDESTRAL, Bool) or if{
-                0 (&gt;K:PEDESTRAL_LIGHTS_SET)
               }
             }
           </UPDATE_CODE>
         </UseTemplate>
         <UseTemplate Name="ASOBO_GT_Knob_Finite_Code">
+          <WRAP>False</WRAP>
           <PART_ID>INTERIOR_LIGHTS_Knob_Panel</PART_ID>
           <ANIM_CODE>(A:LIGHT POTENTIOMETER:4, Percent)</ANIM_CODE>
           <ANIM_NAME>intlights_knob_panel</ANIM_NAME>
           <ANTICLOCKWISE_CODE>
             (A:LIGHT POTENTIOMETER:4, Percent) 5 + 100 min 4 (&gt;K:2:LIGHT_POTENTIOMETER_SET)
-            (A:LIGHT POTENTIOMETER:4, Percent) 100 == if{
-              0 (&gt;K:PEDESTRAL_LIGHTS_SET)
-            }
           </ANTICLOCKWISE_CODE>
           <CLOCKWISE_CODE>
             (A:LIGHT POTENTIOMETER:4, Percent) 5 - 0 max 4 (&gt;K:2:LIGHT_POTENTIOMETER_SET)
-            (A:LIGHT PANEL, Bool) ! (A:LIGHT PEDESTRAL, Bool) ! or if{
-              1 (&gt;K:CABIN_LIGHTS_SET)
-              1 (&gt;K:PANEL_LIGHTS_SET)
-              1 (&gt;K:PEDESTRAL_LIGHTS_SET)
-            }
           </CLOCKWISE_CODE>
           <ANIMREF_ID>0</ANIMREF_ID>
           <ANIMCURSOR_DIR>-1.0</ANIMCURSOR_DIR>
@@ -1421,6 +1491,9 @@
           <WWISE_EVENT>intlights_knob</WWISE_EVENT>
           <COUNT>28</COUNT>
         </UseTemplate>
+        <!-- <UseTemplate Name="ASOBO_LIGHTING_Cabin_Emissive_Template">
+          <NODE_ID>intlights_knob_panel_text</NODE_ID>
+        </UseTemplate> -->
       </Component>
       <Component ID="LIGHTING_Push_Copilot" Node="push_light_copilot">
         <Update Frequency="5">
@@ -1431,6 +1504,7 @@
           }
         </Update>
         <UseTemplate Name="ASOBO_GT_Toggle_Variable">
+          <IS_SWITCH>False</IS_SWITCH>
           <ANIM_NAME>push_light_copilot</ANIM_NAME>
           <ANIM_CODE>(I:XMLVAR_CopilotLightOn) 100 *</ANIM_CODE>
           <VAR_NAME>XMLVAR_CopilotLightOn</VAR_NAME>
@@ -1442,6 +1516,7 @@
           </TOGGLE_CODE>
           <WWISE_EVENT_1>push_light_top_switch_on</WWISE_EVENT_1>
           <WWISE_EVENT_2>push_light_top_switch_off</WWISE_EVENT_2>
+
           <ANIMREF_ID>0</ANIMREF_ID>
           <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_COPILOT_OFF</ANIMTIP_0>
           <ANIMTIP_0_ON_PERCENT>0</ANIMTIP_0_ON_PERCENT>
@@ -1463,6 +1538,7 @@
           }
         </Update>
         <UseTemplate Name="ASOBO_GT_Toggle_Variable">
+          <IS_SWITCH>False</IS_SWITCH>
           <ANIM_NAME>push_light_pilot</ANIM_NAME>
           <ANIM_CODE>(I:XMLVAR_PilotLightOn) 100 *</ANIM_CODE>
           <VAR_NAME>XMLVAR_PilotLightOn</VAR_NAME>
@@ -1474,6 +1550,7 @@
           </TOGGLE_CODE>
           <WWISE_EVENT_1>push_light_top_switch_on</WWISE_EVENT_1>
           <WWISE_EVENT_2>push_light_top_switch_off</WWISE_EVENT_2>
+
           <ANIMREF_ID>0</ANIMREF_ID>
           <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_PILOT_OFF</ANIMTIP_0>
           <ANIMTIP_0_ON_PERCENT>0</ANIMTIP_0_ON_PERCENT>
@@ -1566,6 +1643,11 @@
     <!-- ELECTRICAL ################################# -->
     <Component ID="ELECTRICAL">
       <!-- Initialize default switch position. Most of these will be overridden by SimVars -->
+      <!--
+        Fuel Selector is initialized to the Pitot Heat value. While they have nothing to do with each other,
+        As the fuel selector is XML only and cannot be set through a variable, it has to be set by following
+        The behaviour of a simvar which is disabled at gate but enable on runway.
+      -->
       <Update Frequency="1">
         (O:GeneralInit) 0 ==
         if{
@@ -1577,6 +1659,7 @@
 
           (A:PITOT HEAT, Bool) (&gt;L:XMLVAR_Pitot_1)
           (A:PITOT HEAT, Bool) (&gt;L:XMLVAR_Pitot_2)
+          <!-- (A:PITOT HEAT, Bool) (&gt;L:XMLVAR_FuelSelectorAuto) -->
         }
       </Update>
       <Component ID="ELECTRICAL_Switch_Source" Node="electricpower_switch_source">
@@ -1606,6 +1689,7 @@
           <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_GPU</ANIMTIP_0>
           <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_BATTERY</ANIMTIP_1>
           <ANIMTIP_2>TT:COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_OFF</ANIMTIP_2>
+          <THRESHOLD_MOUSE>0.01</THRESHOLD_MOUSE>
         </UseTemplate>
       </Component>
       <Component ID="ELECTRICAL_Switch_Generator" Node="electricpower_switch_generator">
@@ -1635,6 +1719,7 @@
           <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_STBY</ANIMTIP_0>
           <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_MAIN</ANIMTIP_1>
           <ANIMTIP_2>TT:COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_OFF</ANIMTIP_2>
+          <THRESHOLD_MOUSE>0.01</THRESHOLD_MOUSE>
         </UseTemplate>
       </Component>
       <Component ID="ELECTRICAL_Lever_GeneratorReset" Node="hitbox_electricpower_lever_generatorreset">
@@ -1701,6 +1786,7 @@
         <DONT_APPEND_ID>True</DONT_APPEND_ID>
         <DEFAULT_TEMPLATE_EMISSIVE>ASOBO_LIGHTING_Panel_Emissive_Template</DEFAULT_TEMPLATE_EMISSIVE>
         <POTENTIOMETER>4</POTENTIOMETER>
+        <DIMMING_SCALE>(L:XMLVAR_LightDimmer,bool) if{ 0.15 } els{ 1 }</DIMMING_SCALE>
       </DefaultTemplateParameters>
 
       <!-- BARO - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1710,7 +1796,6 @@
         <ANIM_NAME_PUSH>KNOB_BARO_STD_1_PUSH</ANIM_NAME_PUSH>
         <ID>1</ID>
         <PUSH/>
-
         <ANIMREF_ID>-1</ANIMREF_ID>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BARO_KNOB_INCREASE</ANIMTIP_0>
         <ANIMTIP_0_ON_CURSOR>TurnRight</ANIMTIP_0_ON_CURSOR>
@@ -1718,7 +1803,6 @@
         <ANIMTIP_1_ON_CURSOR>TurnLeft</ANIMTIP_1_ON_CURSOR>
         <ANIMTIP_3>TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BARO_KNOB_PUSH</ANIMTIP_3>
         <ANIMTIP_3_ON_CURSOR>Hand</ANIMTIP_3_ON_CURSOR>
-
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Knob_Baro_Template">
@@ -1728,7 +1812,6 @@
         <ID>2</ID>
         <PUSH/>
         <BARO_ID>1</BARO_ID>
-
         <ANIMREF_ID>-1</ANIMREF_ID>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BARO_KNOB_INCREASE</ANIMTIP_0>
         <ANIMTIP_0_ON_CURSOR>TurnRight</ANIMTIP_0_ON_CURSOR>
@@ -1736,7 +1819,6 @@
         <ANIMTIP_1_ON_CURSOR>TurnLeft</ANIMTIP_1_ON_CURSOR>
         <ANIMTIP_3>TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BARO_KNOB_PUSH</ANIMTIP_3>
         <ANIMTIP_3_ON_CURSOR>Hand</ANIMTIP_3_ON_CURSOR>
-
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Knob_Baro_Template">
@@ -1744,13 +1826,12 @@
         <ANIM_NAME>KNOB_stby_panel</ANIM_NAME>
         <ID>3</ID>
         <BARO_ID>2</BARO_ID>
-
+        <THRESHOLD_MOUSE>0.01</THRESHOLD_MOUSE>
         <ANIMREF_ID>-1</ANIMREF_ID>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.STBY_TUNING_KNOB_INCREASE</ANIMTIP_0>
         <ANIMTIP_0_ON_CURSOR>TurnRight</ANIMTIP_0_ON_CURSOR>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.STBY_TUNING_KNOB_DECREASE</ANIMTIP_1>
         <ANIMTIP_1_ON_CURSOR>TurnLeft</ANIMTIP_1_ON_CURSOR>
-
       </UseTemplate>
 
       <!-- ENGAGE/DISENGAGE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1765,6 +1846,7 @@
           }
         </ON_AP_MASTER_SWITCH>
         <TOOLTIPID>%((A:AUTOPILOT MASTER, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_AP_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_AP_OFF%{end}</TOOLTIPID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- HEADING - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1772,6 +1854,7 @@
         <ANIM_NAME>push_autopilot_hdg</ANIM_NAME>
         <NODE_ID>push_autopilot_hdg</NODE_ID>
         <TOOLTIPID>%((A:AUTOPILOT HEADING LOCK, BOOL))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_HDG_BUTTON_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_HDG_BUTTON_OFF%{end}</TOOLTIPID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Knob_Heading_Template">
@@ -1784,8 +1867,6 @@
         <NODE_ID>knob_autopilot_hdg</NODE_ID>
         <ANIMTIP_3>TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_HDG_PUSH</ANIMTIP_3>
         <ANIMTIP_3_ON_CURSOR>Hand</ANIMTIP_3_ON_CURSOR>
-
-
         <PUSH/>
       </UseTemplate>
 
@@ -1810,6 +1891,7 @@
         <VAR_NAME>XMLVAR_LTS_Test</VAR_NAME>
         <REVERSE_ACTIVE_CONDITION>True</REVERSE_ACTIVE_CONDITION>
         <TOOLTIPID>%((A:AUTOPILOT MAX BANK, degrees) 26 &gt;=)%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BANK_OFF%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BANK_ON%{end}</TOOLTIPID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- APPROACH - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1817,6 +1899,7 @@
         <ANIM_NAME>push_autopilot_apr</ANIM_NAME>
         <NODE_ID>push_autopilot_apr</NODE_ID>
         <TOOLTIPID>%((A:AUTOPILOT APPROACH HOLD, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_APR_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_APR_OFF%{end}</TOOLTIPID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- BACKCOURSE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1824,24 +1907,28 @@
         <ANIM_NAME>push_autopilot_bc</ANIM_NAME>
         <NODE_ID>push_autopilot_bc</NODE_ID>
         <TOOLTIPID>%((A:AUTOPILOT BACKCOURSE HOLD, bool))%{if}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BC_ON%{else}TT:COCKPIT.TOOLTIPS.AUTOPILOT_PANEL_BC_OFF%{end}</TOOLTIPID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- FLIGHT DIRECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_FlightDirector_Template">
         <ANIM_NAME>push_autopilot_fd</ANIM_NAME>
         <NODE_ID>push_autopilot_fd</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- YAW DAMPER - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_YawDamper_Template">
         <ANIM_NAME>push_autopilot_yd</ANIM_NAME>
         <NODE_ID>push_autopilot_yd</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- ALTITUDE - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_Altitude_Template">
         <ANIM_NAME>push_autopilot_alt</ANIM_NAME>
         <NODE_ID>push_autopilot_alt</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Knob_Altitude_Template">
@@ -1854,13 +1941,14 @@
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_FlightLevelChange_Template">
         <ANIM_NAME>push_autopilot_flc</ANIM_NAME>
         <NODE_ID>push_autopilot_flc</NODE_ID>
-
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- VERTICAL SPEED - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalSpeed_Template">
         <ANIM_NAME>push_autopilot_vs</ANIM_NAME>
         <NODE_ID>push_autopilot_vs</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
       <UseTemplate Name="ASOBO_AUTOPILOT_Knob_VerticalSpeed_Template">
         <HITBOX_UP_NODE_ID>hitbox_wheel_autopilot_vs_DN</HITBOX_UP_NODE_ID>
@@ -1875,18 +1963,21 @@
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_Navigation_Template">
         <ANIM_NAME>push_autopilot_nav</ANIM_NAME>
         <NODE_ID>push_autopilot_nav</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- VNAV - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template">
         <ANIM_NAME>push_autopilot_vnv</ANIM_NAME>
         <NODE_ID>push_autopilot_vnv</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- SPEED - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_SpeedToggle_Template">
         <ANIM_NAME>push_autopilot_spd</ANIM_NAME>
         <NODE_ID>push_autopilot_spd</NODE_ID>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <!-- Wing Leveler - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
@@ -1901,17 +1992,18 @@
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_Transfer_Template">
         <NODE_ID>push_autopilot_XFR</NODE_ID>
         <ANIM_NAME>push_autopilot_XFR</ANIM_NAME>
+        <EMISSIVE_CODE>(A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# *</EMISSIVE_CODE>
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_Transfer_Light_Template">
         <NODE_ID>push_XFR_light_l</NODE_ID>
-        <EMISSIVE_CODE>(L:XMLVAR_PushXFR) !</EMISSIVE_CODE>
+        <EMISSIVE_CODE>(L:XMLVAR_PushXFR,Bool) ! if{ (A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# * }</EMISSIVE_CODE>
         <!-- <LIGHT_ID>l</LIGHT_ID> uncomment when the NODE_ID has been updated to AUTOPILOT_Push_Transfer_Light_ -->
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_AUTOPILOT_Push_Transfer_Light_Template">
         <NODE_ID>push_XFR_light_r</NODE_ID>
-        <EMISSIVE_CODE>(L:XMLVAR_PushXFR)</EMISSIVE_CODE>
+        <EMISSIVE_CODE>(L:XMLVAR_PushXFR,Bool) if{ (A:LIGHT POTENTIOMETER:4, Percent over 100) #DIMMING_SCALE# * }</EMISSIVE_CODE>
         <!-- <LIGHT_ID>r</LIGHT_ID> uncomment when the NODE_ID has been updated to AUTOPILOT_Push_Transfer_Light_ -->
       </UseTemplate>
 
@@ -2064,9 +2156,20 @@
     <!-- AS3000 ######################################-->
     <Component ID="AS3000">
       <DefaultTemplateParameters>
-        <USE_STATIC_SCREEN_EMISSIVE/>
         <STATIC_SCREEN_EMISSIVE_VALUE>0.25</STATIC_SCREEN_EMISSIVE_VALUE>
+        <SCREEN_LIGHT_DIMMING_SCALE>(L:XMLVAR_LightDimmer,bool) if{ 0.1 } els{ 0.5 }</SCREEN_LIGHT_DIMMING_SCALE>
+        <LIGHT_DIMMING_SCALE>(L:XMLVAR_LightDimmer,bool) if{ 0.1 } els{ 0.3 }</LIGHT_DIMMING_SCALE>
+        <SCREEN_MIN_EMISSIVE_PERCENT>0.05</SCREEN_MIN_EMISSIVE_PERCENT>
+        <MAX_EMISSIVE_PERCENT>1</MAX_EMISSIVE_PERCENT>
+        <EMISSIVE_CODE>
+          (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+            (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+          } els{
+            (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+          }
+        </EMISSIVE_CODE>
       </DefaultTemplateParameters>
+
       <Component ID="AS3000_MFD">
         <UseTemplate Name="ASOBO_AS3000_MFD">
           <DONT_APPEND_ID>True</DONT_APPEND_ID>
@@ -2079,7 +2182,6 @@
         <DefaultTemplateParameters>
           <DONT_APPEND_ID>True</DONT_APPEND_ID>
         </DefaultTemplateParameters>
-
         <UseTemplate Name="ASOBO_AS3000_PFD">
           <ID>1</ID>
           <SCREEN_NODE_ID>AS1000_PFD_1</SCREEN_NODE_ID>
@@ -2101,31 +2203,49 @@
         <CameraTitle>MFD</CameraTitle>
       </Component>
 
+      <!-- AS580 #####################################-->
+      <Component ID="AS580">
+        <DefaultTemplateParameters>
+          <DONT_APPEND_ID>True</DONT_APPEND_ID>
+        </DefaultTemplateParameters>
+        <UseTemplate Name="ASOBO_AS580">
+          <EMISSIVE_CODE>
+            (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+              (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+            } els{
+              (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+            }
+          </EMISSIVE_CODE>
+        </UseTemplate>
+        <CameraTitle>MFD</CameraTitle>
+      </Component>
 
       <!-- GLASS_COCKPIT ##############################-->
       <Component ID="GLASS_COCKPIT">
         <Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
           <UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-            <EMISSIVE_CODE>#STATIC_SCREEN_EMISSIVE_VALUE#</EMISSIVE_CODE>
+            <EMISSIVE_CODE>
+              (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+                (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              } els{
+                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              }
+            </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
 
         <Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
           <UseTemplate Name="ASOBO_GT_Emissive_Gauge">
-            <EMISSIVE_CODE>#STATIC_SCREEN_EMISSIVE_VALUE#</EMISSIVE_CODE>
+            <EMISSIVE_CODE>
+              (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+                (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              } els{
+                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              }
+            </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
       </Component>
-    </Component>
-
-    <!-- AS580 #####################################-->
-    <Component ID="AS580">
-      <DefaultTemplateParameters>
-        <DONT_APPEND_ID>True</DONT_APPEND_ID>
-      </DefaultTemplateParameters>
-
-      <UseTemplate Name="ASOBO_AS580"/>
-      <CameraTitle>MFD</CameraTitle>
     </Component>
 
     <!-- SAFETY #####################################-->
@@ -2161,7 +2281,6 @@
           <ANIM_NAME>DISPLAYBACKUP_PUSH_L</ANIM_NAME>
           <LEFT_SINGLE_CODE>0</LEFT_SINGLE_CODE>
           <TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>
-
         </UseTemplate>
       </Component>
 
@@ -2182,7 +2301,6 @@
           <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_PILOT</ANIMTIP_0>
           <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_PLTPAX</ANIMTIP_1>
           <ANIMTIP_2>TT:COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_OFF</ANIMTIP_2>
-
         </UseTemplate>
       </Component>
 
@@ -2190,7 +2308,7 @@
         <KNOB_NAME>AC_KNOB_FAN</KNOB_NAME>
         <ANIMREF_ID>0</ANIMREF_ID>
         <ANIMCURSOR_DIR>1</ANIMCURSOR_DIR>
-
+        <WRAP>False</WRAP>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.PANEL_AC_FAN_DECREASE</ANIMTIP_0>
         <ANIMTIP_0_ON_CURSOR>TurnLeft</ANIMTIP_0_ON_CURSOR>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.PANEL_AC_FAN_INCREASE</ANIMTIP_1>
@@ -2205,6 +2323,7 @@
         <ANIMCURSOR_DIR>1</ANIMCURSOR_DIR>
         <ANIMCURSOR_MIN>0</ANIMCURSOR_MIN>
         <ANIMCURSOR_MAX>1</ANIMCURSOR_MAX>
+        <WRAP>False</WRAP>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.PANEL_AC_TEMP_KNOB_DECREASE</ANIMTIP_0>
         <ANIMTIP_0_ON_CURSOR>TurnLeft</ANIMTIP_0_ON_CURSOR>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.PANEL_AC_TEMP_KNOB_INCREASE</ANIMTIP_1>
@@ -2214,6 +2333,7 @@
       </UseTemplate>
 
       <UseTemplate Name="ASOBO_GT_Knob_Finite_Dummy">
+        <WRAP>False</WRAP>
         <KNOB_NAME>HOTAIRFLOW_KNOB</KNOB_NAME>
           <ANIMREF_ID>0</ANIMREF_ID>
           <ANIMCURSOR_DIR>1</ANIMCURSOR_DIR>
@@ -2223,6 +2343,7 @@
           <ANIMTIP_1_ON_CURSOR>TURNRIGHT</ANIMTIP_1_ON_CURSOR>
           <WWISE_EVENT>hotairflow_knob</WWISE_EVENT>
           <COUNT>25</COUNT>
+          <THRESHOLD_MOUSE>0.0075</THRESHOLD_MOUSE>
       </UseTemplate>
     </Component>
 
@@ -2237,6 +2358,7 @@
           <ANIMTIP_0_ON_CURSOR>Hand</ANIMTIP_0_ON_CURSOR>
           <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.ALTERNATE_STATIC_LEVER_TO_STATIC</ANIMTIP_1>
           <ANIMTIP_1_ON_CURSOR>Hand</ANIMTIP_1_ON_CURSOR>
+          <INVERT_SWITCH_ON_CONDITION>True</INVERT_SWITCH_ON_CONDITION>
         </UseTemplate>
       </Component>
       <UseTemplate Name="ASOBO_GT_Switch_Dummy">
@@ -2261,7 +2383,6 @@
       <UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
         <NODE_ID>push_ceiling_testLight</NODE_ID>
       </UseTemplate>
-
     </Component>
 
   </Behaviors>
