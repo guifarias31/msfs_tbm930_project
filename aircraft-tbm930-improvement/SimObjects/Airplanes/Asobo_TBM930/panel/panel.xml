@@ -119,10 +119,32 @@
 
     <Annunciation>
       <Type>Warning</Type>
-      <Text>DOOR</Text>
+      <Text>MAIN DOOR</Text>
       <Condition>
         <Greater>
           <Simvar name="EXIT OPEN:0" unit="percent"/>
+          <Constant>0</Constant>
+        </Greater>
+      </Condition>
+    </Annunciation>
+
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>PAX DOOR</Text>
+      <Condition>
+        <Greater>
+          <Simvar name="EXIT OPEN:1" unit="percent"/>
+          <Constant>0</Constant>
+        </Greater>
+      </Condition>
+    </Annunciation>
+
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>CARGO DOOR</Text>
+      <Condition>
+        <Greater>
+          <Simvar name="EXIT OPEN:2" unit="percent"/>
           <Constant>0</Constant>
         </Greater>
       </Condition>

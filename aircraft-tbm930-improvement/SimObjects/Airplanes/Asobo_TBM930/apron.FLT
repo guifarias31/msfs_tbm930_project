@@ -96,6 +96,11 @@ APUAirBleed=False
 [LocalVars.0]
 XMLVAR_LANDING_TAXI_OFF_Switch_Position=2
 XMLVAR_FuelSelectorAuto=0
+XMLVAR_TBM930_FrontDoor_Unlock=1
+XMLVAR_TBM930_BackDoor_Unlock=1
+XMLVAR_TBM930_FrontDoor_Init=1
+XMLVAR_TBM930_BackDoor_Init=0
+XMLVAR_TBM930_CargoDoor_Init=0
 
 [Switches.0]
 PitotHeat=False
@@ -155,7 +160,6 @@ Rudder=050.00
 LeftBrake=100.00
 RightBrake=100.00
 ParkingBrake=100.00
-
 RudderTrimPct=0
 AileronTrimPct=0
 AileronTrimDisabled=True

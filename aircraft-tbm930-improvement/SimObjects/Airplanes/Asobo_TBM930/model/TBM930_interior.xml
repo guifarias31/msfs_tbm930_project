@@ -5,10 +5,10 @@
     <!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
     <!-- default minSize is 0 -->
     <LOD minSize="150" ModelFile="TBM930_interior_LOD00.gltf"/>
-    <LOD minSize="110" ModelFile="TBM930_interior_LOD01.gltf"/>
-    <LOD minSize="60" ModelFile="TBM930_interior_LOD02.gltf"/>
-    <LOD minSize="35" ModelFile="TBM930_interior_LOD03.gltf"/>
-    <LOD minSize="15" ModelFile="TBM930_interior_LOD04.gltf"/>
+    <LOD minSize="50" ModelFile="TBM930_interior_LOD01.gltf"/>
+    <LOD minSize="20" ModelFile="TBM930_interior_LOD02.gltf"/>
+    <LOD minSize="10" ModelFile="TBM930_interior_LOD03.gltf"/>
+    <LOD minSize="5" ModelFile="TBM930_interior_LOD04.gltf"/>
     <LOD minSize="1" ModelFile="TBM930_interior_LOD05.gltf"/>
   </LODS>
   <Behaviors>
@@ -1090,7 +1090,7 @@
         <ANIM_LENGTH>100</ANIM_LENGTH>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.INOP TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.INOP TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
-      </UseTemplate> -->
+      </UseTemplate>
       <Component ID="AIRCRAFT_FrontDoor">
         <UseTemplate Name="ASOBO_GT_Anim_Code">
           <ANIM_NAME>DOOR_FRONT</ANIM_NAME>
@@ -1117,7 +1117,20 @@
       <UseTemplate Name="ASOBO_AIRFRAME_Warning_Door_Unlock_Template">
         <TYPE>Rear</TYPE>
       </UseTemplate>
-      <CameraTitle>Pilot</CameraTitle>
+      <CameraTitle>Pilot</CameraTitle>  -->
+      <Component ID="table_passenger" Node="table_passenger">
+        <UseTemplate Name="ASOBO_GT_Switch_Code">
+          <ANIM_NAME>table_passenger_01</ANIM_NAME>
+          <ANIM_CODE>(L:XMLVAR_TBM930_Table) 100 *</ANIM_CODE>
+          <ANIM_LENGTH>100</ANIM_LENGTH>
+          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_Table) ! (&gt;L:XMLVAR_TBM930_Table)</LEFT_SINGLE_CODE>
+          <ANIMTIP_0>Unfold table</ANIMTIP_0>
+          <ANIMTIP_1>Fold table</ANIMTIP_1>
+          <WWISE_EVENT_1>doorknob_lock</WWISE_EVENT_1>
+          <WWISE_EVENT_2>doorknob_unlock</WWISE_EVENT_2>
+          <CURSOR>Grab</CURSOR>
+        </UseTemplate>
+      </Component>
     </Component>
 
     <!-- FUEL ####################################### -->
@@ -2273,14 +2286,13 @@
     </Component>
 
     <Component ID="AC">
-      <!-- Those are all dummy buttons for now -->
-      <!--
       <Component ID="DISPLAYBACKUP_PUSH_L" Node="DISPLAYBACKUP_PUSH_L">
         <UseTemplate Name="ASOBO_GT_Push_Button">
           <PART_ID>DISPLAYBACKUP_PUSH_L</PART_ID>
           <ANIM_NAME>DISPLAYBACKUP_PUSH_L</ANIM_NAME>
-          <LEFT_SINGLE_CODE>0</LEFT_SINGLE_CODE>
-          <TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>
+          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_ShowPilot) ! (&gt;L:XMLVAR_TBM930_ShowPilot)</LEFT_SINGLE_CODE>
+          <TOOLTIPID>Toggle Pilot</TOOLTIPID>
+          <!--<TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>-->
         </UseTemplate>
       </Component>
 
@@ -2288,11 +2300,12 @@
         <UseTemplate Name="ASOBO_GT_Push_Button">
           <PART_ID>DISPLAYBACKUP_PUSH_R</PART_ID>
           <ANIM_NAME>DISPLAYBACKUP_PUSH_R</ANIM_NAME>
-          <LEFT_SINGLE_CODE>0</LEFT_SINGLE_CODE>
-          <TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>
+          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_ShowCoPilot) ! (&gt;L:XMLVAR_TBM930_ShowCoPilot)</LEFT_SINGLE_CODE>
+          <TOOLTIPID>Toggle CoPilot</TOOLTIPID>
+          <!--<TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>-->
         </UseTemplate>
       </Component>
-      -->
+
       <Component ID="PASSENGER_Switch_Ventilation" Node="AC_SWITCH_CTRL">
         <UseTemplate Name="ASOBO_GT_Switch_3States">
           <PART_ID>AC_SWITCH_CTRL</PART_ID>
@@ -2370,20 +2383,270 @@
       </UseTemplate>
     </Component>
 
-    <Component ID="TT_INOP">
-      <UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-        <NODE_ID>DISPLAYBACKUP_PUSH_L</NODE_ID>
+    <Component ID="SUN_VISOR">
+      <UseTemplate Name="ASOBO_GT_Update">
+        <UPDATE_ONCE>True</UPDATE_ONCE>
+        <UPDATE_CODE>
+          100 (&gt;L:XMLVAR_SunVisorX_1)
+          100 (&gt;L:XMLVAR_SunVisorY_1)
+          100 (&gt;L:XMLVAR_SunVisorY_2)
+        </UPDATE_CODE>
       </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-        <NODE_ID>DISPLAYBACKUP_PUSH_R</NODE_ID>
+      <Component ID="SUN_VISOR_PILOT_part01" Node="SUN_VISOR_PILOT_part01">
+        <UseTemplate Name="TBM930_DragXAxis_Code">
+          <ANIM_NAME>SUN_VISOR_PILOT_part01</ANIM_NAME>
+          <ID>1</ID>
+          <INVERT_ANIM/>
+          <UP_CODE/>
+          <DOWN_CODE/>
+          <TOOLTIPID>Sun Visor Left/Right</TOOLTIPID>
+        </UseTemplate>
+      </Component>
+      <Component ID="SUN_VISOR_PILOT_part02" Node="SUN_VISOR_PILOT_part02">
+        <UseTemplate Name="TBM930_DragYAxis_Code">
+          <ANIM_NAME>SUN_VISOR_PILOT_part02</ANIM_NAME>
+          <ID>1</ID>
+          <INVERT_ANIM/>
+          <UP_CODE/>
+          <DOWN_CODE/>
+          <TOOLTIPID>Sun Visor Up/Down</TOOLTIPID>
+        </UseTemplate>
+      </Component>
+      <Component ID="SUN_VISOR_COPILOT_part01" Node="SUN_VISOR_COPILOT_part01">
+        <UseTemplate Name="TBM930_DragXAxis_Code">
+          <ANIM_NAME>SUN_VISOR_COPILOT_part01</ANIM_NAME>
+          <ID>2</ID>
+          <UP_CODE/>
+          <DOWN_CODE/>
+          <TOOLTIPID>Sun Visor Left/Right</TOOLTIPID>
+        </UseTemplate>
+      </Component>
+      <Component ID="SUN_VISOR_COPILOT_part02" Node="SUN_VISOR_COPILOT_part02">
+        <UseTemplate Name="TBM930_DragYAxis_Code">
+          <ANIM_NAME>SUN_VISOR_COPILOT_part02</ANIM_NAME>
+          <ID>2</ID>
+          <INVERT_ANIM/>
+          <UP_CODE/>
+          <DOWN_CODE/>
+          <TOOLTIPID>Sun Visor Up/Down</TOOLTIPID>
+        </UseTemplate>
+      </Component>
+    </Component>
+
+    <Component ID="DOORS">
+      <DefaultTemplateParameters>
+        <DOOR_OPENING_CONDITION>(A:SIM ON GROUND, Bool) (A:AIRSPEED TRUE, Knots) 30 &lt; and</DOOR_OPENING_CONDITION>
+        <FD_UNLOCK_STATE>L:XMLVAR_TBM930_FrontDoor_Unlock</FD_UNLOCK_STATE>
+        <BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
+        <FD_STATE>L:XMLVAR_TBM930_FrontDoor_State</FD_STATE>
+        <BD_STATE>L:XMLVAR_TBM930_BackDoor_State</BD_STATE>
+        <CD_STATE>L:XMLVAR_TBM930_CargoDoor_State</CD_STATE>
+      </DefaultTemplateParameters>
+      <UseTemplate Name="ASOBO_GT_Update">
+        <UPDATE_ONCE>True</UPDATE_ONCE>
+        <UPDATE_CODE>
+          #DOOR_OPENING_CONDITION# (A:ELECTRICAL MASTER BATTERY, Bool) ! if{
+            (L:XMLVAR_TBM930_FrontDoor_Init) if{ 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) 1 (&gt;#FD_STATE#) }
+            (L:XMLVAR_TBM930_BackDoor_Init) if{ 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) 1 (&gt;#BD_STATE#) }
+            (L:XMLVAR_TBM930_CargoDoor_Init) if{ 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) 1 (&gt;#CD_STATE#) }
+          }
+        </UPDATE_CODE>
       </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-        <NODE_ID>switch_ceiling_testLight</NODE_ID>
+      <UseTemplate Name="ASOBO_GT_Update">
+        <FREQUENCY>1</FREQUENCY>
+        <UPDATE_CODE>
+          #DOOR_OPENING_CONDITION# ! if{
+            0 (&gt;#FD_UNLOCK_STATE#)
+            0 (&gt;#BD_UNLOCK_STATE#)
+            (#FD_STATE#) if{ 0 (&gt;#FD_STATE#) 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) }
+            (#BD_STATE#) if{ 0 (&gt;#BD_STATE#) 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) }
+            (#CD_STATE#) if{ 0 (&gt;#CD_STATE#) 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) }
+          }
+        </UPDATE_CODE>
       </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-        <NODE_ID>push_ceiling_testLight</NODE_ID>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>AIRFRAME_Warning_Door_Unlock_Front</ANIM_NAME>
+        <ANIM_CODE>(#FD_UNLOCK_STATE#)</ANIM_CODE>
+        <ANIM_LENGTH>1</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>push_door_unlock</NODE_ID>
+        <ANIM_NAME>push_door_unlock</ANIM_NAME>
+        <ANIM_CODE>(#FD_UNLOCK_STATE#) 100 *</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>(#FD_UNLOCK_STATE#) (#DOOR_OPENING_CONDITION#) ! and ! (&gt;#FD_UNLOCK_STATE#)</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>Unlock door</ANIMTIP_0>
+        <ANIMTIP_1>Lock door</ANIMTIP_1>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>FRONT_DOOR_HANDLE</NODE_ID>
+        <ANIM_NAME>door_front_handle</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>(#FD_UNLOCK_STATE#) if{ 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#FD_STATE#) ! (&gt;#FD_STATE#) } els{ (A:EXIT OPEN:0, Bool) if{ 0 (&gt;#FD_STATE#) 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
+        <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
+        <CURSOR>Grab</CURSOR>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_front</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>AIRFRAME_Warning_Door_Unlock_Rear</ANIM_NAME>
+        <ANIM_CODE>(#BD_UNLOCK_STATE#)</ANIM_CODE>
+        <ANIM_LENGTH>1</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>Rear_Door_Push_Unlock</NODE_ID>
+        <ANIM_NAME>Rear_Door_Push_Unlock</ANIM_NAME>
+        <ANIM_CODE>(#BD_UNLOCK_STATE#) 100 *</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>(#BD_UNLOCK_STATE#) (#DOOR_OPENING_CONDITION#) ! and ! (&gt;#BD_UNLOCK_STATE#)</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>Unlock door</ANIMTIP_0>
+        <ANIMTIP_1>Lock door</ANIMTIP_1>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>REAR_DOOR_HANDLE</NODE_ID>
+        <ANIM_NAME>door_rear_handle</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>(#BD_UNLOCK_STATE#) if{ 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#BD_STATE#) ! (&gt;#BD_STATE#) } els{ (A:EXIT OPEN:1, Bool) if{ 0 (&gt;#BD_STATE#) 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
+        <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
+        <CURSOR>Grab</CURSOR>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_rear</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>lever_light_panelBreaker_pilot</NODE_ID>
+        <ANIM_NAME>lever_light_panelBreaker_pilot</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>#DOOR_OPENING_CONDITION# if{ 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#CD_STATE#) ! (&gt;#CD_STATE#) } els{ (A:EXIT OPEN:2, Bool) if{ 0 (&gt;#CD_STATE#) 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
+        <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
+        <CURSOR>Grab</CURSOR>
       </UseTemplate>
     </Component>
 
+    <Template Name="TBM930_DragXAxis_Code">
+      <DefaultTemplateParameters>
+        <HELPID/>
+        <TOOLTIPID/>
+        <ANIM_LAG>0</ANIM_LAG>
+        <Condition Check="IS_LOOPING">
+          <ANIM_LENGTH>360</ANIM_LENGTH>
+        </Condition>
+        <ANIM_SCALE>1</ANIM_SCALE>
+        <Condition Check="SINGLE_STEP">
+          <ANIM_LAG>300</ANIM_LAG>
+          <DRAG_DELTA>0.0001</DRAG_DELTA>
+          <DRAG_SPEED>1</DRAG_SPEED>
+          <ANIM_SCALE>100</ANIM_SCALE>
+          <ANIM_LENGTH>100</ANIM_LENGTH>
+          <MIN_LIMITER> 0 max </MIN_LIMITER>
+          <MAX_LIMITER> 1 min </MAX_LIMITER>
+        </Condition>
+        <POSITION_TYPE>L</POSITION_TYPE>
+        <POSITION_VAR>XMLVAR_SunVisorX_#ID#</POSITION_VAR>
+      </DefaultTemplateParameters>
+      <UseTemplate Name = "TBM930_DraggingXAxis_Code_Base">
+      </UseTemplate>
+    </Template>
+
+    <Template Name="TBM930_DraggingXAxis_Code_Base">
+      <DefaultTemplateParameters>
+        <ANIM_CODE>(#POSITION_TYPE#:#POSITION_VAR#) #ANIM_SCALE# *</ANIM_CODE>
+      </DefaultTemplateParameters>
+      <UseTemplate Name = "ASOBO_GT_Anim_Code">
+      </UseTemplate>
+      <UseTemplate Name = "ASOBO_GT_AnimTriggers_2SoundEvents">
+        <NORMALIZED_TIME_1>0.1</NORMALIZED_TIME_1>
+        <DIRECTION_1>Backward</DIRECTION_1>
+        <NORMALIZED_TIME_2>0.9</NORMALIZED_TIME_2>
+        <DIRECTION_2>Forward</DIRECTION_2>
+      </UseTemplate>
+      <UseTemplate Name = "ASOBO_GT_Interaction_DraggingXAxis_Code">
+      </UseTemplate>
+    </Template>
+
+    <Template Name="TBM930_DragYAxis_Code">
+      <DefaultTemplateParameters>
+        <HELPID/>
+        <TOOLTIPID/>
+        <ANIM_LAG>0</ANIM_LAG>
+        <Condition Check="IS_LOOPING">
+          <ANIM_LENGTH>360</ANIM_LENGTH>
+        </Condition>
+        <ANIM_SCALE>1</ANIM_SCALE>
+        <Condition Check="SINGLE_STEP">
+          <ANIM_LAG>300</ANIM_LAG>
+          <DRAG_DELTA>0.0001</DRAG_DELTA>
+          <DRAG_SPEED>1</DRAG_SPEED>
+          <ANIM_SCALE>100</ANIM_SCALE>
+          <ANIM_LENGTH>100</ANIM_LENGTH>
+          <MIN_LIMITER> 0 max </MIN_LIMITER>
+          <MAX_LIMITER> 1 min </MAX_LIMITER>
+        </Condition>
+        <POSITION_TYPE>L</POSITION_TYPE>
+        <POSITION_VAR>XMLVAR_SunVisorY_#ID#</POSITION_VAR>
+      </DefaultTemplateParameters>
+      <UseTemplate Name = "TBM930_DraggingYAxis_Code_Base">
+      </UseTemplate>
+    </Template>
+
+    <Template Name="TBM930_DraggingYAxis_Code_Base">
+      <DefaultTemplateParameters>
+        <ANIM_CODE>(#POSITION_TYPE#:#POSITION_VAR#) #ANIM_SCALE# *</ANIM_CODE>
+      </DefaultTemplateParameters>
+      <UseTemplate Name = "ASOBO_GT_Anim_Code">
+      </UseTemplate>
+      <UseTemplate Name = "ASOBO_GT_AnimTriggers_2SoundEvents">
+        <NORMALIZED_TIME_1>0.1</NORMALIZED_TIME_1>
+        <DIRECTION_1>Backward</DIRECTION_1>
+        <NORMALIZED_TIME_2>0.9</NORMALIZED_TIME_2>
+        <DIRECTION_2>Forward</DIRECTION_2>
+      </UseTemplate>
+      <UseTemplate Name = "ASOBO_GT_Interaction_DraggingYAxis_Code">
+      </UseTemplate>
+    </Template>
+
+    <Component ID="Pilots_Visibility">
+      <Component ID="PILOT_0" Node="PILOT_0">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <Component ID="PILOT_1" Node="PILOT_1">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <Component ID="Seatbelt_L_Pilot" Node="Seatbelt_L_Pilot">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <Component ID="Seatbelt_R_Pilot" Node="Seatbelt_R_Pilot">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <Component ID="Seatbelt_L" Node="Seatbelt_L">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) !</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+      <Component ID="Seatbelt_R" Node="Seatbelt_R">
+        <UseTemplate Name="ASOBO_GT_Visibility_Code">
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) !</VISIBILITY_CODE>
+        </UseTemplate>
+      </Component>
+    </Component>
   </Behaviors>
 </ModelInfo>

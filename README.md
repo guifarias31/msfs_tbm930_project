@@ -1,6 +1,6 @@
-# MSFS TBM 930 Project 0.5.6 Beta (Continue project)
+# MSFS TBM 930 Project 0.5.7 (Continue project)
 
-This is the improvement project for the MSFS default TBM 930.
+This is the continue improvement project for the MSFS default TBM 930.
 
 I highly recommend using [Working-Title G3000](https://github.com/Working-Title-MSFS-Mods/fspackages).
 
