@@ -2532,6 +2532,16 @@
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
         <CURSOR>Grab</CURSOR>
       </UseTemplate>
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+        <NODE_ID>lever_light_panelBreaker_copilot</NODE_ID>
+        <ANIM_NAME>lever_light_panelBreaker_copilot</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+        <LEFT_SINGLE_CODE>(#BD_UNLOCK_STATE#) if{ 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#BD_STATE#) ! (&gt;#BD_STATE#) } els{ (A:EXIT OPEN:1, Bool) if{ 0 (&gt;#BD_STATE#) 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
+        <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
+        <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
+        <CURSOR>Grab</CURSOR>
+      </UseTemplate>
     </Component>
 
     <Template Name="TBM930_DragXAxis_Code">
