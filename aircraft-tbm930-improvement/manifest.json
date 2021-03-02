@@ -13,13 +13,13 @@
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "Mugz",
-  "package_version": "0.5.9",
+  "package_version": "0.5.10",
   "minimum_game_version": "1.13.16",
   "release_notes": {
     "neutral": {
-      "LastUpdate": "VERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open",
-      "OlderHistory": "VERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
+      "LastUpdate": "VERSION 0.5.10 RELEASED MARCH 2, 2021\\n- Removed slightly open door in unlocked state\\n- Revert hotfix for landing problem in 1.13.16.0\\n- Changed showing pilot logic\\n- Added show Pilots depend of weight",
+      "OlderHistory": "VERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open\\nVERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
     }
   },
-  "total_package_size": "00000000000003957017"
+  "total_package_size": "00000000000003957340"
 }

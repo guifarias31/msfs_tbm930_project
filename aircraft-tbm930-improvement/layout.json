@@ -132,8 +132,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/cameras.cfg",
-      "size": 33693,
-      "date": 132584955451850769
+      "size": 33719,
+      "date": 132591858844673113
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/engines.cfg",
@@ -142,8 +142,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/flight_model.cfg",
-      "size": 16123,
-      "date": 132582776546663659
+      "size": 16083,
+      "date": 132591884345896752
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/hangar.flt",
@@ -162,13 +162,13 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930.xml",
-      "size": 8688,
-      "date": 132583331197096505
+      "size": 8616,
+      "date": 132591833798589531
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
-      "size": 123038,
-      "date": 132582884408998585
+      "size": 123235,
+      "date": 132591857794417135
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD00.gltf",

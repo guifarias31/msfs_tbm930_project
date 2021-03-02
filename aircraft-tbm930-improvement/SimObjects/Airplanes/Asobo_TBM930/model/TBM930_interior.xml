@@ -2290,7 +2290,7 @@
         <UseTemplate Name="ASOBO_GT_Push_Button">
           <PART_ID>DISPLAYBACKUP_PUSH_L</PART_ID>
           <ANIM_NAME>DISPLAYBACKUP_PUSH_L</ANIM_NAME>
-          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_ShowPilot) ! (&gt;L:XMLVAR_TBM930_ShowPilot)</LEFT_SINGLE_CODE>
+          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_HidePilot) ! (&gt;L:XMLVAR_TBM930_HidePilot)</LEFT_SINGLE_CODE>
           <TOOLTIPID>Toggle Pilot</TOOLTIPID>
           <!--<TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>-->
         </UseTemplate>
@@ -2300,7 +2300,7 @@
         <UseTemplate Name="ASOBO_GT_Push_Button">
           <PART_ID>DISPLAYBACKUP_PUSH_R</PART_ID>
           <ANIM_NAME>DISPLAYBACKUP_PUSH_R</ANIM_NAME>
-          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_ShowCoPilot) ! (&gt;L:XMLVAR_TBM930_ShowCoPilot)</LEFT_SINGLE_CODE>
+          <LEFT_SINGLE_CODE>(L:XMLVAR_TBM930_HideCoPilot) ! (&gt;L:XMLVAR_TBM930_HideCoPilot)</LEFT_SINGLE_CODE>
           <TOOLTIPID>Toggle CoPilot</TOOLTIPID>
           <!--<TOOLTIPID>TT:COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON</TOOLTIPID>-->
         </UseTemplate>
@@ -2491,7 +2491,7 @@
       </UseTemplate>
       <UseTemplate Name="ASOBO_GT_Anim_Code">
         <ANIM_NAME>door_front</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:0, Percent) (#FD_UNLOCK_STATE#) + 100 min 0 max</ANIM_CODE>
+        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
       </UseTemplate>
       <UseTemplate Name="ASOBO_GT_Anim_Code">
@@ -2521,7 +2521,7 @@
       </UseTemplate>
       <UseTemplate Name="ASOBO_GT_Anim_Code">
         <ANIM_NAME>door_rear</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:1, Percent) (#BD_UNLOCK_STATE#) + 100 min 0 max</ANIM_CODE>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
       </UseTemplate>
       <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
@@ -2629,34 +2629,38 @@
     </Template>
 
     <Component ID="Pilots_Visibility">
+      <DefaultTemplateParameters>
+        <PILOT_COND>(L:XMLVAR_TBM930_HidePilot) ! (A:PAYLOAD STATION WEIGHT:1, pound) 100 &gt; and (A:CAMERA STATE, Enum) 2 != or</PILOT_COND>
+        <COPILOT_COND>(L:XMLVAR_TBM930_HideCoPilot) ! (A:PAYLOAD STATION WEIGHT:2, pound) 100 &gt; and (A:CAMERA STATE, Enum) 2 != or</COPILOT_COND>
+      </DefaultTemplateParameters>
       <Component ID="PILOT_0" Node="PILOT_0">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+          <VISIBILITY_CODE>#PILOT_COND#</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
       <Component ID="PILOT_1" Node="PILOT_1">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+          <VISIBILITY_CODE>#COPILOT_COND#</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
       <Component ID="Seatbelt_L_Pilot" Node="Seatbelt_L_Pilot">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+          <VISIBILITY_CODE>#PILOT_COND#</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
       <Component ID="Seatbelt_R_Pilot" Node="Seatbelt_R_Pilot">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) (A:CAMERA STATE, Enum) 2 != or</VISIBILITY_CODE>
+          <VISIBILITY_CODE>#COPILOT_COND#</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
       <Component ID="Seatbelt_L" Node="Seatbelt_L">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowPilot) !</VISIBILITY_CODE>
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_HidePilot) (A:PAYLOAD STATION WEIGHT:1, pound) 100 &lt; or</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
       <Component ID="Seatbelt_R" Node="Seatbelt_R">
         <UseTemplate Name="ASOBO_GT_Visibility_Code">
-          <VISIBILITY_CODE>(L:XMLVAR_TBM930_ShowCoPilot) !</VISIBILITY_CODE>
+          <VISIBILITY_CODE>(L:XMLVAR_TBM930_HideCoPilot) (A:PAYLOAD STATION WEIGHT:2, pound) 100 &lt; or</VISIBILITY_CODE>
         </UseTemplate>
       </Component>
     </Component>
