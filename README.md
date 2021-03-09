@@ -90,4 +90,6 @@ To uninstall just delete the folder "aircraft-tbm930-improvement" from your MSFS
 
 If you want to support me, here's my donation link:
 
-[![Donation](https://i.imgur.com/vQyI7N5.png)](https://paypal.me/mixmugz)
+[![Donation](https://i.imgur.com/vQyI7N5.png)](https://www.buymeacoffee.com/mugz)
+
+or [PayPal.Me](https://paypal.me/mixmugz) :)
