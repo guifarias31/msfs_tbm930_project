@@ -192,8 +192,6 @@
       <UseTemplate Name="ASOBO_GT_Anim_Code">
         <ANIM_NAME>door_rear_lock</ANIM_NAME>
         <ANIM_CODE>(#BD_UNLOCK_STATE#)</ANIM_CODE>
-        <ANIM_LENGTH>1</ANIM_LENGTH>
-        <DIRECTION>Forward</DIRECTION>
       </UseTemplate>
     </Component>
   </Behaviors>

@@ -1272,7 +1272,7 @@
           (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
             (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_PFD_1_ScreenLuminosity) * #DIMMING_SCALE# *
           } els{
-            (A:LIGHT POTENTIOMETER:4, Percent over 100) 90 * (L:AS3000_PFD_1_ScreenLuminosity) * #DIMMING_SCALE# *
+            (L:AS3000_Brightness, Percent over 100) 90 * (L:AS3000_PFD_1_ScreenLuminosity) * #DIMMING_SCALE# *
           }
           (L:AS3000_PFD_1_ScreenLuminosity) 10 * +
         </BOUNCE_POTENTIOMETER_PERCENT>
@@ -1284,7 +1284,7 @@
           (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
             (L:XMLVAR_AS3000_DisplayLighting) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
           } els{
-            (A:LIGHT POTENTIOMETER:4, Percent over 100) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
+            (L:AS3000_Brightness, Percent over 100) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
           }
           (L:AS3000_MFD_ScreenLuminosity) 10 * +
         </BOUNCE_POTENTIOMETER_PERCENT>
@@ -2178,7 +2178,7 @@
           (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
             (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
           } els{
-            (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+            (L:AS3000_Brightness, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
           }
         </EMISSIVE_CODE>
       </DefaultTemplateParameters>
@@ -2226,7 +2226,7 @@
             (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
               (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             } els{
-              (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              (L:AS3000_Brightness, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             }
           </EMISSIVE_CODE>
         </UseTemplate>
@@ -2241,7 +2241,7 @@
               (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
                 (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
               } els{
-                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+                (L:AS3000_Brightness, Percent over 100) (A:LIGHT POTENTIOMETER:4, Percent over 100) * #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
               }
             </EMISSIVE_CODE>
           </UseTemplate>
@@ -2253,7 +2253,7 @@
               (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
                 (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
               } els{
-                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+                (L:AS3000_Brightness, Percent over 100) (A:LIGHT POTENTIOMETER:4, Percent over 100) * #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
               }
             </EMISSIVE_CODE>
           </UseTemplate>

@@ -126,14 +126,29 @@
       "date": 132447569545285976
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/approach.flt",
+      "size": 2850,
+      "date": 132597886460567300
+    },
+    {
       "path": "SimObjects/Airplanes/Asobo_TBM930/apron.flt",
-      "size": 3077,
-      "date": 132574590744778907
+      "size": 3131,
+      "date": 132597886554864065
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/cameras.cfg",
-      "size": 33719,
-      "date": 132591858844673113
+      "size": 33976,
+      "date": 132597888620301672
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/climb.flt",
+      "size": 2853,
+      "date": 132597886668186605
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/cruise.flt",
+      "size": 2851,
+      "date": 132597886710145714
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/engines.cfg",
@@ -141,19 +156,24 @@
       "date": 132582298683683314
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/final.flt",
+      "size": 3077,
+      "date": 132597886758223668
+    },
+    {
       "path": "SimObjects/Airplanes/Asobo_TBM930/flight_model.cfg",
-      "size": 16083,
-      "date": 132591884345896752
+      "size": 16133,
+      "date": 132597882762060106
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/hangar.flt",
-      "size": 3268,
-      "date": 132575406897786017
+      "size": 3324,
+      "date": 132597886822974967
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/runway.flt",
-      "size": 2686,
-      "date": 132582953379867545
+      "size": 2740,
+      "date": 132597886876677243
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/systems.cfg",
@@ -161,34 +181,39 @@
       "date": 132538057283544345
     },
     {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/taxi.flt",
+      "size": 2892,
+      "date": 132597886930384752
+    },
+    {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930.xml",
-      "size": 8616,
-      "date": 132591833798589531
+      "size": 8538,
+      "date": 132597946821040596
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
-      "size": 123235,
-      "date": 132591857794417135
+      "size": 123303,
+      "date": 132597939937438500
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD00.gltf",
-      "size": 768506,
-      "date": 132571223664079722
+      "size": 768527,
+      "date": 132597853050366116
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD00.gltf",
-      "size": 250708,
-      "date": 132571980428986680
+      "size": 242219,
+      "date": 132597874531980647
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD01.gltf",
-      "size": 251733,
-      "date": 132572119897404700
+      "size": 251777,
+      "date": 132597943296317548
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD02.gltf",
-      "size": 247546,
-      "date": 132572114287083723
+      "size": 247559,
+      "date": 132597879747014446
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD03.gltf",
