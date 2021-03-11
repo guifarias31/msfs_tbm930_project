@@ -163,7 +163,7 @@
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/flight_model.cfg",
       "size": 16133,
-      "date": 132597882762060106
+      "date": 132598838000736808
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/hangar.flt",
@@ -187,13 +187,13 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930.xml",
-      "size": 8538,
-      "date": 132597946821040596
+      "size": 8461,
+      "date": 132598803514284870
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
       "size": 123303,
-      "date": 132597939937438500
+      "date": 132599642976829538
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD00.gltf",
@@ -239,6 +239,106 @@
       "path": "SimObjects/Airplanes/Asobo_TBM930/texture/TBM_930_COCKPIT_WINDSHIELD_COMP.PNG.DDS.json",
       "size": 191,
       "date": 132522684732754054
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930.xml",
+      "size": 8316,
+      "date": 132598804415547257
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD00.gltf",
+      "size": 266867,
+      "date": 132599648838122085
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD01.gltf",
+      "size": 276373,
+      "date": 132599651207103581
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD02.gltf",
+      "size": 272165,
+      "date": 132599652751609026
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD03.gltf",
+      "size": 235514,
+      "date": 132599654121799729
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD04.gltf",
+      "size": 213616,
+      "date": 132599655453433702
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/texture.aviators/thumbnail.JPG",
+      "size": 268795,
+      "date": 132598796030436593
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/texture.aviators/thumbnail_small.JPG",
+      "size": 52412,
+      "date": 132598796111109980
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/model.testpilot/TBM930.xml",
+      "size": 7786,
+      "date": 132598802591130673
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/panel.testpilot/panel.xml",
+      "size": 46944,
+      "date": 132572055849989093
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/texture.testpilot/thumbnail.JPG",
+      "size": 250196,
+      "date": 132598797180577511
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/texture.testpilot/thumbnail_small.JPG",
+      "size": 49837,
+      "date": 132598797306114919
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930.xml",
+      "size": 8263,
+      "date": 132598804115362246
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD00.gltf",
+      "size": 239171,
+      "date": 132598808278560945
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD01.gltf",
+      "size": 248657,
+      "date": 132598815507960343
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD02.gltf",
+      "size": 244550,
+      "date": 132598822881995046
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD03.gltf",
+      "size": 207992,
+      "date": 132598825515975269
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD04.gltf",
+      "size": 186581,
+      "date": 132598827333065750
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/texture.kenmore/thumbnail.JPG",
+      "size": 280116,
+      "date": 132598795421057572
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/texture.kenmore/thumbnail_small.JPG",
+      "size": 54078,
+      "date": 132598795511590373
     }
   ]
 }

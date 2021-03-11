@@ -161,7 +161,6 @@
 		</Component>
     <Component ID="DOORS">
       <DefaultTemplateParameters>
-        <FD_UNLOCK_STATE>L:XMLVAR_TBM930_FrontDoor_Unlock</FD_UNLOCK_STATE>
         <BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
       </DefaultTemplateParameters>
       <UseTemplate Name="ASOBO_GT_Anim_Code">

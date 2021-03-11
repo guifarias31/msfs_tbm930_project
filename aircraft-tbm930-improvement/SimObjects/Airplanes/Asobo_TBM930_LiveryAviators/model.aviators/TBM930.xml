@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModelInfo>
+	<LODS>
+		<!-- Highest LOD -->
+		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
+		<!-- default minSize is 0 -->
+		<LOD minSize="100" ModelFile="TBM930_LOD00.gltf"/>
+		<LOD minSize="50" ModelFile="TBM930_LOD01.gltf"/>
+		<LOD minSize="35" ModelFile="TBM930_LOD02.gltf"/>
+		<LOD minSize="20" ModelFile="TBM930_LOD03.gltf"/>
+		<LOD minSize="10" ModelFile="TBM930_LOD04.gltf"/>
+		<LOD minSize="5" ModelFile="TBM930_LOD05.gltf"/>
+		<LOD minSize="1" ModelFile="TBM930_LOD06.gltf"/>
+	</LODS>
+	<Behaviors>
+	<!-- Includes ###################################### -->
+		<Include ModelBehaviorFile="Asobo\Common.xml"/>
+		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+	<!-- ###################################### -->
+	<Component ID="HANDLING">
+		<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
+			<ANIM_NAME>elevator_percent_key</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
+			<ANIM_NAME_TRIM>trimtab_elevator_key</ANIM_NAME_TRIM>
+			<TRIM_ONLY>True</TRIM_ONLY>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Aileron_Template">
+			<ANIM_NAME_LEFT>l_aileron_percent_key</ANIM_NAME_LEFT>
+			<ANIM_NAME_RIGHT>r_aileron_percent_key</ANIM_NAME_RIGHT>
+			<INVERT_ANIM>True</INVERT_ANIM>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Aileron_Template">
+			<ANIM_NAME_TRIM>trimtab_aileron_key</ANIM_NAME_TRIM>
+			<TRIM_ONLY>True</TRIM_ONLY>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
+			<ANIM_NAME>rudder_percent_key</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
+			<ANIM_NAME_TRIM>trimtab_rudder_key</ANIM_NAME_TRIM>
+			<TRIM_ONLY>True</TRIM_ONLY>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_HANDLING_Flaps_Template">
+			<ANIM_NAME_LEFT>l_flap_percent_key</ANIM_NAME_LEFT>
+			<ANIM_NAME_RIGHT>r_flap_percent_key</ANIM_NAME_RIGHT>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Recursive_AnimEvents">
+			<ANIM_EVENT_ID>1</ANIM_EVENT_ID>
+			<ANIM_NAME>r_flap_percent_key</ANIM_NAME>
+			<ANIM_EVENT_EFFECT_NAME_1>CAM_FLAPS_1_TO_29</ANIM_EVENT_EFFECT_NAME_1>
+			<ANIM_EVENT_EFFECT_NAME_2>CAM_FLAPS_30_TO_100</ANIM_EVENT_EFFECT_NAME_2>
+			<ANIM_EVENT_EFFECT_NAME_3>CAM_FLAPS_99_TO_30</ANIM_EVENT_EFFECT_NAME_3>
+			<ANIM_EVENT_EFFECT_NAME_4>CAM_FLAPS_29_TO_0</ANIM_EVENT_EFFECT_NAME_4>
+			<NORMALIZED_TIME_1>1</NORMALIZED_TIME_1>
+			<NORMALIZED_TIME_2>30</NORMALIZED_TIME_2>
+			<NORMALIZED_TIME_3>98</NORMALIZED_TIME_3>
+			<NORMALIZED_TIME_4>28</NORMALIZED_TIME_4>
+			<DIRECTION_1>Forward</DIRECTION_1>
+			<DIRECTION_2>Forward</DIRECTION_2>
+			<DIRECTION_3>Backward</DIRECTION_3>
+			<DIRECTION_4>Backward</DIRECTION_4>
+		</UseTemplate>
+	</Component>
+	<Component ID="ENGINE">
+		<UseTemplate Name="ASOBO_ENGINE_Propeller_Template">
+			<ID>1</ID>
+			<SIDE_BLUR>False</SIDE_BLUR>
+			<ANIM_NODE_ID>Prop1</ANIM_NODE_ID>
+			<ANIM_NAME>prop_anim</ANIM_NAME>
+			<STILL_NODE_ID>prop1_still</STILL_NODE_ID>
+			<SLOW_NODE_ID>prop1_slow</SLOW_NODE_ID>
+			<PROP_BLURRED_NODE_ID>prop1_blurred</PROP_BLURRED_NODE_ID>
+			<CONE_BLURRED_NODE_ID>prop1_blurred_cone</CONE_BLURRED_NODE_ID>
+			<FROSTED_BLURRED_NODE_ID>prop1_blurred_cone_frost</FROSTED_BLURRED_NODE_ID>
+			<FROSTED_STILL_NODE_ID>prop1_still_frost</FROSTED_STILL_NODE_ID>
+			<FROSTED_SLOW_NODE_ID>prop1_slow_cone_frost</FROSTED_SLOW_NODE_ID>
+			<!-- blades rotation -->
+			<USE_BLADE_ROTATION>True</USE_BLADE_ROTATION>
+			<ROTATION_ANIM_NAME>prop1_blades</ROTATION_ANIM_NAME>
+		</UseTemplate>
+		<!-- bad format handling blades -->
+		<Component ID="ENGINE_Propeller_Blades">
+			<DefaultTemplateParameters>
+				<ID>1</ID>
+				<MIN_RPM_FOR_SLOW>143</MIN_RPM_FOR_SLOW>
+				<STATE>Still</STATE>
+				<EXIT_TEMPLATE>ASOBO_ENGINE_Propeller_Visibility_Base_Template</EXIT_TEMPLATE>
+				<PARAM1>NODE_ID</PARAM1>
+				<BLADE_COUNT>5</BLADE_COUNT>
+				<PREFIX_BLADE_NODE_ID>prop1_blades</PREFIX_BLADE_NODE_ID>
+				<PREFIX_BLADE_NODE_ID_FROSTED>prop_frost_</PREFIX_BLADE_NODE_ID_FROSTED>
+			</DefaultTemplateParameters>
+			<OverrideTemplateParameters>
+				<MAX_ID>#BLADE_COUNT#</MAX_ID>
+			</OverrideTemplateParameters>
+			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
+				<PARAM1_PREFIX>#PREFIX_BLADE_NODE_ID#</PARAM1_PREFIX>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Helper_Recursive_ID">
+				<PARAM1_PREFIX>#PREFIX_BLADE_NODE_ID_FROSTED#</PARAM1_PREFIX>
+			</UseTemplate>
+		</Component>
+	</Component>
+	<Component ID="GEARS">
+		<UseTemplate Name="ASOBO_GEAR_Center_Template">
+			<ANIM_NAME>c_gear</ANIM_NAME>
+			<ANIM_EVENT_EFFECT_NAME>CAM_Landing_gear</ANIM_EVENT_EFFECT_NAME>
+			<NORMALIZED_TIME>5</NORMALIZED_TIME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Left_Template">
+			<ANIM_NAME>l_gear</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Right_Template">
+			<ANIM_NAME>r_gear</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
+			<ANIM_NAME>c_tire_anim</ANIM_NAME>
+			<NODE_ID_STILL>WHEEL_STILL_center</NODE_ID_STILL>
+			<NODE_ID_BLURRED>WHEEL_BLURRED_center</NODE_ID_BLURRED>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Left_Tire_Template">
+			<ANIM_NAME>l_tire_anim</ANIM_NAME>
+			<NODE_ID_STILL>WHEEL_STILL_left</NODE_ID_STILL>
+			<NODE_ID_BLURRED>WHEEL_BLURRED_Left</NODE_ID_BLURRED>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Right_Tire_Template">
+			<ANIM_NAME>r_tire_anim</ANIM_NAME>
+			<NODE_ID_STILL>WHEEL_STILL_right</NODE_ID_STILL>
+			<NODE_ID_BLURRED>WHEEL_BLURRED_right</NODE_ID_BLURRED>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GEAR_Steering_Template">
+			<ANIM_NAME>c_wheel</ANIM_NAME>
+		</UseTemplate>
+	</Component>
+	<Component ID="DEICE">
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>boot_deice_1</ANIM_NAME>
+			<ANIM_LENGTH>100</ANIM_LENGTH>
+			<ANIM_CODE>(L:XMLVAR_IsDeiceAirFrame) 100 *</ANIM_CODE>
+			<ANIM_LAG>30</ANIM_LAG>
+			<ANIM_EVENT_EFFECT_NAME>CAM_DEICE_WING</ANIM_EVENT_EFFECT_NAME>
+			<NORMALIZED_TIME>0.01</NORMALIZED_TIME>
+			<DIRECTION>Forward</DIRECTION>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Anim_Code">
+			<ANIM_NAME>boot_deice_2</ANIM_NAME>
+			<ANIM_CODE>(L:XMLVAR_IsDeiceAirFrame2) 100 *</ANIM_CODE>
+			<ANIM_LAG>30</ANIM_LAG>
+		</UseTemplate>
+	</Component>
+	<Component ID="HANGAR_ONLY">
+		<!-- Currently not exported in GLTF -->
+		<!-- <UseTemplate Name="ASOBO_HANGAR_Visibility_Template"> -->
+			<!-- <NODE_ID>Protection_Left</NODE_ID> -->
+			<!-- <NODE_ID2>Protection_Right</NODE_ID2> -->
+			<!-- <NODE_ID3>Protection_Center</NODE_ID3> -->
+			<!-- <NODE_ID4>TBM_PROTECTIONS</NODE_ID4> -->
+			<!-- <NODE_ID5>Protection_Propeller</NODE_ID5> -->
+		<!-- </UseTemplate> -->
+	</Component>
+    <Component ID="DOORS">
+      <DefaultTemplateParameters>
+        <BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
+      </DefaultTemplateParameters>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_front_handle</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_front</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_front_cargo</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_rear_handle</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_rear</ANIM_NAME>
+        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_LENGTH>100</ANIM_LENGTH>
+      </UseTemplate>
+      <UseTemplate Name="ASOBO_GT_Anim_Code">
+        <ANIM_NAME>door_rear_lock</ANIM_NAME>
+        <ANIM_CODE>(#BD_UNLOCK_STATE#)</ANIM_CODE>
+      </UseTemplate>
+    </Component>
+	</Behaviors>
+</ModelInfo>
