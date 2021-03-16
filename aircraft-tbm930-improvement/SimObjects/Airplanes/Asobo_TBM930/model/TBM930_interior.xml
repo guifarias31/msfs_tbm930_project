@@ -2236,25 +2236,17 @@
       <!-- GLASS_COCKPIT ##############################-->
       <Component ID="GLASS_COCKPIT">
         <Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
-          <UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+          <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
             <EMISSIVE_CODE>
-              (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
-                (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
-              } els{
-                (L:AS3000_Brightness, Percent over 100) (A:LIGHT POTENTIOMETER:4, Percent over 100) * #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
-              }
+                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
 
         <Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
-          <UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+          <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
             <EMISSIVE_CODE>
-              (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
-                (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
-              } els{
-                (L:AS3000_Brightness, Percent over 100) (A:LIGHT POTENTIOMETER:4, Percent over 100) * #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
-              }
+                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
