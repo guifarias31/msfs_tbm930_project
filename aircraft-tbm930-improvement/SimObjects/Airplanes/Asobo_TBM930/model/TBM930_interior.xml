@@ -2238,7 +2238,7 @@
         <Component ID="GLASS_COCKPIT_Screen_Attitude_Text" Node="AttitudeDisplay">
           <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
             <EMISSIVE_CODE>
-                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
@@ -2246,7 +2246,7 @@
         <Component ID="GLASS_COCKPIT_Screen_Speed_Text" Node="SpeedDisplay">
           <UseTemplate Name="ASOBO_GT_Material_Emissive_Code">
             <EMISSIVE_CODE>
-                (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
+              (A:LIGHT POTENTIOMETER:4, Percent over 100) #SCREEN_LIGHT_DIMMING_SCALE# * #MAX_EMISSIVE_PERCENT# #SCREEN_MIN_EMISSIVE_PERCENT# - * #SCREEN_MIN_EMISSIVE_PERCENT# +
             </EMISSIVE_CODE>
           </UseTemplate>
         </Component>
