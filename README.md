@@ -72,9 +72,9 @@ fuel_flow_scalar = 0.72 *(default = 1.0)*
 
 For any other suggestions or bug reports, feel free to contact us:
 
-Discord: [Guilherme Farias#9971](https://discordapp.com/channels/@me/207215431654572032) and [withinboredom#9657](https://discordapp.com/channels/@me/762021447962066944)
+Discord: [Mugz#6174](https://discord.gg/jzcaAv3dP6)
 
-Forum: [GuiFarias31](https://forums.flightsimulator.com/u/guifarias31/summary) and [CastTrout888930](https://forums.flightsimulator.com/u/casttrout888930/summary)
+Forum: [mixMugz](https://forums.flightsimulator.com/u/mixMugz)
 
 ## How to Install:
 
