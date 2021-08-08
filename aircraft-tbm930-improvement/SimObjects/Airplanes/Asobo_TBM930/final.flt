@@ -89,6 +89,12 @@ APUAirBleed=True
 
 [LocalVars.0]
 XMLVAR_LANDING_TAXI_OFF_Switch_Position=0
+XMLVAR_FuelSelectorAuto=1
+XMLVAR_TBM930_FrontDoor_Unlock=0
+XMLVAR_TBM930_BackDoor_Unlock=0
+XMLVAR_TBM930_FrontDoor_Init=0
+XMLVAR_TBM930_BackDoor_Init=0
+XMLVAR_TBM930_CargoDoor_Init=0
 XMLVAR_TBM930_HidePilot=0
 XMLVAR_TBM930_HideCoPilot=0
 
@@ -98,7 +104,8 @@ BeaconLights=True
 LandingLights=True
 LogoLights=True
 NavLights=True
-PanelLights=True
+PanelLights=False
+PanelLightsNight=True
 RecognitionLights=True
 StrobeLights=True
 TaxiLights=False

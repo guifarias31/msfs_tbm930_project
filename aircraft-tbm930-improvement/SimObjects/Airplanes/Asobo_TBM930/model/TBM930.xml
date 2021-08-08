@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
 	<LODS>
 		<!-- Highest LOD -->
@@ -6,16 +6,17 @@
 		<!-- default minSize is 0 -->
 		<LOD minSize="100" ModelFile="TBM930_LOD00.gltf"/>
 		<LOD minSize="50" ModelFile="TBM930_LOD01.gltf"/>
-		<LOD minSize="35" ModelFile="TBM930_LOD02.gltf"/>
-		<LOD minSize="20" ModelFile="TBM930_LOD03.gltf"/>
-		<LOD minSize="10" ModelFile="TBM930_LOD04.gltf"/>
-		<LOD minSize="5" ModelFile="TBM930_LOD05.gltf"/>
+		<LOD minSize="25" ModelFile="TBM930_LOD02.gltf"/>
+		<LOD minSize="10" ModelFile="TBM930_LOD03.gltf"/>
+		<LOD minSize="5" ModelFile="TBM930_LOD04.gltf"/>
+		<!--LOD minSize="5" ModelFile="TBM930_LOD05.gltf"/-->
 		<LOD minSize="1" ModelFile="TBM930_LOD06.gltf"/>
 	</LODS>
 	<Behaviors>
 		<!-- Includes ###################################### -->
 		<Include ModelBehaviorFile="Asobo\Common.xml"/>
 		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
 		<!-- ###################################### -->
 		<Component ID="HANDLING">
 			<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
@@ -152,46 +153,49 @@
 		<Component ID="HANGAR_ONLY">
 			<!-- Currently not exported in GLTF -->
 			<!-- <UseTemplate Name="ASOBO_HANGAR_Visibility_Template"> -->
-				<!-- <NODE_ID>Protection_Left</NODE_ID> -->
-				<!-- <NODE_ID2>Protection_Right</NODE_ID2> -->
-				<!-- <NODE_ID3>Protection_Center</NODE_ID3> -->
-				<!-- <NODE_ID4>TBM_PROTECTIONS</NODE_ID4> -->
-				<!-- <NODE_ID5>Protection_Propeller</NODE_ID5> -->
+			<!-- <NODE_ID>Protection_Left</NODE_ID> -->
+			<!-- <NODE_ID2>Protection_Right</NODE_ID2> -->
+			<!-- <NODE_ID3>Protection_Center</NODE_ID3> -->
+			<!-- <NODE_ID4>TBM_PROTECTIONS</NODE_ID4> -->
+			<!-- <NODE_ID5>Protection_Propeller</NODE_ID5> -->
 			<!-- </UseTemplate> -->
 		</Component>
-    <Component ID="DOORS">
-      <DefaultTemplateParameters>
-        <BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
-      </DefaultTemplateParameters>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_front_handle</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-      </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_front</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-      </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_front_cargo</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-      </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_rear_handle</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-      </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_rear</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
-        <ANIM_LENGTH>100</ANIM_LENGTH>
-      </UseTemplate>
-      <UseTemplate Name="ASOBO_GT_Anim_Code">
-        <ANIM_NAME>door_rear_lock</ANIM_NAME>
-        <ANIM_CODE>(#BD_UNLOCK_STATE#)</ANIM_CODE>
-      </UseTemplate>
-    </Component>
-  </Behaviors>
+		<Component ID="LANDING_FX">
+			<UseTemplate Name="ASOBO_LANDING_FX"/>
+		</Component>
+		<Component ID="DOORS">
+			<DefaultTemplateParameters>
+				<BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
+			</DefaultTemplateParameters>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_front_handle</ANIM_NAME>
+				<ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_front</ANIM_NAME>
+				<ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_front_cargo</ANIM_NAME>
+				<ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_rear_handle</ANIM_NAME>
+				<ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_rear</ANIM_NAME>
+				<ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+				<ANIM_LENGTH>100</ANIM_LENGTH>
+			</UseTemplate>
+			<UseTemplate Name="ASOBO_GT_Anim_Code">
+				<ANIM_NAME>door_rear_lock</ANIM_NAME>
+				<ANIM_CODE>(#BD_UNLOCK_STATE#)</ANIM_CODE>
+			</UseTemplate>
+		</Component>
+	</Behaviors>
 </ModelInfo>

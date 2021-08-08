@@ -1,0 +1,166 @@
+﻿<Macro Name="LightDimmingScale">(B:LIGHTING_Dimmer_light, Bool) if{ 0.15 } els{ 1 }</Macro>
+<Macro Name="MinEmissivePercent">0.02</Macro>
+<Macro Name="MaxEmissivePercent">1</Macro>
+<Macro Name="PanelMaxEmissivePercent">1</Macro>
+<Macro Name="ScreenEmissiveCode">
+  (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+    (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) @LightDimmingScale * @MaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+  } els{
+    (L:AS3000_Brightness, Percent over 100) @LightDimmingScale * @MaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+  }
+</Macro>
+<Macro Name="ScreenStaticEmissiveCode">
+  (L:XMLVAR_AS3000_DisplayLightingBool, bool) if{
+    (L:XMLVAR_AS3000_DisplayLighting, Percent over 100) @LightDimmingScale * @MaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+  } els{
+    (L:AS3000_Brightness, Percent over 100) @LightDimmingScale * @MaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+  }
+</Macro>
+<Macro Name="PanelEmissiveCode">
+  (A:LIGHT POTENTIOMETER:4, Percent over 100) @LightDimmingScale * @PanelMaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+</Macro>
+<Macro Name="PanelStaticEmissiveCode">
+  (A:LIGHT POTENTIOMETER:1, Percent over 100) @LightDimmingScale * @PanelMaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
+</Macro>
+
+<Template Name="ASOBO_AS3000_TSC_Screen_Template">
+  <Parameters Type="Default">
+    <STATIC_SCREEN_EMISSIVE_VALUE>0.5</STATIC_SCREEN_EMISSIVE_VALUE>
+  </Parameters>
+  <UseTemplate Name="ASOBO_AS3000_Screen_Template">
+    <DISPLAY>TSC</DISPLAY>
+    <Condition Valid="USE_STATIC_SCREEN_EMISSIVE">
+      <SCREEN_EMISSIVE_CODE>@ScreenEmissiveCode</SCREEN_EMISSIVE_CODE>
+    </Condition>
+  </UseTemplate>
+</Template>
+
+<Template Name="ASOBO_AS3000_SubTemplate">
+  <Parameters Type="Default">
+    <AS3000>AS3000</AS3000>
+    <Switch Param="DISPLAY">
+      <Case Value="PFD">
+        <Switch Param="ID">
+          <Case Value="1">
+            <DISPLAY_POS>L</DISPLAY_POS>
+          </Case>
+          <Case Value="2">
+            <DISPLAY_POS>R</DISPLAY_POS>
+          </Case>
+        </Switch>
+        <DISPLAY_ID>#DISPLAY#_#ID#</DISPLAY_ID>
+      </Case>
+      <Case Value="MFD">
+        <DISPLAY_POS>M</DISPLAY_POS>
+        <DISPLAY_ID>#DISPLAY#</DISPLAY_ID>
+      </Case>
+    </Switch>
+    <USE_STATIC_SCREEN_EMISSIVE>True</USE_STATIC_SCREEN_EMISSIVE>
+    <POTENTIOMETER>4</POTENTIOMETER>
+    <STATIC_SCREEN_EMISSIVE_VALUE>0.5</STATIC_SCREEN_EMISSIVE_VALUE>
+  </Parameters>
+  <Parameters Type="Default">
+    <SCREEN_NODE_ID>AS1000_#DISPLAY_ID#</SCREEN_NODE_ID>
+  </Parameters>
+  <Component ID="#AS3000#_Softkeys_#DISPLAY_ID#">
+    <Parameters Type="Override">
+      <EMISSIVE_CODE>@ScreenStaticEmissiveCode</EMISSIVE_CODE>
+    </Parameters>
+    <Loop>
+      <Setup>
+        <Param>KEY_ID</Param>
+        <From>1</From>
+        <Inc>1</Inc>
+        <To>12</To>
+      </Setup>
+      <Do>
+        <UseTemplate Name="ASOBO_AS3000_Softkey_Template"/>
+      </Do>
+    </Loop>
+  </Component>
+  <UseTemplate Name="ASOBO_AS3000_Screen_Template">
+    <SCREEN_EMISSIVE_CODE>@ScreenEmissiveCode</SCREEN_EMISSIVE_CODE>
+  </UseTemplate>
+</Template>
+
+<Template Name="TBM930_DragXAxis_Code">
+  <DefaultTemplateParameters>
+    <HELPID/>
+    <TOOLTIPID/>
+    <ANIM_LAG>0</ANIM_LAG>
+    <Condition Check="IS_LOOPING">
+      <ANIM_LENGTH>360</ANIM_LENGTH>
+    </Condition>
+    <ANIM_SCALE>1</ANIM_SCALE>
+    <Condition Check="SINGLE_STEP">
+      <ANIM_LAG>300</ANIM_LAG>
+      <DRAG_DELTA>0.0001</DRAG_DELTA>
+      <DRAG_SPEED>1</DRAG_SPEED>
+      <ANIM_SCALE>100</ANIM_SCALE>
+      <ANIM_LENGTH>100</ANIM_LENGTH>
+      <MIN_LIMITER> 0 max </MIN_LIMITER>
+      <MAX_LIMITER> 1 min </MAX_LIMITER>
+    </Condition>
+    <POSITION_TYPE>L</POSITION_TYPE>
+    <POSITION_VAR>XMLVAR_SunVisorX_#ID#</POSITION_VAR>
+  </DefaultTemplateParameters>
+  <UseTemplate Name = "TBM930_DraggingXAxis_Code_Base">
+  </UseTemplate>
+</Template>
+
+<Template Name="TBM930_DraggingXAxis_Code_Base">
+  <DefaultTemplateParameters>
+    <ANIM_CODE>(#POSITION_TYPE#:#POSITION_VAR#) #ANIM_SCALE# *</ANIM_CODE>
+  </DefaultTemplateParameters>
+  <UseTemplate Name = "ASOBO_GT_Anim_Code">
+  </UseTemplate>
+  <UseTemplate Name = "ASOBO_GT_AnimTriggers_2SoundEvents">
+    <NORMALIZED_TIME_1>0.1</NORMALIZED_TIME_1>
+    <DIRECTION_1>Backward</DIRECTION_1>
+    <NORMALIZED_TIME_2>0.9</NORMALIZED_TIME_2>
+    <DIRECTION_2>Forward</DIRECTION_2>
+  </UseTemplate>
+  <UseTemplate Name = "ASOBO_GT_Interaction_DraggingXAxis_Code">
+  </UseTemplate>
+</Template>
+
+<Template Name="TBM930_DragYAxis_Code">
+  <DefaultTemplateParameters>
+    <HELPID/>
+    <TOOLTIPID/>
+    <ANIM_LAG>0</ANIM_LAG>
+    <Condition Check="IS_LOOPING">
+      <ANIM_LENGTH>360</ANIM_LENGTH>
+    </Condition>
+    <ANIM_SCALE>1</ANIM_SCALE>
+    <Condition Check="SINGLE_STEP">
+      <ANIM_LAG>300</ANIM_LAG>
+      <DRAG_DELTA>0.0001</DRAG_DELTA>
+      <DRAG_SPEED>1</DRAG_SPEED>
+      <ANIM_SCALE>100</ANIM_SCALE>
+      <ANIM_LENGTH>100</ANIM_LENGTH>
+      <MIN_LIMITER> 0 max </MIN_LIMITER>
+      <MAX_LIMITER> 1 min </MAX_LIMITER>
+    </Condition>
+    <POSITION_TYPE>L</POSITION_TYPE>
+    <POSITION_VAR>XMLVAR_SunVisorY_#ID#</POSITION_VAR>
+  </DefaultTemplateParameters>
+  <UseTemplate Name = "TBM930_DraggingYAxis_Code_Base">
+  </UseTemplate>
+</Template>
+
+<Template Name="TBM930_DraggingYAxis_Code_Base">
+  <DefaultTemplateParameters>
+    <ANIM_CODE>(#POSITION_TYPE#:#POSITION_VAR#) #ANIM_SCALE# *</ANIM_CODE>
+  </DefaultTemplateParameters>
+  <UseTemplate Name = "ASOBO_GT_Anim_Code">
+  </UseTemplate>
+  <UseTemplate Name = "ASOBO_GT_AnimTriggers_2SoundEvents">
+    <NORMALIZED_TIME_1>0.1</NORMALIZED_TIME_1>
+    <DIRECTION_1>Backward</DIRECTION_1>
+    <NORMALIZED_TIME_2>0.9</NORMALIZED_TIME_2>
+    <DIRECTION_2>Forward</DIRECTION_2>
+  </UseTemplate>
+  <UseTemplate Name = "ASOBO_GT_Interaction_DraggingYAxis_Code">
+  </UseTemplate>
+</Template>

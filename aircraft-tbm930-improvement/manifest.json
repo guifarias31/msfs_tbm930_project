@@ -2,20 +2,20 @@
   "dependencies": [
     {
       "name": "asobo-aircraft-tbm930",
-      "package_version": "0.1.78"
+      "package_version": "0.1.91"
     }
   ],
   "content_type": "AIRCRAFT",
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "Mugz",
-  "package_version": "0.5.12",
-  "minimum_game_version": "1.14.5",
+  "package_version": "0.6.0beta1",
+  "minimum_game_version": "1.18.15",
   "release_notes": {
     "neutral": {
-      "LastUpdate": "VERSION 0.5.12 RELEASED MARCH 11, 2021\\n- Added Asobo Aviators livery animation\\n- Added Asobo TestPilot livery animation\\n- Added Asobo Kenmore livery animation",
-      "OlderHistory": "VERSION 0.5.11 RELEASED MARCH 9, 2021\\n- Compatibly with SimUpdate 3 (1.14.5.0)\\n- Added default state for pilots in .flt files\\n- Change G3000 lighting behaviors for Non-mod\\nVERSION 0.5.10 RELEASED MARCH 2, 2021\\n- Removed slightly open door in unlocked state\\n- Revert hotfix for landing problem in 1.13.16.0\\n- Changed showing pilot logic\\n- Added show Pilots depend of weight\\nVERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open\\nVERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
+      "LastUpdate": "VERSION 0.6.0 RELEASED AUGUST 9, 2021\\n- SU5 Compatibility Update\\n- Split G3000 PFD screen\\n- Added Asobo XBox and 01 livery animation",
+      "OlderHistory": "VERSION 0.5.12 RELEASED MARCH 11, 2021\\n- Added Asobo Aviators livery animation\\n- Added Asobo TestPilot livery animation\\n- Added Asobo Kenmore livery animation\\nVERSION 0.5.11 RELEASED MARCH 9, 2021\\n- Compatibly with SimUpdate 3 (1.14.5.0)\\n- Added default state for pilots in .flt files\\n- Change G3000 lighting behaviors for Non-mod\\nVERSION 0.5.10 RELEASED MARCH 2, 2021\\n- Removed slightly open door in unlocked state\\n- Revert hotfix for landing problem in 1.13.16.0\\n- Changed showing pilot logic\\n- Added show Pilots depend of weight\\nVERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open\\nVERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
     }
   },
-  "total_package_size": "00000000000007386276"
+  "total_package_size": "00000000000013001232"
 }

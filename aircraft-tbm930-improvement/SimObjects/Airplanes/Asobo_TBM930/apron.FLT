@@ -71,6 +71,7 @@ PropSync=False
 AutoFeatherSwitch=False
 FlightDirector=False
 PanelLights=False
+PanelLightsNight=False
 LaunchBarSwitch=False
 LaunchBarState=0
 TailhookHandle=False
