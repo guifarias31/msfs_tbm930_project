@@ -312,6 +312,10 @@
 
     <!-- PRESSURIZATION ############################# -->
     <Component ID="PRESSURIZATION">
+      <UseTemplate Name="ASOBO_GT_Update">
+        <UPDATE_ONCE>True</UPDATE_ONCE>
+        <UPDATE_CODE>(&gt;B:PRESSURIZATION_Micro_Mask_Toggle)</UPDATE_CODE>
+      </UseTemplate>
       <UseTemplate Name="ASOBO_PRESSURIZATION_Switch_Bleed_Template">
         <NODE_ID>pressurization_switch_bleed</NODE_ID>
         <THRESHOLD_MOUSE>0.01</THRESHOLD_MOUSE>
@@ -2169,8 +2173,9 @@
       <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
         <NODE_ID>FRONT_DOOR_HANDLE</NODE_ID>
         <ANIM_NAME>door_front_handle</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
+        <ANIM_CODE>(#FD_STATE#) 100 *</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
+        <ANIM_LAG>100</ANIM_LAG>
         <LEFT_SINGLE_CODE>(#FD_UNLOCK_STATE#) if{ 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#FD_STATE#) ! (&gt;#FD_STATE#) } els{ (A:EXIT OPEN:0, Bool) if{ 0 (&gt;#FD_STATE#) 1 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
@@ -2179,32 +2184,37 @@
       <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
         <NODE_ID>REAR_DOOR_HANDLE</NODE_ID>
         <ANIM_NAME>door_rear_handle</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_CODE>(#BD_STATE#) 100 *</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
+        <ANIM_LAG>100</ANIM_LAG>
         <LEFT_SINGLE_CODE>(#BD_UNLOCK_STATE#) if{ 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#BD_STATE#) ! (&gt;#BD_STATE#) } els{ (A:EXIT OPEN:1, Bool) if{ 0 (&gt;#BD_STATE#) 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
         <CURSOR>Grab</CURSOR>
       </UseTemplate>
-      <!--<UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
+      <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
         <NODE_ID>lever_light_panelBreaker_pilot</NODE_ID>
         <ANIM_NAME>lever_light_panelBreaker_pilot</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
+        <ANIM_CODE>(#CD_STATE#) 100 *</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
+        <ANIM_LAG>100</ANIM_LAG>
         <LEFT_SINGLE_CODE>#DOOR_OPENING_CONDITION# if{ 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#CD_STATE#) ! (&gt;#CD_STATE#) } els{ (A:EXIT OPEN:2, Bool) if{ 0 (&gt;#CD_STATE#) 3 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
         <CURSOR>Grab</CURSOR>
-      </UseTemplate>-->
+      </UseTemplate>
       <UseTemplate Name="ASOBO_AIRCRAFT_Lever_Exit_SubTemplate">
         <NODE_ID>lever_light_panelBreaker_copilot</NODE_ID>
         <ANIM_NAME>lever_light_panelBreaker_copilot</ANIM_NAME>
-        <ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
+        <ANIM_CODE>(#BD_STATE#) 100 *</ANIM_CODE>
         <ANIM_LENGTH>100</ANIM_LENGTH>
+        <ANIM_LAG>100</ANIM_LAG>
         <LEFT_SINGLE_CODE>(#BD_UNLOCK_STATE#) if{ 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) (#BD_STATE#) ! (&gt;#BD_STATE#) } els{ (A:EXIT OPEN:1, Bool) if{ 0 (&gt;#BD_STATE#) 2 (&gt;K:TOGGLE_AIRCRAFT_EXIT_FAST) } }</LEFT_SINGLE_CODE>
         <ANIMTIP_0>TT:COCKPIT.TOOLTIPS.DOOR_OPEN</ANIMTIP_0>
         <ANIMTIP_1>TT:COCKPIT.TOOLTIPS.DOOR_CLOSE</ANIMTIP_1>
         <CURSOR>Grab</CURSOR>
+        <WWISE_EVENT_1></WWISE_EVENT_1>
+        <WWISE_EVENT_2></WWISE_EVENT_2>
       </UseTemplate>
     </Component>
 
@@ -2264,7 +2274,6 @@
         </UseTemplate>
       </Component>
     </Component>
-
   </Behaviors>
 </ModelInfo>
 
