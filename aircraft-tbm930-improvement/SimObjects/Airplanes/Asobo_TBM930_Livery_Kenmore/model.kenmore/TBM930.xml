@@ -170,27 +170,22 @@
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_front_handle</ANIM_NAME>
 				<ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_front</ANIM_NAME>
 				<ANIM_CODE>(A:EXIT OPEN:0, Percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_front_cargo</ANIM_NAME>
-				<ANIM_CODE>(A:EXIT OPEN:2, Percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
+				<ANIM_CODE>(A:EXIT OPEN:2, Percent) 2 /</ANIM_CODE>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_rear_handle</ANIM_NAME>
 				<ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_rear</ANIM_NAME>
 				<ANIM_CODE>(A:EXIT OPEN:1, Percent)</ANIM_CODE>
-				<ANIM_LENGTH>100</ANIM_LENGTH>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GT_Anim_Code">
 				<ANIM_NAME>door_rear_lock</ANIM_NAME>
