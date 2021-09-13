@@ -30,8 +30,7 @@ ComReceiveBoth=False
 Com1Receive=True
 Com2Receive=False
 Com3Receive=False
-AudioNav1Listen=False
-AudioNav2Listen=False
+AudioNav1Listen=FalseAudioNav2Listen=False
 AudioMarkerListen=True
 AudioDmeListen=False
 AudioAdfListen=False
@@ -93,8 +92,8 @@ XMLVAR_TBM930_BackDoor_Unlock=0
 XMLVAR_TBM930_FrontDoor_Init=0
 XMLVAR_TBM930_BackDoor_Init=0
 XMLVAR_TBM930_CargoDoor_Init=0
-XMLVAR_TBM930_HidePilot=0
-XMLVAR_TBM930_HideCoPilot=0
+XMLVAR_TBM930_HidePilot=1
+XMLVAR_TBM930_HideCoPilot=1
 
 [Switches.0]
 PitotHeat=True
