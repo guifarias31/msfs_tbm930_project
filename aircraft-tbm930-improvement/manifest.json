@@ -2,20 +2,20 @@
   "dependencies": [
     {
       "name": "asobo-aircraft-tbm930",
-      "package_version": "0.1.91"
+      "package_version": "0.1.95"
     }
   ],
   "content_type": "AIRCRAFT",
   "title": "TBM 930 Improvement",
   "manufacturer": "Daher",
   "creator": "Mugz",
-  "package_version": "0.6.1",
-  "minimum_game_version": "1.19.8",
+  "package_version": "0.6.2",
+  "minimum_game_version": "1.21.13",
   "release_notes": {
     "neutral": {
-      "LastUpdate": "VERSION 0.6.1 RELEASED SEPTEMBER 13, 2021\\n- Fixed Z-Fight on rear door lock decal\\n- Fixed Master Warning/Caution button texture\\n- Changed Mic source from Mask to Mic\\n- Cargo Door animation splited animation is back (for all Asobo livery)\\n- Pilots hidden by default\\n- Fuel flow changed to default value (close to POH)\\n- Flight model tunning with POH compliance\\n- Small tune of animation for door handles\\n- Removed overlaped registration in 01 livery for LOD1-4",
-      "OlderHistory": "VERSION 0.6.0 RELEASED AUGUST 9, 2021\\n- SU5 Compatibility Update\\n- Split G3000 PFD screen\\n- Added Asobo XBox and 01 livery animation\\nVERSION 0.5.12 RELEASED MARCH 11, 2021\\n- Added Asobo Aviators livery animation\\n- Added Asobo TestPilot livery animation\\n- Added Asobo Kenmore livery animation\\nVERSION 0.5.11 RELEASED MARCH 9, 2021\\n- Compatibly with SimUpdate 3 (1.14.5.0)\\n- Added default state for pilots in .flt files\\n- Change G3000 lighting behaviors for Non-mod\\nVERSION 0.5.10 RELEASED MARCH 2, 2021\\n- Removed slightly open door in unlocked state\\n- Revert hotfix for landing problem in 1.13.16.0\\n- Changed showing pilot logic\\n- Added show Pilots depend of weight\\nVERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open\\nVERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
+      "LastUpdate": "VERSION 0.6.2 RELEASED DECEMBER 08, 2021\\n- Fixed SU7 compatibility\\n- Hardware TAXI/LANDING Lights reverted to initial release state",
+      "OlderHistory": "VERSION 0.6.1 RELEASED SEPTEMBER 13, 2021\\n- Fixed Z-Fight on rear door lock decal\\n- Fixed Master Warning/Caution button texture\\n- Changed Mic source from Mask to Mic\\n- Cargo Door animation splited animation is back (for all Asobo livery)\\n- Pilots hidden by default\\n- Fuel flow changed to default value (close to POH)\\n- Flight model tunning with POH compliance\\n- Small tune of animation for door handles\\n- Removed overlaped registration in 01 livery for LOD1-4\\nVERSION 0.6.0 RELEASED AUGUST 9, 2021\\n- SU5 Compatibility Update\\n- Split G3000 PFD screen\\n- Added Asobo XBox and 01 livery animation\\nVERSION 0.5.12 RELEASED MARCH 11, 2021\\n- Added Asobo Aviators livery animation\\n- Added Asobo TestPilot livery animation\\n- Added Asobo Kenmore livery animation\\nVERSION 0.5.11 RELEASED MARCH 9, 2021\\n- Compatibly with SimUpdate 3 (1.14.5.0)\\n- Added default state for pilots in .flt files\\n- Change G3000 lighting behaviors for Non-mod\\nVERSION 0.5.10 RELEASED MARCH 2, 2021\\n- Removed slightly open door in unlocked state\\n- Revert hotfix for landing problem in 1.13.16.0\\n- Changed showing pilot logic\\n- Added show Pilots depend of weight\\nVERSION 0.5.9 RELEASED FEBRUARY 22, 2021\\n- Added four new Instruments camera\\n- Changed hotfix for landing problem in 1.13.16.0\\n- Changed lock logic\\n- Unlocked door now slightly open\\nVERSION 0.5.8 RELEASED FEBRUARY 18, 2021\\n- Added handle in copilot side to close passenger door\\n- Added hotfix for landing problem in 1.13.16.0\\nVERSION 0.5.7 RELEASED FEBRUARY 18, 2021\\n- Added front/rear/cargo door animation\\n- Added table animation\\n- Added sun visor animation\\n- Added switchaple pilot/copilot mod\\nVERSION 0.5.6 RELEASED DECEMBER 27, 2020\\n- Fixed for SimUpdate 2\\n\\nVERSION 0.5.5 RELEASED NOVEMBER 10, 2020\\n- Fixed for Patch 7"
     }
   },
-  "total_package_size": "00000000000027641939"
+  "total_package_size": "00000000000027639432"
 }
