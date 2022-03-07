@@ -1,0 +1,5263 @@
+{
+  "LocalisationFile": {
+    "Version": 2,
+    "UUID": "9ecb939f-a2cc-4671-88b7-2d4dc4b8e6a6",
+    "Languages": [
+      "en-US",
+      "fr-FR",
+      "es-ES",
+      "de-DE",
+      "it-IT",
+      "pl-PL",
+      "pt-BR",
+      "ru-RU",
+      "ja-JP",
+      "nl-NL",
+      "nb-NO",
+      "sv-SE",
+      "fi-FI",
+      "zh-CN"
+    ],
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": {
+        "UUID": "d507df1e-d987-4a74-9d15-1da1685422d5",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Languages": {
+          "en-US": {
+            "Text": "When it first took flight from Tarbes, France in 2016, the Daher TBM 930 took a spot alongside its 2-year-old family member, the TBM 900, as the world’s fastest certified single-engine turboprop.<br><br>Mechanically identical to the 900, the 930 features the same Pratt & Whitney PT6A-66D engine, in-house-designed winglets, redesigned air intake and five-blade Hartzell-built propeller, each component geared toward improving power, speed, aerodynamics and handling.<br><br>What the 930 adds is a truly-integrated all-glass flight deck in the form of Garmin's G3000 digital avionics suite, a host of enhanced safety features, and elite interior refinements that make the TBM 930 more than an aircraft… it's a luxury flying machine.",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "fr-FR": {
+            "Text": "Suite à son premier vol depuis Tarbes en 2016, le TBM 930 de Daher a pris sa place aux côtés du modèle de 2 ans son aîné, le TBM 900, devenant le turbopropulseur à un seul moteur certifié le plus rapide au monde.<br><br>Le 930 est équipé d'une mécanique identique à celle du 900 et du même moteur Pratt & Whitney PT6A-66D, d'ailettes marginales conçues en interne, d'une admission d'air repensée et d'une hélice à cinq pales Hartzell. Chaque composant est destiné à améliorer la puissance, la vitesse, l'aérodynamisme et la manœuvrabilité.<br><br>Les véritables ajouts du 930 se situent au niveau du poste de pilotage, parfaitement intégré et tout en verre, de l'avionique numérique G3000 de Garmin, ainsi qu'un ensemble de fonctionnalités de sécurité améliorées et un intérieur raffiné d'exception. Ces équipements font du TBM 930 bien plus qu'un avion… une machine volante de luxe."
+          },
+          "es-ES": {
+            "Text": "Cuando en 2016 despegó por primera vez de Tarbes (Francia), el Daher TBM 930 pasó a formar parte de la familia del TBM 900 (que contaba con 2 años) como el turbohélice monomotor certificado más rápido del mundo.<br><br>Mecánicamente idéntico al 900, el 930 tiene el mismo motor Pratt & Whitney PT6A-66D, dispositivos de punta alar de diseño propio, toma de aire rediseñada y una hélice Hartzell de cinco aspas. Cada componente está dirigido a mejorar la potencia, la velocidad, la aerodinámica y el pilotaje.<br><br>Lo que incorpora el 930 es una cubierta de vuelo de cristal totalmente integrada en forma de aviónica digital Garmin G3000, una serie de funciones de seguridad mejoradas e interiores refinados y selectos que hacen que el TBM 930 sea más que una aeronave... es una lujosa máquina voladora."
+          },
+          "de-DE": {
+            "Text": "Als sie 2016 im französischen Tarbes zum ersten Mal in die Lüfte stieg, nahm die Daher TBM 930 als das schnellste zertifizierte, einmotorige Turboprop der Welt ihren rechtmäßigen Platz neben ihrer zwei Jahre älteren Schwester ein, der TBM 900..<br><br>Mechanisch ist die 930 mit der 900 identisch: Beide sind mit einem „PT6A-66D“-Motor von Pratt & Whitney, eigens entwickelten Winglets, einem neu entworfenen Lufteinlass und fünfblättrigem Propeller von Hartzell ausgestattet, wobei jede einzelne Komponente darauf ausgerichtet ist, die Leistung, Geschwindigkeit, Aerodynamik und das Handling zu optimieren..<br><br>Im Gegensatz zu ihrem Vorgänger verfügt die 930 jedoch zusätzlich mit dem digitalen Avionik-System G3000 von Garmin über ein vollintegriertes, verglastes Flugdeck, eine ganze Reihe von erweiterten Sicherheitsfunktionen und eine hochwertige Innenausstattung, die die TBM 930 zu einem wahren Luxusflugzeug machen."
+          },
+          "it-IT": {
+            "Text": "Quando nel 2016 ha preso il volo per la prima volta da Tarber, in Francia, il Daher TBM 930 ha preso il suo posto accanto al suo fratello maggiore di due anni, il TBM 900, come turboelica a motore singolo certificato più veloce del mondo.<br><br>Meccanicamente identico al 900, il 930 è dotato dello stesso motore Pratt & Whitney PT6A-66D. Inoltre, presenta alette di estremità progettate internamente, bocchettone dell'aria riprogettato ed elica a cinque pale Hartzell, in modo da migliorare potenza, velocità, aerodinamica e maneggevolezza.<br><br>Le novità del 930 sono una suite di avionica digitale Garmin G3000 in un vero abitacolo a visori, una serie di funzioni di sicurezza potenziate e miglioramenti di alto livello agli interni, che rendono il TBM 930 più di un semplice aeromobile, ma una vera macchina volante di lusso."
+          },
+          "pl-PL": {
+            "Text": "Gdy w 2016 roku we francuskiej miejscowości Tarbes samolot Daher TBM 930 po raz pierwszy wzbił się w powietrze, został najszybszym certyfikowanym jednosilnikowym samolotem turbośmigłowym na świecie – u boku swego dwuletniego kuzyna TBM 900.<br><br>Pod względem mechanicznym oba modele mają mnóstwo wspólnych cech: silnik Pratt & Whitney PT6A-66D, winglety zaprojektowane przez producenta, przeprojektowany wlot powietrza czy pięciołopatowe śmigło. Każdy z tych elementów wybrano z myślą o zwiększeniu mocy, prędkości, aerodynamiki i sterowności.<br><br>W modelu 930 dodano w pełni zintegrowany szklany panel załogi z cyfrowym pakietem awioniki Garmin G3000, zaawansowanymi rozwiązaniami z zakresu bezpieczeństwa i ulepszonym wnętrzem. Dzięki tym dodatkom TBM nie jest zwykłym samolotem, lecz produktem luksusowym."
+          },
+          "pt-BR": {
+            "Text": "Quando partiu de Tarbes, na França, em 2016, o Daher TBM 930 ficou ao lado de seu membro da família de dois anos, o TBM 900, como o turboélice monomotor mais rápido e certificado do mundo.<br><br>Mecanicamente idêntico ao 900, o 930 possui o mesmo motor PT6A-66D da Pratt & Whitney, winglets projetados internamente, entrada de ar reprojetada e hélice Hartzell de cinco pás, cada componente voltado para melhorar a potência, velocidade, aerodinâmica e manuseio.<br><br>O que o 930 adiciona é uma cabine de vôo totalmente em vidro verdadeiramente integrada na forma da suíte de aviônicos digitais G3000 da Garmin, uma série de recursos de segurança aprimorados e refinamentos interiores de elite que tornam o TBM 930 mais do que uma aeronave... é uma luxuosa máquina de voo."
+          },
+          "ru-RU": {
+            "Text": "Daher TBM 930 совершил свой первый полёт во французском городе Тарб в 2016 году и сразу же встал на одну ступень со своим родственником TBM 900, который был признан самым быстрым серийным однодвигательным турбовинтовым самолётом в мире.<br><br>Технически Daher TBM 930 почти во всём повторяет предшественника. Он оснащён тем же двигателем Pratt  Whitney PT6A-66D и заводскими винглетами, уникальными воздухозаборниками и пятилопастным воздушным винтом от Hartzell. Всё это позволило конструкторам добиться от него максимальной мощности, скорости, аэродинамики и управляемости.<br><br>От предшественника новый самолёт отличает современная «стеклянная кабина» на основе авионики Garmin G3000 с набором электронных средств обеспечения безопасности полётов, а также интерьер премиум-класса, благодаря которому TBM 930 превратился в настоящий воздушный лимузин."
+          },
+          "ja-JP": {
+            "Text": "2016 年にフランスのタルブから初飛行したとき、ダエア TBM 930 は 2 年前に登場していた同ファミリー機である TBM 900 と共に、世界で最も早く認定を受けた単発ターボプロップ機となった。<br><br>930 は機械構造上は 900 と変わらず、同じプラット・アンド・ホイットニー社の PT6A-66D エンジン、自社開発のウィングレット、再デザインされた吸気装置、5 枚刃のハーツェル製プロペラを搭載している。これらのコンポーネントはすべて、パワー、速度、航空力学、操縦性の改善を目的としている。<br><br>930 で新しくなった点は、ガーミン社の G3000 アビオニクス スイートの形で実現した完全ガラス製フライトデッキ、改善された安全装置、特別感のある洗練された内装である。これにより、TBM 930 は、単なる航空機の域を抜き出て、ラグジュアリーな飛行マシンとなっている。"
+          },
+          "nl-NL": {
+            "Text": "De Daher TBM 930 maakte in 2016 zijn eerste vlucht vanuit Tarbes in Frankrijk en kon direct naast zijn twee jaar oudere broer, de TBM 900, in de boeken worden bijgeschreven als 's werelds snelste gecertificeerde eenmotorige turboprop.<br><br>De 930 is mechanisch identiek aan de 900 en beschikt over dezelfde Pratt & Whitney PT6A-66D-motor, intern ontworpen winglets, herontwikkelde luchtinlaat en vijfbladige door Hartzell gemaakte propeller. Elk onderdeel is gekozen om de kracht, snelheid, aerodynamica en besturing te verbeteren.<br><br>De 930 is daarnaast voorzien van een geheel glazen geïntegreerde cockpit met digitale G3000-avionica van Garmin, een groot aantal verbeterde veiligheidsfuncties en hoogwaardige verfijningen in het interieur. Daardoor is de TBM 930 veel meer dan een vliegtuig: het is een luxe vliegmachine."
+          },
+          "nb-NO": {
+            "Text": "Da det først tok av fra Tarbes i Frankrike i 2016, sluttet Daher TBM 930 seg til sitt to år gamle familiemedlem TBM 900 som verdens raskeste sertifiserte turbopropfly med én motor.<br><br>930 er mekanisk identisk med 900, og det har samme Pratt & Whitney PT6A-66D-motor, egendesignede winglets, redesignet luftinntak og propell laget av Hartzell med fem blader – hver komponent ment å forbedre kraften, hastigheten, aerodynamikken og håndteringen.<br><br>Det som virkelig skiller 930 fra den forrige modellen, er en ordentlig integrert cockpit av glass med Garmins digitale G3000-avionikkpakke, en rekke forbedrede sikkerhetsfunksjoner, og enestående forbedringer av interiøret, noe som gjør TBM 930 til mer enn bare et fly … det er en luksusflymaskin."
+          },
+          "sv-SE": {
+            "Text": "När Daher TBM 930 lyfte för första gången från Tarbes i Frankrike år 2016 tog den plats bredvid sin 2 år gamla familjemedlem TBM 900 som världens snabbaste certifierade enmotoriga flygplan med turbopropmotor.<br><br>930 är rent mekaniskt identisk med 900, med samma Pratt & Whitney PT6A-66D-motor, egendesignade winglets, omdesignade luftintag och fembladiga Hartzell-byggda propeller, där varje komponent är inriktad på att förbättra kraft, hastighet, aerodynamik och styrning.<br><br>Det som 930 adderar är ett verkligt integrerat flygdäck helt i glas i form av Garmins G3000 digitala avionikserie, en mängd förbättrade säkerhetsfunktioner och förfinad elitinteriör som gör TBM 930 till mer än ett flygplan ... det är en lyxig flygmaskin."
+          },
+          "fi-FI": {
+            "Text": "Lähtiessään ensi kerran lentoon Ranskan Tarbesista vuonna 2016 otti Daher TBM 930 paikkansa 2-vuotiaan perheenjäsenensä TBM 900:n rinnalla maailman nopeimpana sertifioituna yksimoottorisena potkuriturbiinikoneena.<br><br>900-mallin kanssa mekaanisesti identtisessä 930:ssä on sama Pratt & Whitney PT6A-66D -moottori, omaa suunnittelua olevat wingletit, uudistettu ilmanotto ja viisiteräinen Hartzellin rakentama potkuri. Jokainen komponentti on suunniteltu tehon, nopeuden, aerodynamiikan ja käsiteltävyyden parantamiseen.<br><br>930 lisää todellisen integroidun, kokonaan lasisen ohjaamon Garminin digitaalisen G3000-avioniikkaohjelmiston muodossa sekä joukon parannettuja turvaominaisuuksia ja hienostuneita sisätilojen parannuksia, jotka tekevät TBM 930:stä enemmän kuin ilma-aluksen... Se on ylellinen lentävä kone."
+          }
+        }
+      },
+      "AIRCRAFT.UI_MANUFACTURER": {
+        "UUID": "820f4b8b-8a6e-4858-897f-94721e20ae67",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "Languages": {
+          "en-US": {
+            "Text": "Daher"
+          },
+          "fr-FR": {
+            "Text": "Daher"
+          },
+          "es-ES": {
+            "Text": "Daher"
+          },
+          "de-DE": {
+            "Text": "Daher"
+          },
+          "it-IT": {
+            "Text": "Daher"
+          },
+          "pl-PL": {
+            "Text": "Daher"
+          },
+          "pt-BR": {
+            "Text": "Daher"
+          },
+          "ru-RU": {
+            "Text": "Daher"
+          },
+          "ja-JP": {
+            "Text": "ダエア"
+          },
+          "nl-NL": {
+            "Text": "Daher"
+          },
+          "nb-NO": {
+            "Text": "Daher"
+          },
+          "sv-SE": {
+            "Text": "Daher"
+          },
+          "fi-FI": {
+            "Text": "Daher"
+          }
+        }
+      },
+      "AIRCRAFT.UI_MODEL": {
+        "UUID": "b694ea06-8d66-43af-a298-4226e71ed0a9",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "Languages": {
+          "en-US": {
+            "Text": "TBM 930"
+          },
+          "fr-FR": {
+            "Text": "TBM 930"
+          },
+          "es-ES": {
+            "Text": "TBM 930"
+          },
+          "de-DE": {
+            "Text": "TBM 930"
+          },
+          "it-IT": {
+            "Text": "TBM 930"
+          },
+          "pl-PL": {
+            "Text": "TBM 930"
+          },
+          "pt-BR": {
+            "Text": "TBM 930"
+          },
+          "ru-RU": {
+            "Text": "TBM 930"
+          },
+          "ja-JP": {
+            "Text": "TBM 930"
+          },
+          "nl-NL": {
+            "Text": "TBM 930"
+          },
+          "nb-NO": {
+            "Text": "TBM 930"
+          },
+          "sv-SE": {
+            "Text": "TBM 930"
+          },
+          "fi-FI": {
+            "Text": "TBM 930"
+          }
+        }
+      },
+      "AIRCRAFT.UI_VARIATION": {
+        "UUID": "81fe04d5-7f2a-4862-98f4-566a3e8d29a7",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "Languages": {
+          "en-US": {
+            "Text": "Asobo"
+          },
+          "fr-FR": {
+            "Text": "Asobo"
+          },
+          "es-ES": {
+            "Text": "Asobo"
+          },
+          "de-DE": {
+            "Text": "Asobo"
+          },
+          "it-IT": {
+            "Text": "Asobo"
+          },
+          "pl-PL": {
+            "Text": "Asobo"
+          },
+          "pt-BR": {
+            "Text": "Asobo"
+          },
+          "ru-RU": {
+            "Text": "Asobo"
+          },
+          "ja-JP": {
+            "Text": "アソボ"
+          },
+          "nl-NL": {
+            "Text": "Asobo"
+          },
+          "nb-NO": {
+            "Text": "Asobo"
+          },
+          "sv-SE": {
+            "Text": "Asobo"
+          },
+          "fi-FI": {
+            "Text": "Asobo"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.ACCESS_LIGHT_OFF": {
+        "UUID": "b2ec03bc-8e80-4de9-a09d-2e39f84d6e38",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF access light"
+          },
+          "fr-FR": {
+            "Text": "Désactiver les voyants d'accès",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar luz de acceso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Zugangsbeleuchtung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni la luce di accesso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz oświetlenie paneli dostępowych dla obsługi",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar luz de acesso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить индикатор доступа",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "アクセス ライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Toegangslampje uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF tilgangslys"
+          },
+          "sv-SE": {
+            "Text": "Släck åtkomstlampa"
+          },
+          "fi-FI": {
+            "Text": "Sammuta pääsyvalo"
+          },
+          "zh-CN": {
+            "Text": "关闭工作指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.ACCESS_LIGHT_ON": {
+        "UUID": "0b14a2f0-695d-47f1-93f6-7cd3dd23a8e5",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON access light"
+          },
+          "fr-FR": {
+            "Text": "Activer les voyants d'accès",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender luz de acceso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Zugangsbeleuchtung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi la luce di accesso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz oświetlenie paneli dostępowych dla obsługi",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luz de acesso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить индикатор доступа",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "アクセス ライトをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Toegangslampje inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON tilgangslys"
+          },
+          "sv-SE": {
+            "Text": "Tänd åtkomstlampa"
+          },
+          "fi-FI": {
+            "Text": "Kytke pääsyvalo päälle"
+          },
+          "zh-CN": {
+            "Text": "打开工作指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.APTRIM_TURN_OFF_ALL": {
+        "UUID": "238799fa-9662-42ae-86f8-d17ca4a0d1c1",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF AP and trims"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le pilote automatique et les compensateurs",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar PA y compensación",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "AP und Trimmung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni AP e compensazioni",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz autopilota i trymery",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar AP e compensadores",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить автопилот и триммирование",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "AP とトリムをオフにする"
+          },
+          "nl-NL": {
+            "Text": "AP en trims uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF AP og trims"
+          },
+          "sv-SE": {
+            "Text": "Stäng av AP och trimning"
+          },
+          "fi-FI": {
+            "Text": "Ota AP ja trimmit pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭自动驾驶与配平",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.APTRIM_TURN_OFF_AP": {
+        "UUID": "c16837a0-0550-4b84-a10e-48d7541487cd",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn AP OFF and trim ON "
+          },
+          "fr-FR": {
+            "Text": "Désactiver le pilote automatique et activer le compensateur ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar PA y activar compensación",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "AP ausschalten und Trimmung einschalten ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni AP e accendi compensazione ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz autopilota i włącz trymery ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar AP e ligar compensador ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить автопилот и включить триммирование ",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "AP をオフにして、トリムをオンにする"
+          },
+          "nl-NL": {
+            "Text": "AP uitschakelen en trim inschakelen "
+          },
+          "nb-NO": {
+            "Text": "Slå AP OFF og trim ON "
+          },
+          "sv-SE": {
+            "Text": "Stäng av AP och slå på trimning "
+          },
+          "fi-FI": {
+            "Text": "Ota AP pois päältä ja kytke trimmit päälle "
+          },
+          "zh-CN": {
+            "Text": "关闭自动驾驶，开启配平 ",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.APTRIM_TURN_ON": {
+        "UUID": "4fb71f81-ddc3-4626-9c25-344815750f3e",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON AP and trims"
+          },
+          "fr-FR": {
+            "Text": "Activer le pilote automatique et les compensateurs",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar PA y compensación",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "AP und Trimmung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi AP e compensazioni",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz autopilota i trymery",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar AP e compensadores",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить автопилот и триммирование",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "AP とトリムをオンにする"
+          },
+          "nl-NL": {
+            "Text": "AP en trims inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON AP og trims"
+          },
+          "sv-SE": {
+            "Text": "Slå på AP och trimning"
+          },
+          "fi-FI": {
+            "Text": "Kytke AP ja trimmit päälle"
+          },
+          "zh-CN": {
+            "Text": "开启自动驾驶与配平",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.CIRCUIT_BREAKER_LIGHT_SWITCH_OFF": {
+        "UUID": "6f63bcfa-5fd4-4d95-a5d0-aef71fb2ca06",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn circuit breaker light ON"
+          },
+          "fr-FR": {
+            "Text": "Activer le voyant des disjoncteurs",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender indicador de interruptor de circuito",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Leitungsschutzschalterbeleuchtung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi la spia dell'interruttore magnetotermico",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz bezpiecznik świateł",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luz do disjuntor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить сигнализатор АЗС",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "サーキット ブレーカーのライトをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Lampje van stroomonderbreker inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON strømbryterlampen"
+          },
+          "sv-SE": {
+            "Text": "Tänd effektbrytarlampa"
+          },
+          "fi-FI": {
+            "Text": "Kytke virrankatkaisinvalo päälle"
+          },
+          "zh-CN": {
+            "Text": "开启断路器指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.CIRCUIT_BREAKER_LIGHT_SWITCH_ON": {
+        "UUID": "efd8a17d-9943-4289-bed2-190519026fb5",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn circuit breaker light OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le voyant des disjoncteurs",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar indicador de interruptor de circuito",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Leitungsschutzschalterbeleuchtung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni la spia dell'interruttore magnetotermico",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz bezpiecznik świateł",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar luz do disjuntor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить сигнализатор АЗС",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "サーキット ブレーカーのライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Lampje van stroomonderbreker uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF strømbryterlampen"
+          },
+          "sv-SE": {
+            "Text": "Släck effektbrytarlampa"
+          },
+          "fi-FI": {
+            "Text": "Kytke virrankatkaisinvalo pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭断路器指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.CRASHBAR_MOVE_DOWN": {
+        "UUID": "797f5864-4029-43f7-93aa-6139065c16c4",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Move down crash bar"
+          },
+          "fr-FR": {
+            "Text": "Descendre la barre de protection",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Bajar barra de protección",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Absturzbügel nach unten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Abbassa la crash bar",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Przesuń dźwignię awaryjną w dół",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Mover barra de falha para baixo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Опустить защитную дугу",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "クラッシュ バーを下げる"
+          },
+          "nl-NL": {
+            "Text": "Crashbeugel omlaag"
+          },
+          "nb-NO": {
+            "Text": "Flytt ned krasjstangen"
+          },
+          "sv-SE": {
+            "Text": "Flytta ned kraschspaken"
+          },
+          "fi-FI": {
+            "Text": "Siirrä virrankatkaisupalkki alas"
+          },
+          "zh-CN": {
+            "Text": "下移防撞栏",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.CRASHBAR_MOVE_UP": {
+        "UUID": "761ff3ed-800a-4f3c-aa5b-f68f89425241",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Move up crash bar"
+          },
+          "fr-FR": {
+            "Text": "Monter la barre de protection",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Subir barra de protección",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Absturzbügel nach oben",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Alza la crash bar",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Przesuń dźwignię awaryjną w górę",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Mover barra de falha para cima",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Поднять защитную дугу",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "クラッシュ バーを上げる"
+          },
+          "nl-NL": {
+            "Text": "Crashbeugel omhoog"
+          },
+          "nb-NO": {
+            "Text": "Flytt opp krasjstangen"
+          },
+          "sv-SE": {
+            "Text": "Flytta upp kraschspaken"
+          },
+          "fi-FI": {
+            "Text": "Siirrä virrankatkaisupalkki ylös"
+          },
+          "zh-CN": {
+            "Text": "上移防撞栏",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DIMMING_TURN_OFF": {
+        "UUID": "4776bd17-2e83-4bec-840f-3a885361137d",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF dimming"
+          },
+          "fr-FR": {
+            "Text": "Désactiver la temporisation d'éclairage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar atenuación",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Dimmen deaktivieren",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Disattiva lo smorzamento luci",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz przyciemnienie",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar dimmer",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить затемнение",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "調光をオフにする"
+          },
+          "nl-NL": {
+            "Text": "Dimmen uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF dimming"
+          },
+          "sv-SE": {
+            "Text": "Stäng av dimning"
+          },
+          "fi-FI": {
+            "Text": "Poista himmennys käytöstä"
+          },
+          "zh-CN": {
+            "Text": "关闭亮度调节",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DIMMING_TURN_ON": {
+        "UUID": "05538533-a0e9-43a3-82c9-e37f6bf41cb9",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON dimming"
+          },
+          "fr-FR": {
+            "Text": "Activer la temporisation d'éclairage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar atenuación",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Dimmen aktivieren",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Attiva lo smorzamento luci",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz przyciemnienie",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar dimmer",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить затемнение",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "調光をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Dimmen inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON dimming"
+          },
+          "sv-SE": {
+            "Text": "Slå på dimning"
+          },
+          "fi-FI": {
+            "Text": "Laita himmennys päälle"
+          },
+          "zh-CN": {
+            "Text": "开启亮度调节",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_OFF": {
+        "UUID": "86960f7d-21cb-47df-b360-ee532aecf3d0",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn display backup ON"
+          },
+          "fr-FR": {
+            "Text": "Activer l'affichage de secours",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender pantalla de apoyo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Display-Backup einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi il display di backup",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz zapasowy wyświetlacz",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar backup do monitor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить дублёр дисплея",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ディスプレイ バックアップをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Displayback-up inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå reserveskjerm ON"
+          },
+          "sv-SE": {
+            "Text": "Slå på reservdisplay"
+          },
+          "fi-FI": {
+            "Text": "Kytke näytön varmuuskopiointi päälle"
+          },
+          "zh-CN": {
+            "Text": "开启备用显示",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DISPLAY_BACKUP_BUTTON_ON": {
+        "UUID": "4bc9c40b-eb2d-4a0d-8b0e-c737d1377f5f",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn display backup OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver l'affichage de secours",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar pantalla de apoyo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Display-Backup ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni il display di backup",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz zapasowy wyświetlacz",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar backup do monitor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить резерв дисплея",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ディスプレイ バックアップをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Displayback-up uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå reserveskjerm OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av reservdisplay"
+          },
+          "fi-FI": {
+            "Text": "Poista näytön varmuuskopiointi käytöstä"
+          },
+          "zh-CN": {
+            "Text": "关闭备用显示",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DOOR_CLOSE": {
+        "UUID": "3a72b9fe-5ef7-4b96-9526-7f412d75e189",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Close door"
+          },
+          "fr-FR": {
+            "Text": "Fermer la porte",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Cerrar puerta",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Tür schließen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Chiudi portellone",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zamknij drzwi",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Fechar porta",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Закрыть дверь",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ドアを閉める"
+          },
+          "nl-NL": {
+            "Text": "Deur sluiten"
+          },
+          "nb-NO": {
+            "Text": "Lukk dør"
+          },
+          "sv-SE": {
+            "Text": "Stäng dörren"
+          },
+          "fi-FI": {
+            "Text": "Sulje ovi"
+          },
+          "zh-CN": {
+            "Text": "关门",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.DOOR_OPEN": {
+        "UUID": "8ee02f2b-2a2a-45bf-bfcd-3a6cffc688fe",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Open door"
+          },
+          "fr-FR": {
+            "Text": "Ouvrir la porte",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Abrir puerta",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Tür öffnen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Apri portellone",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Otwórz drzwi",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Abrir porta",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Открыть дверь",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ドアを開ける"
+          },
+          "nl-NL": {
+            "Text": "Deur openen"
+          },
+          "nb-NO": {
+            "Text": "Åpne dør"
+          },
+          "sv-SE": {
+            "Text": "Öppna dörren"
+          },
+          "fi-FI": {
+            "Text": "Avaa ovi"
+          },
+          "zh-CN": {
+            "Text": "开门",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.EMERGENCY_RAM_AIR_CLOSE": {
+        "UUID": "33a6a0ad-70be-491d-a395-636249b5c9f9",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Close emergency ram air valve"
+          },
+          "fr-FR": {
+            "Text": "Fermer la valve de sécurité d'air dynamique",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Cerrar válvula de aire de presión dinámica de emergencia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Notfall-Ram-Air-Ventil schließen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Chiudi la valvola Ram Air di emergenza",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zamknij awaryjny zawór powietrza napływowego",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Fechar válvula de ar de impacto de emergência",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Закрыть аварийный клапан набегающего потока воздуха",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "緊急用ラム エア バルブを閉じる"
+          },
+          "nl-NL": {
+            "Text": "Stuwluchtklep voor noodgevallen sluiten"
+          },
+          "nb-NO": {
+            "Text": "Lukk nødramluftventil"
+          },
+          "sv-SE": {
+            "Text": "Stäng nödluftventilen"
+          },
+          "fi-FI": {
+            "Text": "Sulje hätäilmaventtiili"
+          },
+          "zh-CN": {
+            "Text": "关闭应急冲压空气阀",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.EMERGENCY_RAM_AIR_OPEN": {
+        "UUID": "b9abe80d-0656-4927-8106-70d112c6c681",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Open emergency ram air valve"
+          },
+          "fr-FR": {
+            "Text": "Ouvrir la valve de sécurité d'air dynamique",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Abrir válvula de aire de presión dinámica de emergencia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Notfall-Ram-Air-Ventil öffnen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Apri la valvola Ram Air di emergenza",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Otwórz awaryjny zawór powietrza napływowego",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Abrir válvula de ar de impacto de emergência",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Открыть аварийный клапан набегающего потока воздуха",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "緊急用ラム エア バルブを開く"
+          },
+          "nl-NL": {
+            "Text": "Stuwluchtklep voor noodgevallen openen"
+          },
+          "nb-NO": {
+            "Text": "Åpne nødramluftventil"
+          },
+          "sv-SE": {
+            "Text": "Öppna nödluftventilen"
+          },
+          "fi-FI": {
+            "Text": "Avaa hätäilmaventtiili"
+          },
+          "zh-CN": {
+            "Text": "开启应急冲压空气阀",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FLAPS_LEVER": {
+        "UUID": "9504b733-62e0-4a4a-8f39-4d30348df9e4",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Adjust flaps"
+          },
+          "fr-FR": {
+            "Text": "Ajuster les volets",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Ajustar flaps",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Landeklappen einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Regola gli ipersostentatori",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Dostosuj klapy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ajustar flaps",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Настроить закрылки",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "フラップを調整する"
+          },
+          "nl-NL": {
+            "Text": "Kleppen aanpassen"
+          },
+          "nb-NO": {
+            "Text": "Juster flaps"
+          },
+          "sv-SE": {
+            "Text": "Justera klaffar"
+          },
+          "fi-FI": {
+            "Text": "Säädä laskusiivekkeitä"
+          },
+          "zh-CN": {
+            "Text": "调整襟翼",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FUEL_SELECTOR_CLOSE": {
+        "UUID": "89835e4a-4237-4e2e-a592-62a528f914cf",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Close fuel valve"
+          },
+          "fr-FR": {
+            "Text": "Fermer la vanne de carburant",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Cerrar válvula de combustible",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Treibstoffventil schließen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Chiudi la valvola del carburante",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zamknij zawór paliwa",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Fechar válvula de combustível",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Закрыть топливный клапан",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "燃料バルブを閉める"
+          },
+          "nl-NL": {
+            "Text": "Brandstofklep sluiten"
+          },
+          "nb-NO": {
+            "Text": "Lukk drivstoffventilen"
+          },
+          "sv-SE": {
+            "Text": "Stäng bränsleventilen"
+          },
+          "fi-FI": {
+            "Text": "Sulje polttoaineventtiili"
+          },
+          "zh-CN": {
+            "Text": "关闭燃油阀",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FUEL_SELECTOR_L_TANK": {
+        "UUID": "bad6b7ea-374a-4cfc-ba41-ab60fd1a1cdc",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Select left tank"
+          },
+          "fr-FR": {
+            "Text": "Choisir le réservoir gauche",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar depósito izquierdo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Linken Tank auswählen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Seleziona il serbatoio di sinistra",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz lewy zbiornik",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Selecionar tanque esquerdo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выбрать левый бак",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "左タンクを選択する"
+          },
+          "nl-NL": {
+            "Text": "Linkertank selecteren"
+          },
+          "nb-NO": {
+            "Text": "Velg venstre tank"
+          },
+          "sv-SE": {
+            "Text": "Välj vänster tank"
+          },
+          "fi-FI": {
+            "Text": "Valitse vasen säiliö"
+          },
+          "zh-CN": {
+            "Text": "选择左侧油箱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FUEL_SELECTOR_R_TANK": {
+        "UUID": "0dc7b178-6186-4509-9382-e954f18ac5a5",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Select right tank"
+          },
+          "fr-FR": {
+            "Text": "Choisir le réservoir droit",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar depósito derecho",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Rechten Tank auswählen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Seleziona il serbatoio di destra",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz prawy zbiornik",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Selecionar tanque direito",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выбрать правый бак",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "右タンクを選択する"
+          },
+          "nl-NL": {
+            "Text": "Rechtertank selecteren"
+          },
+          "nb-NO": {
+            "Text": "Velg høyre tank"
+          },
+          "sv-SE": {
+            "Text": "Välj höger tank"
+          },
+          "fi-FI": {
+            "Text": "Valitse oikea säiliö"
+          },
+          "zh-CN": {
+            "Text": "选择右侧油箱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FUELSELECTOR_SET_AUTO": {
+        "UUID": "07ef16ba-cda7-456e-8758-0cd4c07345da",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set fuel tank selection to auto"
+          },
+          "fr-FR": {
+            "Text": "Configurer la sélection du réservoir de carburant sur auto"
+          },
+          "es-ES": {
+            "Text": "Poner selección de depósito de combustible en automático"
+          },
+          "de-DE": {
+            "Text": "Auswahl des Treibstofftanks auf AUTO einstellen"
+          },
+          "it-IT": {
+            "Text": "Imposta la selezione del serbatoio carburante su automatico"
+          },
+          "pl-PL": {
+            "Text": "Ustaw automatyczny wybór zbiornika paliwa"
+          },
+          "pt-BR": {
+            "Text": "Definir seleção de tanque de combustível para automática"
+          },
+          "ru-RU": {
+            "Text": "Установить выбор топливного бака в положение AUTO"
+          },
+          "ja-JP": {
+            "Text": "燃料タンクの選択を自動に設定する"
+          },
+          "nl-NL": {
+            "Text": "Selectie van brandstoftank instellen op automatisch"
+          },
+          "nb-NO": {
+            "Text": "Sett valg av drivstofftank til automatisk"
+          },
+          "sv-SE": {
+            "Text": "Ställ in val av bränsletank till auto"
+          },
+          "fi-FI": {
+            "Text": "Aseta polttoainesäiliön valinta automaattiseksi"
+          },
+          "zh-CN": {
+            "Text": "自动选择油箱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.FUELSELECTOR_SET_MANUAL": {
+        "UUID": "99a84890-a366-4809-a3b9-45b9d15a0748",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set fuel tank selection to manual"
+          },
+          "fr-FR": {
+            "Text": "Configurer la sélection du réservoir de carburant sur manuel",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Poner selección de depósito de combustible en manual",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Auswahl des Treibstofftanks auf MANUELL einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta la selezione del serbatoio carburante su manuale",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Ustaw ręczny wybór zbiornika paliwa",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir seleção de tanque de combustível para manual",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить выбор топливного бака в ручной режим",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "燃料タンクの選択を手動に設定する"
+          },
+          "nl-NL": {
+            "Text": "Selectie van brandstoftank instellen op handmatig"
+          },
+          "nb-NO": {
+            "Text": "Sett valg av drivstofftank til manuell"
+          },
+          "sv-SE": {
+            "Text": "Ställ in val av bränsletank till manuell"
+          },
+          "fi-FI": {
+            "Text": "Aseta polttoainesäiliön valinta manuaaliseksi"
+          },
+          "zh-CN": {
+            "Text": "手动选择油箱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.GEN_MAIN_SWITCH": {
+        "UUID": "f5068106-b64a-46d8-9f2f-9deae55fddb8",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Reset main generator"
+          },
+          "fr-FR": {
+            "Text": "Réinitialiser le générateur principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Restablecer generador principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Hauptgenerator zurücksetzen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Ripristina il generatore principale",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Resetuj główny generator",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Reiniciar gerador principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Перезапустить основной генератор",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "メイン発電装置をリセットする"
+          },
+          "nl-NL": {
+            "Text": "Hoofdgenerator opnieuw instellen"
+          },
+          "nb-NO": {
+            "Text": "Tilbakestill hovedgenerator"
+          },
+          "sv-SE": {
+            "Text": "Återställ huvudgeneratorn"
+          },
+          "fi-FI": {
+            "Text": "Nollaa päägeneraattori"
+          },
+          "zh-CN": {
+            "Text": "重置主发电机",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.GEN_STBY_SWITCH": {
+        "UUID": "d6ea60fc-d3f6-495e-b34c-ee615a9b4198",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Reset standby generator"
+          },
+          "fr-FR": {
+            "Text": "Réinitialiser le générateur de secours",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Restablecer generador de reserva",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Notstromaggregat zurücksetzen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Ripristina il generatore in standby",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Resetuj generator rezerwowy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Reiniciar gerador sobressalente",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Перезапустить резервный генератор",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "スタンバイ発電装置をリセットする"
+          },
+          "nl-NL": {
+            "Text": "Noodgenerator opnieuw instellen"
+          },
+          "nb-NO": {
+            "Text": "Tilbakestill reservegenerator"
+          },
+          "sv-SE": {
+            "Text": "Återställ reservgeneratorn"
+          },
+          "fi-FI": {
+            "Text": "Nollaa valmiusgeneraattori"
+          },
+          "zh-CN": {
+            "Text": "重置备用发电机",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_MAIN": {
+        "UUID": "41dfc2b1-835c-46b5-a8e7-5f562392ca6d",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set main generator"
+          },
+          "fr-FR": {
+            "Text": "Configurer le générateur principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar generador principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Hauptgenerator einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta il generatore principale",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz główny generator",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir gerador principal",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить основной генератор",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "メイン発電装置を設定する"
+          },
+          "nl-NL": {
+            "Text": "Hoofdgenerator instellen"
+          },
+          "nb-NO": {
+            "Text": "Velg hovedgenerator"
+          },
+          "sv-SE": {
+            "Text": "Ställ in huvudgeneratorn"
+          },
+          "fi-FI": {
+            "Text": "Aseta päägeneraattori"
+          },
+          "zh-CN": {
+            "Text": "设置主发电机",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_OFF": {
+        "UUID": "5de02dff-02d0-451b-af75-fd753dfa822f",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set no generator"
+          },
+          "fr-FR": {
+            "Text": "Ne pas configurer de générateur",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "No seleccionar generador",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Keinen Generator einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Non impostare alcun generatore",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Nie wybieraj żadnego generatora",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir nenhum gerador",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить отсутствие генератора",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "発電装置を設定しない"
+          },
+          "nl-NL": {
+            "Text": "Geen generator instellen"
+          },
+          "nb-NO": {
+            "Text": "Velg ingen generator"
+          },
+          "sv-SE": {
+            "Text": "Ställ in ingen generator"
+          },
+          "fi-FI": {
+            "Text": "Älä aseta mitään generaattoria"
+          },
+          "zh-CN": {
+            "Text": "清空发电机设置",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.GEN_SWITCH_TURN_STBY": {
+        "UUID": "abbb8f37-f9c9-4ab4-b65c-6dba5fa72090",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set standby generator"
+          },
+          "fr-FR": {
+            "Text": "Configurer le générateur de secours",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar generador de reserva",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Notstromaggregat einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta il generatore in standby",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz generator rezerwowy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir gerador sobressalente",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить резервный генератор",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "スタンバイ発電装置を設定する"
+          },
+          "nl-NL": {
+            "Text": "Noodgenerator instellen"
+          },
+          "nb-NO": {
+            "Text": "Velg reservegenerator"
+          },
+          "sv-SE": {
+            "Text": "Ställ in reservgenerator"
+          },
+          "fi-FI": {
+            "Text": "Aseta valmiusgeneraattori"
+          },
+          "zh-CN": {
+            "Text": "设置备用发电机",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.HOT_AIR_FLOW_CABIN": {
+        "UUID": "57651941-3e81-47e4-bf0c-d0d2c2f1ca06",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set air flow toward cabin"
+          },
+          "fr-FR": {
+            "Text": "Régler le flux d'air vers la cabine",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar flujo de aire hacia la cabina",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Luftstrom zur Kabine leiten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta il flusso d'aria verso la cabina",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Ustaw strumień powietrza na kabinę",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir fluxo de ar em direção à cabine",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить поток воздуха в салон",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "キャビンへのエア フローを設定する"
+          },
+          "nl-NL": {
+            "Text": "Luchtstroom instellen in de richting van cabine"
+          },
+          "nb-NO": {
+            "Text": "Still inn luftstrøm mot kabin"
+          },
+          "sv-SE": {
+            "Text": "Ställ in luftflöde mot kabin"
+          },
+          "fi-FI": {
+            "Text": "Aseta ilmavirta kohti matkustamoa"
+          },
+          "zh-CN": {
+            "Text": "令气流吹向座舱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.HOT_AIR_FLOW_WINDSHIELD": {
+        "UUID": "339ab41e-a6ed-4c6f-be9b-c70b205cc863",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set air flow toward windshield"
+          },
+          "fr-FR": {
+            "Text": "Régler le flux d'air vers le pare-brise",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar flujo de aire hacia el parabrisas",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Luftstrom zur Windschutzscheibe leiten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta il flusso d'aria verso il parabrezza",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Ustaw przepływ powietrza na wiatrochron",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir fluxo de ar em direção ao para-brisa",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить поток воздуха на лобовое стекло",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ウィンドシールドへのエア フローを設定する"
+          },
+          "nl-NL": {
+            "Text": "Luchtstroom instellen in de richting van voorruit"
+          },
+          "nb-NO": {
+            "Text": "Still inn luftstrøm mot frontrute"
+          },
+          "sv-SE": {
+            "Text": "Ställ in luftflöde mot vindruta"
+          },
+          "fi-FI": {
+            "Text": "Aseta ilmavirta kohti tuulilasia"
+          },
+          "zh-CN": {
+            "Text": "令气流吹向风挡",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.IGNITION_SET_AUTO": {
+        "UUID": "8d335c52-2b9d-4013-8a69-3f749093b80b",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set Ignition to AUTO"
+          },
+          "fr-FR": {
+            "Text": "Configurer le(s) moteur(s) en mode AUTO"
+          },
+          "es-ES": {
+            "Text": "Poner encendido en automático"
+          },
+          "de-DE": {
+            "Text": "Zündung auf AUTO einstellen"
+          },
+          "it-IT": {
+            "Text": "Imposta l'accensione su AUTO"
+          },
+          "pl-PL": {
+            "Text": "Ustaw zapłon automatyczny"
+          },
+          "pt-BR": {
+            "Text": "Definir ignição para AUTO"
+          },
+          "ru-RU": {
+            "Text": "Установить зажигание на AUTO"
+          },
+          "ja-JP": {
+            "Text": "イグニッションを自動に設定する"
+          },
+          "nl-NL": {
+            "Text": "Ontsteking instellen op AUTO"
+          },
+          "nb-NO": {
+            "Text": "Sett tenningen til AUTO"
+          },
+          "sv-SE": {
+            "Text": "Ställ in tändningen på AUTO"
+          },
+          "fi-FI": {
+            "Text": "Aseta sytytys AUTO-tilaan"
+          },
+          "zh-CN": {
+            "Text": "将点火器设为自动",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.IGNITION_TURN_OFF": {
+        "UUID": "cfc7ddf1-d583-440e-b488-e2721104a05e",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF ignition"
+          },
+          "fr-FR": {
+            "Text": "Éteindre le(s) moteur(s)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar encendido",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Zündung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta l'accensione su OFF",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz zapłon",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar ignição",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить зажигание",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "イグニッションをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Ontsteking uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF tenning"
+          },
+          "sv-SE": {
+            "Text": "Stäng av tändningen"
+          },
+          "fi-FI": {
+            "Text": "Sammuta sytytys"
+          },
+          "zh-CN": {
+            "Text": "关闭点火器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.IGNITION_TURN_ON": {
+        "UUID": "ace06123-181f-46a0-bd3b-6beb36155861",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON ignition"
+          },
+          "fr-FR": {
+            "Text": "Allumer le(s) moteur(s)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar encendido",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Zündung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta l'accensione su ON",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz zapłon",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar ignição",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить зажигание",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "イグニッションをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Ontsteking inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON tenning"
+          },
+          "sv-SE": {
+            "Text": "Slå på tändningen"
+          },
+          "fi-FI": {
+            "Text": "Kytke sytytys päälle"
+          },
+          "zh-CN": {
+            "Text": "开启点火器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_COPILOT_OFF": {
+        "UUID": "25d32701-bceb-4176-bde5-703da4ef067c",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn copilot light ON"
+          },
+          "fr-FR": {
+            "Text": "Activer la lumière du copilote",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender luz copiloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Co-Pilotenlicht einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi le luci del copilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz światło drugiego pilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luz do copiloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить освещение ВП",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "副操縦士のライトをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Licht van copiloot inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå andrepilotlyset ON"
+          },
+          "sv-SE": {
+            "Text": "Tänd belysningen för andrepiloten"
+          },
+          "fi-FI": {
+            "Text": "Kytke perämiehen valo päälle"
+          },
+          "zh-CN": {
+            "Text": "打开副驾驶灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_COPILOT_ON": {
+        "UUID": "ac70a6bc-489a-4646-8495-6ce170ecc479",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn copilot light OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver la lumière du copilote",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar luz copiloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Co-Pilotenlicht ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni le luci del copilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz światło drugiego pilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar luz do copiloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить освещение ВП",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "副操縦士のライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Licht van copiloot uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå andrepilotlyset OFF"
+          },
+          "sv-SE": {
+            "Text": "Släck belysningen för andrepiloten"
+          },
+          "fi-FI": {
+            "Text": "Sammuta perämiehen valo"
+          },
+          "zh-CN": {
+            "Text": "关闭副驾驶灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_PILOT_OFF": {
+        "UUID": "5d2a8885-5532-48d3-9cd3-2fad11c0e5dc",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pilot light ON"
+          },
+          "fr-FR": {
+            "Text": "Activer la lumière du pilote",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender luz piloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Pilotenlicht einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi le luci del pilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz światło pilota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luz do piloto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить освещение КВС",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "操縦士のライトをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Licht van piloot inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå pilotlyset ON"
+          },
+          "sv-SE": {
+            "Text": "Tänd belysningen för piloten"
+          },
+          "fi-FI": {
+            "Text": "Kytke kapteenin valo päälle"
+          },
+          "zh-CN": {
+            "Text": "打开驾驶员灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.LIGHTING_PUSH_LIGHT_PILOT_ON": {
+        "UUID": "2f77271d-a544-49e2-ac90-52b11223b0ea",
+        "Comment": "Ajouter toggle",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pilot light OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver la lumière du pilote"
+          },
+          "es-ES": {
+            "Text": "Apagar luz piloto"
+          },
+          "de-DE": {
+            "Text": "Pilotenlicht ausschalten"
+          },
+          "it-IT": {
+            "Text": "Spegni le luci del pilota"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz światło pilota"
+          },
+          "pt-BR": {
+            "Text": "Desligar luz do piloto"
+          },
+          "ru-RU": {
+            "Text": "Выключить освещение КВС"
+          },
+          "ja-JP": {
+            "Text": "操縦士のライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Licht van piloot uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå pilotlyset OFF"
+          },
+          "sv-SE": {
+            "Text": "Släck belysningen för piloten"
+          },
+          "fi-FI": {
+            "Text": "Sammuta kapteenin valo"
+          },
+          "zh-CN": {
+            "Text": "关闭驾驶员灯"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_GUARD_OFF": {
+        "UUID": "aaae4741-b754-48fd-8648-2ba04dc11ac3",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Close Mic/Mask guard"
+          },
+          "fr-FR": {
+            "Text": "Fermer la protection du micro/masque",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Cerrar protector de micrófono/máscara",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Mikrofon-/Maskenschutz schließen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Chiudi la protezione mic/maschera",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zamknij osłonę przełącznika mikrofonu na słuchawkach/w masce",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Fechar proteção do microfone/máscara",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Закрыть предохранительный колпачок переключателя «микрофон/маска»",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "マイク/マスク ガードを閉じる"
+          },
+          "nl-NL": {
+            "Text": "Microfoon-/beschermkap sluiten"
+          },
+          "nb-NO": {
+            "Text": "Lukk mikrofon-/maskebeskyttelse"
+          },
+          "sv-SE": {
+            "Text": "Stäng Mic/Maskskydd"
+          },
+          "fi-FI": {
+            "Text": "Sulje mikrofonin/maskin suojus"
+          },
+          "zh-CN": {
+            "Text": "关闭麦克风/面罩保护",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_GUARD_ON": {
+        "UUID": "857e8cec-355c-42ae-9630-cfe4ab82b376",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Open Mic/Mask guard"
+          },
+          "fr-FR": {
+            "Text": "Ouvrir la protection du micro/masque",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Abrir protector de micrófono/máscara",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Mikrofon-/Maskenschutz öffnen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Apri la protezione mic/maschera",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Otwórz osłonę przełącznika mikrofonu na słuchawkach/w masce",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Abrir proteção do microfone/máscara",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Открыть предохранительный колпачок переключателя «микрофон/маска»",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "マイク/マスク ガードを開く"
+          },
+          "nl-NL": {
+            "Text": "Microfoon-/beschermkap openen"
+          },
+          "nb-NO": {
+            "Text": "Åpne mikrofon-/maskebeskyttelse"
+          },
+          "sv-SE": {
+            "Text": "Öppna Mic/Maskskydd"
+          },
+          "fi-FI": {
+            "Text": "Avaa mikrofonin/maskin suojus"
+          },
+          "zh-CN": {
+            "Text": "开启麦克风/面罩保护",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_MASK": {
+        "UUID": "a3749023-db35-4300-93a8-c3d12a0487bf",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set micro source to Micro"
+          },
+          "fr-FR": {
+            "Text": "Régler la source du micro sur microphone",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar fuente de micrófono en micrófono",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Mikrofonquelle auf Mikrofon einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta la sorgente micro su Micro",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Ustaw źródło sygnału na mikrofon",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir fonte de microfone para Micro",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить источник сигнала микрофона на «микрофон»",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "マイク音源をマイクに設定する"
+          },
+          "nl-NL": {
+            "Text": "Microbron instellen op micro"
+          },
+          "nb-NO": {
+            "Text": "Sett mikrokilde til Mikro"
+          },
+          "sv-SE": {
+            "Text": "Ställ in mikrokälla på mikro"
+          },
+          "fi-FI": {
+            "Text": "Aseta mikrofonilähteen arvoksi Micro (mikrofoni)"
+          },
+          "zh-CN": {
+            "Text": "将麦克风音源设为麦克风",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.MIC_MASK_BUTTON_MIC": {
+        "UUID": "8a3e1842-813c-419d-9964-df6731ff0c43",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set micro source to Oxygen Mask"
+          },
+          "fr-FR": {
+            "Text": "Régler la source du micro sur masque à oxygène",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar fuente de micrófono en máscara de oxígeno",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Mikrofonquelle auf Sauerstoffmaske einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta la sorgente micro su Maschera ossigeno",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Ustaw źródło sygnału na maskę tlenową",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir fonte de microfone para máscara de oxigênio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить источник сигнала микрофона на «кислородную маску»",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "マイク音源を酸素マスクに設定する"
+          },
+          "nl-NL": {
+            "Text": "Microbron instellen op zuurstofmasker"
+          },
+          "nb-NO": {
+            "Text": "Sett mikrokilde til Oksygenmaske"
+          },
+          "sv-SE": {
+            "Text": "Ställ in mikrokälla på syremask"
+          },
+          "fi-FI": {
+            "Text": "Aseta mikrofonilähteen arvoksi Oxygen Mask (happinaamari)"
+          },
+          "zh-CN": {
+            "Text": "将麦克风音源设为氧气面罩",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.OXYGEN_TURN_OFF": {
+        "UUID": "17815c3a-a024-4bb6-82c2-443c06b505cb",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF oxygens"
+          },
+          "fr-FR": {
+            "Text": "Désactiver l'oxygène",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar oxígeno",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Sauerstoff ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni gli ossigeni",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz dopływ tlenu",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar oxigênio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить кислородные маски",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "酸素をオフにする"
+          },
+          "nl-NL": {
+            "Text": "Zuurstof uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF oksygen"
+          },
+          "sv-SE": {
+            "Text": "Stäng av syre"
+          },
+          "fi-FI": {
+            "Text": "Kytke happi pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭氧气供给",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.OXYGEN_TURN_ON": {
+        "UUID": "f710df82-af09-4d82-bc73-b53ecc1db4b6",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON oxygens"
+          },
+          "fr-FR": {
+            "Text": "Activer l'oxygène",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar oxígeno",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Sauerstoff einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi gli ossigeni",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz dopływ tlenu",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar oxigênio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить кислородные маски",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "酸素をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Zuurstof inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON oksygen"
+          },
+          "sv-SE": {
+            "Text": "Slå på syre"
+          },
+          "fi-FI": {
+            "Text": "Kytke happi päälle"
+          },
+          "zh-CN": {
+            "Text": "开启氧气供给",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_FAN_DECREASE": {
+        "UUID": "7d301056-1462-4f77-bc3f-98c6a0050b49",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Decrease fan speed"
+          },
+          "fr-FR": {
+            "Text": "Diminuer la vitesse du ventilateur"
+          },
+          "es-ES": {
+            "Text": "Reducir velocidad del ventilador"
+          },
+          "de-DE": {
+            "Text": "Lüfterdrehzahl verringern"
+          },
+          "it-IT": {
+            "Text": "Riduci la velocità della ventola"
+          },
+          "pl-PL": {
+            "Text": "Zmniejsz prędkość śmigła"
+          },
+          "pt-BR": {
+            "Text": "Reduzir velocidade do ventilador"
+          },
+          "ru-RU": {
+            "Text": "Уменьшить скорость вентилятора"
+          },
+          "ja-JP": {
+            "Text": "ファンの速度を下げる"
+          },
+          "nl-NL": {
+            "Text": "Ventilatorsnelheid verlagen"
+          },
+          "nb-NO": {
+            "Text": "Reduser viftehastighet"
+          },
+          "sv-SE": {
+            "Text": "Minska fläkthastigheten"
+          },
+          "fi-FI": {
+            "Text": "Pienennä tuulettimen nopeutta"
+          },
+          "zh-CN": {
+            "Text": "降低螺旋桨转速",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_FAN_INCREASE": {
+        "UUID": "eb34a8a1-c653-4fac-84f3-72fca5ece9c4",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Increase fan speed"
+          },
+          "fr-FR": {
+            "Text": "Augmenter la vitesse du ventilateur",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Aumentar velocidad del ventilador",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Lüfterdrehzahl erhöhen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Aumenta la velocità della ventola",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zwiększ prędkość śmigła",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Aumentar velocidade do ventilador",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Увеличить скорость вентилятора",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ファンの速度を上げる"
+          },
+          "nl-NL": {
+            "Text": "Ventilatorsnelheid verhogen"
+          },
+          "nb-NO": {
+            "Text": "Øk viftehastighet"
+          },
+          "sv-SE": {
+            "Text": "Öka fläkthastigheten"
+          },
+          "fi-FI": {
+            "Text": "Lisää tuulettimen nopeutta"
+          },
+          "zh-CN": {
+            "Text": "提高螺旋桨转速",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_OFF": {
+        "UUID": "dad42a8f-7878-4892-95f0-d673fccb7815",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn A/C OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver la climatisation",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar A/A",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Klimaanlage ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni l'A/C",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz klimatyzację",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar A/C",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить систему кондиционирования",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "A/C をオフにする"
+          },
+          "nl-NL": {
+            "Text": "Airco uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF klimaanlegg"
+          },
+          "sv-SE": {
+            "Text": "Stäng av A/C"
+          },
+          "fi-FI": {
+            "Text": "Poista A/C käytöstä"
+          },
+          "zh-CN": {
+            "Text": "关闭空调",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_PILOT": {
+        "UUID": "70c7e21a-3971-44f8-9f45-5105c5ce1372",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn A/C  ON (controls for pilots)"
+          },
+          "fr-FR": {
+            "Text": "Activer la climatisation (commande pour les pilotes)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender A/A (control para pilotos)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Klimaanlage einschalten (Steuerung für Piloten)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi l'A/C (comandi per piloti)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz klimatyzację (możliwość regulacji dla pilotów)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar A/C (controles para pilotos)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить систему кондиционирования (управление для пилотов)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "A/C をオンにする (操縦士用の操作)"
+          },
+          "nl-NL": {
+            "Text": "Airco inschakelen (instellingen voor piloten)"
+          },
+          "nb-NO": {
+            "Text": "Slå ON klimaanlegg (kontroller for piloter)"
+          },
+          "sv-SE": {
+            "Text": "Slå på A/C (kontroller för piloter)"
+          },
+          "fi-FI": {
+            "Text": "Ota A/C käyttöön (ohjaus lentäjille)"
+          },
+          "zh-CN": {
+            "Text": "开启空调（乘客）",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_SWITCH_PLTPAX": {
+        "UUID": "d2068099-138a-45ae-a72a-d26fe546d76b",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn A/C ON (control for pilots and passengers)"
+          },
+          "fr-FR": {
+            "Text": "Activer la climatisation (commande pour les pilotes et les passagers)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender A/A (control para pilotos y pasajeros)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Klimaanlage einschalten (Steuerung für Piloten und Passagiere)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi l'A/C (comando per piloti e passeggeri)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz klimatyzację (możliwość regulacji dla pilotów i pasażerów)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar A/C (controle para pilotos e passageiros)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить систему кондиционирования (управление для пилотов и пассажиров)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "A/C をオンにする (操縦士および乗客用の操作)"
+          },
+          "nl-NL": {
+            "Text": "Airco inschakelen (instellingen voor piloten en passagiers)"
+          },
+          "nb-NO": {
+            "Text": "Slå ON klimaanlegg (kontroll for piloter og passasjerer)"
+          },
+          "sv-SE": {
+            "Text": "Slå på A/C (kontroll för piloter och passagerare)"
+          },
+          "fi-FI": {
+            "Text": "Ota A/C käyttöön (ohjaus lentäjille ja matkustajille)"
+          },
+          "zh-CN": {
+            "Text": "开启空调（驾驶员及乘客）",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_TEMP_KNOB_DECREASE": {
+        "UUID": "139ee989-929a-4f3c-95ae-c26364e16960",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Decrease selected temperature"
+          },
+          "fr-FR": {
+            "Text": "Diminuer la température sélectionnée"
+          },
+          "es-ES": {
+            "Text": "Reducir temperatura seleccionada"
+          },
+          "de-DE": {
+            "Text": "Ausgewählte Temperatur verringern"
+          },
+          "it-IT": {
+            "Text": "Riduci la temperatura selezionata"
+          },
+          "pl-PL": {
+            "Text": "Zmniejsz wybraną temperaturę"
+          },
+          "pt-BR": {
+            "Text": "Reduzir temperatura selecionada"
+          },
+          "ru-RU": {
+            "Text": "Уменьшить заданную температуру"
+          },
+          "ja-JP": {
+            "Text": "選択した温度を下げる"
+          },
+          "nl-NL": {
+            "Text": "Geselecteerde temperatuur verlagen"
+          },
+          "nb-NO": {
+            "Text": "Reduser valgt temperatur"
+          },
+          "sv-SE": {
+            "Text": "Minska vald temperatur"
+          },
+          "fi-FI": {
+            "Text": "Pienennä valittua lämpötilaa"
+          },
+          "zh-CN": {
+            "Text": "降低选定温度",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_AC_TEMP_KNOB_INCREASE": {
+        "UUID": "5c504ed9-2221-444b-b184-bb0bce799e3f",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Increase selected temperature"
+          },
+          "fr-FR": {
+            "Text": "Augmenter la température sélectionnée",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Aumentar temperatura seleccionada",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Ausgewählte Temperatur erhöhen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Aumenta la temperatura selezionata",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zwiększ wybraną temperaturę",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Aumentar temperatura selecionada",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Увеличить заданную температуру",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "選択した温度を上げる"
+          },
+          "nl-NL": {
+            "Text": "Geselecteerde temperatuur verhogen"
+          },
+          "nb-NO": {
+            "Text": "Øk valgt temperatur"
+          },
+          "sv-SE": {
+            "Text": "Öka vald temperatur"
+          },
+          "fi-FI": {
+            "Text": "Nosta valittua lämpötilaa"
+          },
+          "zh-CN": {
+            "Text": "提高选定温度",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_ICE_LIGHT_OFF": {
+        "UUID": "561249b6-b231-4f51-9b03-305b1e70a038",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ice light ON"
+          },
+          "fr-FR": {
+            "Text": "Activer le voyant de givre",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender indicador de engelamiento",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Eislicht einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi le luci ghiaccio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz światło oblodzenia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luz indicadora de gelo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить сигнализатор обледенения",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "アイス ライトをオンにする"
+          },
+          "nl-NL": {
+            "Text": "IJslicht inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå islys ON"
+          },
+          "sv-SE": {
+            "Text": "Tänd isbildningsbelysningen"
+          },
+          "fi-FI": {
+            "Text": "Kytke jäävalo päälle"
+          },
+          "zh-CN": {
+            "Text": "开启防冰指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_ICE_LIGHT_ON": {
+        "UUID": "62840e9b-4d03-4f1a-980d-fa78c642734b",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ice light OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le voyant de givre",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar indicador de engelamiento",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Eislicht ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni le luci ghiaccio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz światło oblodzenia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar luz indicadora de gelo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить сигнализатор обледенения",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "アイス ライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "IJslicht uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå islys OFF"
+          },
+          "sv-SE": {
+            "Text": "Släck isbildningsbelysningen"
+          },
+          "fi-FI": {
+            "Text": "Sammuta jäävalo"
+          },
+          "zh-CN": {
+            "Text": "关闭防冰指示灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_INERT_SEP_OFF": {
+        "UUID": "55c88eed-2b3b-40dc-88e6-f3d7c2fb6006",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn inertial separator ON"
+          },
+          "fr-FR": {
+            "Text": "Activer le séparateur inertiel",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar separador inercial",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Trägheitsabscheider einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi il separatore inerziale",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz separator bezwładnościowy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar separador inercial",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить инерционный туманоуловитель",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "慣性セパレーターをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Traagheidsscheider inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå treghetsseparator ON"
+          },
+          "sv-SE": {
+            "Text": "Slå på dynamisk avskiljare"
+          },
+          "fi-FI": {
+            "Text": "Kytke inertiaerotin päälle"
+          },
+          "zh-CN": {
+            "Text": "开启惯性分离器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_INERT_SEP_ON": {
+        "UUID": "72b6b55f-bb91-4b22-9768-5c76d9336c53",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn inertial separator OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le séparateur inertiel",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar separador inercial",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Trägheitsabscheider ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni il separatore inerziale",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz separator bezwładnościowy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar separador inercial",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить инерционный туманоуловитель",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "慣性セパレーターをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Traagheidsscheider uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå treghetsseparator OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av dynamisk avskiljare"
+          },
+          "fi-FI": {
+            "Text": "Kytke inertiaerotin pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭惯性分离器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_LTS_TEST": {
+        "UUID": "e2588868-b74a-47af-a96b-5b814645ab9e",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Test interior lights"
+          },
+          "fr-FR": {
+            "Text": "Tester les lumières intérieures",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Probar luces interiores",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Innenbeleuchtung testen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Prova le luci interne",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sprawdź światła wewnętrzne",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Testar luzes internas",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Проверить внутреннее освещение",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "室内灯をテストする"
+          },
+          "nl-NL": {
+            "Text": "Interieurverlichting testen"
+          },
+          "nb-NO": {
+            "Text": "Test interiørlys"
+          },
+          "sv-SE": {
+            "Text": "Testa innerbelysningen"
+          },
+          "fi-FI": {
+            "Text": "Testaa sisävalot"
+          },
+          "zh-CN": {
+            "Text": "测试舱内灯光",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_PITOT_L_HTR_DEICE_OFF": {
+        "UUID": "5626f2ac-6c52-434b-9725-c96f273ff985",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pitot left heater ON"
+          },
+          "fr-FR": {
+            "Text": "Activer le chauffage gauche de la sonde Pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender calentador de tubo de Pitot izquierdo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Linke Pitot-Heizung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi il dispositivo di riscaldamento sinistro del tubo di Pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz ogrzewanie lewej rurki Pitota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar aquecedor esquerdo do pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить нагреватель левого ППД",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ピトー管左ヒーターをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Pitotverwarming links inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå venstre pitotvarmeelement ON"
+          },
+          "sv-SE": {
+            "Text": "Slå på vänster pitotvärmare"
+          },
+          "fi-FI": {
+            "Text": "Kytke vasen pitot-lämmitin päälle"
+          },
+          "zh-CN": {
+            "Text": "开启空速管左侧加温器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_PITOT_L_HTR_DEICE_ON": {
+        "UUID": "97ddd2fc-9937-4211-b844-07586e8f973b",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pitot left heater OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le chauffage gauche de la sonde Pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar calentador de tubo de Pitot izquierdo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Linke Pitot-Heizung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni il dispositivo di riscaldamento sinistro del tubo di Pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz ogrzewanie lewej rurki Pitota",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar aquecedor esquerdo do pitot",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить нагреватель левого ППД",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ピトー管左ヒーターをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Pitotverwarming links inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå venstre pitotvarmeelement OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av vänster pitotvärmare"
+          },
+          "fi-FI": {
+            "Text": "Kytke vasen pitot-lämmitin pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭空速管左侧加温器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_PITOT_R_STALL_HTR_DEICE_OFF": {
+        "UUID": "b98a4597-f9b5-4c30-ba2f-10baad1966c7",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pitot right & stall heaters ON"
+          },
+          "fr-FR": {
+            "Text": "Activer les chauffages de la sonde Pitot droite & de l'avertisseur de décrochage"
+          },
+          "es-ES": {
+            "Text": "Encender calentadores de tubo de Pitot derecho y de pérdida de sustentación"
+          },
+          "de-DE": {
+            "Text": "Rechte Pitot- und Standheizung einschalten"
+          },
+          "it-IT": {
+            "Text": "Accendi il tubo di Pitot destro e i dispositivi di riscaldamento di stallo"
+          },
+          "pl-PL": {
+            "Text": "Włącz ogrzewanie prawej rurki Pitota i czujnika przeciągnięcia"
+          },
+          "pt-BR": {
+            "Text": "Virar pitot para a direita e ligar aquecedores de estol"
+          },
+          "ru-RU": {
+            "Text": "Включить нагреватели правого ППД и сигнализатора сваливания"
+          },
+          "ja-JP": {
+            "Text": "ピトー管右とストールのヒーターをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Stall- en pitotverwarming rechts inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå pitotrør-varmer for høyre og stall ON"
+          },
+          "sv-SE": {
+            "Text": "Slå på höger pilotvärmare och stallvärmare"
+          },
+          "fi-FI": {
+            "Text": "Kytke oikeapuoleiset pitot- & sakkausvaroituksen lämmittimet päälle"
+          },
+          "zh-CN": {
+            "Text": "开启空速管右侧&失速加温器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_PITOT_R_STALL_HTR_DEICE_ON": {
+        "UUID": "296d3d68-f12a-4af7-ae3b-c8fd118be2b3",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn pitot right & stall heaters OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver les chauffages de la sonde Pitot droite & de l'avertisseur de décrochage"
+          },
+          "es-ES": {
+            "Text": "Apagar calentadores de tubo de Pitot derecho y de pérdida de sustentación"
+          },
+          "de-DE": {
+            "Text": "Rechte Pitot- und Standheizung ausschalten"
+          },
+          "it-IT": {
+            "Text": "Spegni il tubo di Pitot destro e i dispositivi di riscaldamento di stallo"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz ogrzewanie prawej rurki Pitota i czujnika przeciągnięcia"
+          },
+          "pt-BR": {
+            "Text": "Virar pitot para a direita e desligar aquecedores de estol"
+          },
+          "ru-RU": {
+            "Text": "Выключить нагреватели правого ППД и сигнализатора сваливания"
+          },
+          "ja-JP": {
+            "Text": "ピトー管右とストールのヒーターをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Stall- en pitotverwarming rechts uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå pitotrør-varmer for høyre og stall OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av höger pilotvärmare och stallvärmare"
+          },
+          "fi-FI": {
+            "Text": "Kytke oikeapuoleiset pitot- & sakkausvaroituksen lämmittimet pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭空速管右侧&失速加温器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_SWITCH_OFF": {
+        "UUID": "d683c87d-c41a-4714-918f-3111e4fc2e9a",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn airframe de-ice ON"
+          },
+          "fr-FR": {
+            "Text": "Activer le dégivrage de la cellule",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar deshielo del fuselaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Flugzeugzellenenteisung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi il deghiacciamento cellula",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz odladzanie płatowca",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar degelo dos componentes estruturais",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить ПОЗ планера",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "機体の除氷をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Ontdooiing airframe inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå avising av flyskrog ON"
+          },
+          "sv-SE": {
+            "Text": "Slå på avisning av flygplansskrovet"
+          },
+          "fi-FI": {
+            "Text": "Kytke rungon jäänpoisto päälle"
+          },
+          "zh-CN": {
+            "Text": "开启机体除冰",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_DEICE_SWITCH_ON": {
+        "UUID": "090cf192-4685-4a42-8366-fb2340c21945",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn airframe de-ice OFF"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le dégivrage de la cellule",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar deshielo del fuselaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Flugzeugzellenenteisung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni il deghiacciamento cellula",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz odladzanie płatowca",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar degelo dos componentes estruturais",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить ПОЗ планера",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "機体の除氷をオフにする"
+          },
+          "nl-NL": {
+            "Text": "Ontdooiing airframe uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå avising av flyskrog OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av avisning av flygplansskrovet"
+          },
+          "fi-FI": {
+            "Text": "Kytke rungon jäänpoisto pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭机体除冰",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_LANDING_GEAR_CHECK_DOWN_SWITCH": {
+        "UUID": "d2bbb4ae-4b0a-4964-9801-8a7fa0db9ef9",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Check landing gear position"
+          },
+          "fr-FR": {
+            "Text": "Vérifier la position du train d'atterrissage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Comprobar la posición del tren de aterrizaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Überprüfen Sie die Position des Fahrwerks",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Verifica la posizione del carrello di atterraggio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sprawdź pozycję podwozia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Verificar posição do trem de pouso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Проверить положение шасси",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "着陸装置の位置を確認する"
+          },
+          "nl-NL": {
+            "Text": "Positie van landingsgestel controleren"
+          },
+          "nb-NO": {
+            "Text": "Kontroller posisjonen til landingsstell"
+          },
+          "sv-SE": {
+            "Text": "Kontrollera landningsställets position"
+          },
+          "fi-FI": {
+            "Text": "Tarkista laskutelineen asento"
+          },
+          "zh-CN": {
+            "Text": "检查起落架位置",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_LANDING_GEAR_LIGHT_TEST_SWITCH": {
+        "UUID": "f695d2f2-c301-41e2-beaf-bd5d5682b967",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Test landing gear lights"
+          },
+          "fr-FR": {
+            "Text": "Tester les voyants du train d'atterrissage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Probar luces de tren de aterrizaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Fahrwerksbeleuchtung testen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Prova le luci del carrello di atterraggio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sprawdź światła podwozia",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Testar luzes do trem de pouso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Проверить сигнализаторы шасси",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "着陸装置のライトをテストする"
+          },
+          "nl-NL": {
+            "Text": "Lampen van landingsgestel testen"
+          },
+          "nb-NO": {
+            "Text": "Test landingsstellets lys"
+          },
+          "sv-SE": {
+            "Text": "Testa landningsställsljus"
+          },
+          "fi-FI": {
+            "Text": "Testaa laskutelineen valot"
+          },
+          "zh-CN": {
+            "Text": "测试起落架灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_LIGHT_DECREASE": {
+        "UUID": "24e85bb9-36a8-464c-b631-07331c5cf0c6",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Decrease panel lighting"
+          },
+          "fr-FR": {
+            "Text": "Diminuer l'éclairage du tableau de bord"
+          },
+          "es-ES": {
+            "Text": "Reducir iluminación del panel"
+          },
+          "de-DE": {
+            "Text": "Beleuchtung des Instrumentenbretts verringern"
+          },
+          "it-IT": {
+            "Text": "Riduci l'illuminazione del pannello"
+          },
+          "pl-PL": {
+            "Text": "Zmniejsz podświetlenie tablicy"
+          },
+          "pt-BR": {
+            "Text": "Reduzir iluminação do painel"
+          },
+          "ru-RU": {
+            "Text": "Уменьшить освещение панелей"
+          },
+          "ja-JP": {
+            "Text": "パネル照明を暗くする"
+          },
+          "nl-NL": {
+            "Text": "Paneelverlichting verminderen"
+          },
+          "nb-NO": {
+            "Text": "Reduser panelbelysning"
+          },
+          "sv-SE": {
+            "Text": "Minska panelbelysningen"
+          },
+          "fi-FI": {
+            "Text": "Pienennä paneelin valaistusta"
+          },
+          "zh-CN": {
+            "Text": "调暗仪表盘",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PANEL_LIGHT_INCREASE": {
+        "UUID": "07cabc9f-3333-44e9-8ce5-9cb520acf3c6",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Increase panel lighting"
+          },
+          "fr-FR": {
+            "Text": "Augmenter l'éclairage du tableau de bord",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Aumentar iluminación del panel",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Beleuchtung des Instrumentenbretts erhöhen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Aumenta l'illuminazione del pannello",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zwiększ podświetlenie tablicy",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Aumentar iluminação do painel",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Увеличить освещение панелей",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "パネル照明を明るくする"
+          },
+          "nl-NL": {
+            "Text": "Paneelverlichting verhogen"
+          },
+          "nb-NO": {
+            "Text": "Øk panelbelysning"
+          },
+          "sv-SE": {
+            "Text": "Öka panelbelysningen"
+          },
+          "fi-FI": {
+            "Text": "Lisää paneelin valaistusta"
+          },
+          "zh-CN": {
+            "Text": "调亮仪表盘",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PASSENGER_OXYGEN_TURN_OFF": {
+        "UUID": "109d6761-8885-4349-a8ad-c1b5590a21a3",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF passenger oxygen"
+          },
+          "fr-FR": {
+            "Text": "Désactiver l'oxygène des passagers",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar oxígeno de pasajeros",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Passagiersauerstoff ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni l'ossigeno passeggeri",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz dopływ tlenu dla pasażerów",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar oxigênio dos passageiros",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить подачу кислорода в салоне",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "乗客の酸素をオフにする"
+          },
+          "nl-NL": {
+            "Text": "Zuurstof voor passagiers uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF oksygen for passasjerer"
+          },
+          "sv-SE": {
+            "Text": "Stäng av passagerares syre"
+          },
+          "fi-FI": {
+            "Text": "Sammuta matkustajien happi"
+          },
+          "zh-CN": {
+            "Text": "关闭客舱氧气供给",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PASSENGER_OXYGEN_TURN_ON": {
+        "UUID": "08a051ec-b6fc-42dd-a9e3-c444944f9708",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON passenger oxygen"
+          },
+          "fr-FR": {
+            "Text": "Activer l'oxygène des passagers",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Activar oxígeno de pasajeros",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Passagiersauerstoff einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi l'ossigeno passeggeri",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz dopływ tlenu dla pasażerów",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar oxigênio dos passageiros",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить подачу кислорода в салоне",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "乗客の酸素をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Zuurstof voor passagiers inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON oksygen for passasjerer"
+          },
+          "sv-SE": {
+            "Text": "Slå på passagerares syre"
+          },
+          "fi-FI": {
+            "Text": "Ota matkustajien happi käyttöön"
+          },
+          "zh-CN": {
+            "Text": "开启客舱氧气供给",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_AUTO": {
+        "UUID": "8e7611f2-8634-4f20-97ed-0719a5930ca7",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set bleed to auto mode"
+          },
+          "fr-FR": {
+            "Text": "Configurer la purge sur le mode « Auto »",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Poner purgado en automático",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Entlüftung auf Automatikbetrieb einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta l'aria di prelievo in modalità auto",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz tryb automatyczny w systemie hermetyzacji",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir sangria para modo automático",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить отбор воздуха в автоматический режим",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ブリードを自動モードに設定する"
+          },
+          "nl-NL": {
+            "Text": "Aftap instellen op automatische modus"
+          },
+          "nb-NO": {
+            "Text": "Sett lufting til automatisk modus"
+          },
+          "sv-SE": {
+            "Text": "Ställ in avluftning på autoläge"
+          },
+          "fi-FI": {
+            "Text": "Aseta ilmaus automaattiseen tilaan"
+          },
+          "zh-CN": {
+            "Text": "自动引气",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_MAXDIFF": {
+        "UUID": "cc37e2be-0045-4bb4-9a25-7c21f6c63558",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set bleed to max diff mode"
+          },
+          "fr-FR": {
+            "Text": "Configurer la purge sur le mode « Max Diff »",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar purgado al máximo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Entlüftung auf Max-Diff-Modus einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta l'aria di prelievo in modalità max diff",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz tryb maksymalnej różnicy ciśnień w systemie hermetyzacji",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir sangria para modo diferencial máximo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить отбор воздуха в режим максимального дифференциала",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ブリードを最大差圧モードに設定する"
+          },
+          "nl-NL": {
+            "Text": "Aftap instellen op maximale diff-modus"
+          },
+          "nb-NO": {
+            "Text": "Sett lufting til maksimal differanse-modus"
+          },
+          "sv-SE": {
+            "Text": "Ställ in avluftning på max skillnad-läge"
+          },
+          "fi-FI": {
+            "Text": "Aseta ilmaus max diff -tilaan"
+          },
+          "zh-CN": {
+            "Text": "最大差值引气",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.PRESSURIZATION_PANEL_BLEED_MODE_OFF": {
+        "UUID": "d0352c8f-0a0b-458d-8ce5-9cdd1fcb947a",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn bleed system off"
+          },
+          "fr-FR": {
+            "Text": "Éteindre le système de purge",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Desactivar sistema de purgado",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Entlüftungssystem ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni il sistema di aria di prelievo",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz system hermetyzacji",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar sistema de sangria",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить систему отбора воздуха",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ブリードシステムをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Aftapsysteem uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå luftesystem OFF"
+          },
+          "sv-SE": {
+            "Text": "Stäng av avluftningssystemet"
+          },
+          "fi-FI": {
+            "Text": "Kytke ilmausjärjestelmä pois päältä"
+          },
+          "zh-CN": {
+            "Text": "关闭引气系统",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.SHIFTFUELTANK_SELECTED": {
+        "UUID": "40d31f83-4e23-4fbb-9060-a48c1f99b9ab",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Shift fuel tank selected"
+          },
+          "fr-FR": {
+            "Text": "Modifier le réservoir de carburant sélectionné",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Cambiar depósito de combustible seleccionado",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Ausgewählten Treibstofftank wechseln",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Cambia il serbatoio di carburante selezionato",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Zmień wybrany zbiornik paliwa",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Tanque de combustível de mudança selecionado",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Изменить выбранный топливный бак",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "選択している燃料タンクを切り替える"
+          },
+          "nl-NL": {
+            "Text": "Wisseltank geselecteerd"
+          },
+          "nb-NO": {
+            "Text": "Skift valg drivstofftank"
+          },
+          "sv-SE": {
+            "Text": "Växla vald bränsletank"
+          },
+          "fi-FI": {
+            "Text": "Muuta valittu polttoainetankki"
+          },
+          "zh-CN": {
+            "Text": "切换油箱",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_BATTERY": {
+        "UUID": "4a285d77-fadf-4fcf-8bd9-dbff0439278a",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set battery"
+          },
+          "fr-FR": {
+            "Text": "Configurer la batterie",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar batería",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Batterie einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta batteria",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz akumulator",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Configurar bateria",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить аккумулятор",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "バッテリーを設定する"
+          },
+          "nl-NL": {
+            "Text": "Accu instellen"
+          },
+          "nb-NO": {
+            "Text": "Still inn batteri"
+          },
+          "sv-SE": {
+            "Text": "Ställ in batteri"
+          },
+          "fi-FI": {
+            "Text": "Aseta akku"
+          },
+          "zh-CN": {
+            "Text": "设置电池",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_GPU": {
+        "UUID": "fae4902a-5e25-4ab5-9c87-7f4c659f6500",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set GPU"
+          },
+          "fr-FR": {
+            "Text": "Configurer le GPU",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Seleccionar GPU",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "GPU einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Imposta GPU",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wybierz naziemne źródło zasilania",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ajustar GPU",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить аэродромный источник питания",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "GPU を設定する"
+          },
+          "nl-NL": {
+            "Text": "GPU instellen"
+          },
+          "nb-NO": {
+            "Text": "Still inn GPU"
+          },
+          "sv-SE": {
+            "Text": "Ställ in grafikkort"
+          },
+          "fi-FI": {
+            "Text": "Aseta GPU"
+          },
+          "zh-CN": {
+            "Text": "设置地面电源装置",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.SOURCE_SWITCH_TURN_OFF": {
+        "UUID": "479e6de2-c47a-4a06-b66d-0db6c206d249",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Set no electric source"
+          },
+          "fr-FR": {
+            "Text": "Ne pas configurer la source d'alimentation électrique",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "No seleccionar fuente eléctrica",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Keine Stromquelle einstellen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Non impostare alcuna sorgente elettrica",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Nie ustawiaj źródła energii elektrycznej",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Definir nenhuma fonte elétrica",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Установить отсутствие источников электропитания",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "電源を設定しない"
+          },
+          "nl-NL": {
+            "Text": "Geen elektrische bron instellen"
+          },
+          "nb-NO": {
+            "Text": "Velg ingen elektrisk kilde"
+          },
+          "sv-SE": {
+            "Text": "Ställ in ingen elektrisk källa"
+          },
+          "fi-FI": {
+            "Text": "Älä aseta mitään sähkölähdettä"
+          },
+          "zh-CN": {
+            "Text": "清空电力来源设置",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.STARTER_ABORT": {
+        "UUID": "786188a5-e4dd-4375-b6d4-b4f567145347",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Abort engine start"
+          },
+          "fr-FR": {
+            "Text": "Annuler le démarrage du moteur",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Abortar arranque del motor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Triebwerksstart abbrechen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Annulla avvio motore",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Przerwij uruchamianie silnika",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Interromper a partida do motor",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Прервать запуск двигателя",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "エンジンの始動を中止する"
+          },
+          "nl-NL": {
+            "Text": "Motorstart afbreken"
+          },
+          "nb-NO": {
+            "Text": "Avbryt motorstart"
+          },
+          "sv-SE": {
+            "Text": "Avbryt motorstart"
+          },
+          "fi-FI": {
+            "Text": "Keskeytä moottorin käynnistys"
+          },
+          "zh-CN": {
+            "Text": "中断发动机启动",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.STARTER_TURN_OFF": {
+        "UUID": "27aef594-0fd5-4e09-a4be-f2795614b7f6",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF engine starter"
+          },
+          "fr-FR": {
+            "Text": "Désactiver le démarreur de moteur"
+          },
+          "es-ES": {
+            "Text": "Apagar el motor"
+          },
+          "de-DE": {
+            "Text": "Motoranlasser ausschalten"
+          },
+          "it-IT": {
+            "Text": "Spegni lo starter motore"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz rozrusznik"
+          },
+          "pt-BR": {
+            "Text": "Desligar motor de partida"
+          },
+          "ru-RU": {
+            "Text": "Выключить стартёр двигателя"
+          },
+          "ja-JP": {
+            "Text": "エンジン スターターをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Motorstarter uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF motorstarter"
+          },
+          "sv-SE": {
+            "Text": "Stäng av startmotorn"
+          },
+          "fi-FI": {
+            "Text": "Sammuta moottorin käynnistysmoottori"
+          },
+          "zh-CN": {
+            "Text": "关闭发动机启动器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.STARTER_TURN_ON": {
+        "UUID": "0c043317-fa1e-4ea0-b2e8-8c1e1da6f037",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON engine starter"
+          },
+          "fr-FR": {
+            "Text": "Activer le démarreur de moteur"
+          },
+          "es-ES": {
+            "Text": "Arrancar el motor"
+          },
+          "de-DE": {
+            "Text": "Motoranlasser einschalten"
+          },
+          "it-IT": {
+            "Text": "Accendi lo starter motore"
+          },
+          "pl-PL": {
+            "Text": "Włącz rozrusznik"
+          },
+          "pt-BR": {
+            "Text": "Ligar motor de partida"
+          },
+          "ru-RU": {
+            "Text": "Включить стартёр двигателя"
+          },
+          "ja-JP": {
+            "Text": "エンジン スターターをオンにする"
+          },
+          "nl-NL": {
+            "Text": "Motorstarter inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON motorstarter"
+          },
+          "sv-SE": {
+            "Text": "Slå på startmotorn"
+          },
+          "fi-FI": {
+            "Text": "Käynnistä moottorin käynnistysmoottori"
+          },
+          "zh-CN": {
+            "Text": "开启发动机启动器",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.TBM_LANDING_LIGHT_ON": {
+        "UUID": "4e89a2d0-1b88-4903-b29e-86b4468f42c3",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON landing lights"
+          },
+          "fr-FR": {
+            "Text": "Allumer les phares d'atterrissage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender luces de aterrizaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Landelichter einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accedi le luci di atterraggio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz światła lądowania",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luzes de pouso",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить посадочные фары",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "着陸灯をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Landingslichten inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON landingslys"
+          },
+          "sv-SE": {
+            "Text": "Tänd landningsljus"
+          },
+          "fi-FI": {
+            "Text": "Kytke laskeutumisvalot päälle"
+          },
+          "zh-CN": {
+            "Text": "打开着陆灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.TBM_TAXI_LIGHT_OFF": {
+        "UUID": "688819f3-5a7d-4e9a-967b-931b1dca2e27",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn OFF lights"
+          },
+          "fr-FR": {
+            "Text": "Éteindre les phares",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Apagar luces",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Beleuchtung ausschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Spegni le luci",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Wyłącz światła",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Desligar luzes",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Выключить фары",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "ライトをオフにする"
+          },
+          "nl-NL": {
+            "Text": "Lichten uitschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå OFF lys"
+          },
+          "sv-SE": {
+            "Text": "Släck lampor"
+          },
+          "fi-FI": {
+            "Text": "Sammuta valot"
+          },
+          "zh-CN": {
+            "Text": "关闭灯光",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.TBM_TAXI_LIGHT_ON": {
+        "UUID": "34b19493-50dc-4607-8a94-745b61fe54d4",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Turn ON taxi lights"
+          },
+          "fr-FR": {
+            "Text": "Allumer les phares de roulage",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Encender luces de rodaje",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Rollbeleuchtung einschalten",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Accendi le luci di rullaggio",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Włącz światła kołowania",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Ligar luzes de táxi",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Включить рулёжные фары",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "タキシング灯をオンにする"
+          },
+          "nl-NL": {
+            "Text": "Taxilichten inschakelen"
+          },
+          "nb-NO": {
+            "Text": "Slå ON takselys"
+          },
+          "sv-SE": {
+            "Text": "Tänd taxningsljus"
+          },
+          "fi-FI": {
+            "Text": "Kytke rullausvalot päälle"
+          },
+          "zh-CN": {
+            "Text": "打开滑行灯",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.THROTTLE_CUTOFF": {
+        "UUID": "8422eb7f-bcbb-4549-b621-739de32a05f8",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Throttle Control (Cut-Off)"
+          },
+          "fr-FR": {
+            "Text": "Commande des gaz (couper)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Mando de gases (desconectar)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Gashebelsteuerung (ausgeschaltet)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Controllo potenza (Interruzione)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sterowanie przepustnicą (zamknięta)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Controle do manete (Cut-Off)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "РУД (останов)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "スロットル操作 (カットオフ)"
+          },
+          "nl-NL": {
+            "Text": "Gashendel (afsluiten)"
+          },
+          "nb-NO": {
+            "Text": "Throttlekontroll (avsteng)"
+          },
+          "sv-SE": {
+            "Text": "Gasreglage (strypt)"
+          },
+          "fi-FI": {
+            "Text": "Kaasuvipu (katkaisu)"
+          },
+          "zh-CN": {
+            "Text": "油门控制（关闭）",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.THROTTLE_HIGH_IDLE": {
+        "UUID": "31918f72-9eb3-463c-a423-a97326984541",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Throttle Control (High Idle)"
+          },
+          "fr-FR": {
+            "Text": "Commande des gaz (haut régime de ralenti)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Mando de gases (ralentí alto)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Gashebelsteuerung (hohe Leerlaufdrehzahl)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Controllo potenza (Regime stazionario alto)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sterowanie przepustnicą (wysokie obroty biegu jałowego)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Controle do manete (High Idle)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "РУД (высокие обороты холостого хода)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "スロットル操作 (ハイ アイドリング)"
+          },
+          "nl-NL": {
+            "Text": "Gashendel (hoog stationair)"
+          },
+          "nb-NO": {
+            "Text": "Throttlekontroll (høy tomgang)"
+          },
+          "sv-SE": {
+            "Text": "Gasreglage (hög tomgång)"
+          },
+          "fi-FI": {
+            "Text": "Kaasuvipu (korkea tyhjäkäynti)"
+          },
+          "zh-CN": {
+            "Text": "油门控制（高怠速）",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.THROTTLE_LOW_IDLE": {
+        "UUID": "0e4a72d9-2276-4d2f-8acd-b7c0022ac5a7",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Throttle Control (Low Idle)"
+          },
+          "fr-FR": {
+            "Text": "Commande des gaz (bas régime de ralenti)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Mando de gases (ralentí bajo)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Gashebelsteuerung (niedrige Leerlaufdrehzahl)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Controllo potenza (Regime stazionario basso)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Sterowanie przepustnicą (niskie obroty biegu jałowego)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Controle do manete (Low Idle)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "РУД (малый газ)",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "スロットル操作 (ローアイドリング)"
+          },
+          "nl-NL": {
+            "Text": "Gashendel (laag stationair)"
+          },
+          "nb-NO": {
+            "Text": "Throttlekontroll (lav tomgang)"
+          },
+          "sv-SE": {
+            "Text": "Gasreglage (låg tomgång)"
+          },
+          "fi-FI": {
+            "Text": "Kaasuvipu (matala tyhjäkäynti)"
+          },
+          "zh-CN": {
+            "Text": "油门控制（低怠速）",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      },
+      "COCKPIT.TOOLTIPS.THROTTLE_PANEL_OVERRIDE_LEVER": {
+        "UUID": "5379dd80-4988-46de-8051-f252b7e0b2f3",
+        "LastModifiedBy": "jdebarry",
+        "LastModifiedDate": "2022-01-24 14:37:28",
+        "LocalizationStatus": "TranslationNeeded",
+        "Tags": {
+          "Locked": "False"
+        },
+        "Languages": {
+          "en-US": {
+            "Text": "Override fuel control"
+          },
+          "fr-FR": {
+            "Text": "Contrôle de la commande de carburant",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "es-ES": {
+            "Text": "Anular control de combustible",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "de-DE": {
+            "Text": "Kraftstoffsteuerung außer Kraft setzen",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "it-IT": {
+            "Text": "Ignora controllo carburante",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pl-PL": {
+            "Text": "Przejmij kontrolę nad paliwem",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "pt-BR": {
+            "Text": "Substituir controle de combustível",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ru-RU": {
+            "Text": "Блокировать регулятор подачи топлива",
+            "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "燃料操作を上書きする"
+          },
+          "nl-NL": {
+            "Text": "Brandstofregelaar opheffen"
+          },
+          "nb-NO": {
+            "Text": "Overstyr drivstoffkontroll"
+          },
+          "sv-SE": {
+            "Text": "Åsidosätt bränslekontroll"
+          },
+          "fi-FI": {
+            "Text": "Ohita polttoaineen ohjaus"
+          },
+          "zh-CN": {
+            "Text": "手动控制燃油",
+            "LocalizationStatus": "TranslationNeeded"
+          }
+        }
+      }
+    }
+  }
+}

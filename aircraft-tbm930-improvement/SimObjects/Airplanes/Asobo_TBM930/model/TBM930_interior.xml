@@ -166,6 +166,7 @@
         <NODE_ID>lever_pedals_2</NODE_ID>
       </UseTemplate>
       <UseTemplate Name="ASOBO_HANDLING_Lever_Flaps_Template">
+        <USE_TRAJECTORY_DRAG_MODE>True</USE_TRAJECTORY_DRAG_MODE>
         <ANIM_NAME>lever_flap</ANIM_NAME>
         <NODE_ID>hitbox_lever_flaps</NODE_ID>
         <ANIMREF_ID>0</ANIMREF_ID>
@@ -1542,7 +1543,7 @@
     <Component ID="ELECTRICAL">
       <UseTemplate Name="ASOBO_GT_Update">
         <UPDATE_ONCE>True</UPDATE_ONCE>
-        <UPDATE_CODE>(&gt;B:ELECTRICAL_Crash_Lever_Up) (&gt;B:ENGINE_Starter_1_Off)</UPDATE_CODE>
+        <UPDATE_CODE>(A:ELECTRICAL MASTER BATTERY, Bool) ! (&gt;B:ELECTRICAL_Crash_Lever_Set) (&gt;B:ENGINE_Starter_1_Off)</UPDATE_CODE>
       </UseTemplate>
       <UseTemplate Name="ASOBO_GT_Update">
         <FREQUENCY>5</FREQUENCY>

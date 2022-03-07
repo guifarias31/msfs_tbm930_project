@@ -1,6 +1,76 @@
 {
   "content": [
     {
+      "path": "de-DE.locPak",
+      "size": 8199,
+      "date": 132705964052076742
+    },
+    {
+      "path": "en-US.locPak",
+      "size": 7292,
+      "date": 132531400980914839
+    },
+    {
+      "path": "es-ES.locPak",
+      "size": 8140,
+      "date": 132705964052076742
+    },
+    {
+      "path": "fi-FI.locPak",
+      "size": 8107,
+      "date": 132664311633489558
+    },
+    {
+      "path": "fr-FR.locPak",
+      "size": 8751,
+      "date": 132705964052076742
+    },
+    {
+      "path": "it-IT.locPak",
+      "size": 8325,
+      "date": 132705964052086699
+    },
+    {
+      "path": "ja-JP.locPak",
+      "size": 8994,
+      "date": 132628073610857420
+    },
+    {
+      "path": "nb-NO.locPak",
+      "size": 7483,
+      "date": 132889879653106857
+    },
+    {
+      "path": "nl-NL.locPak",
+      "size": 7947,
+      "date": 132628073611077380
+    },
+    {
+      "path": "pl-PL.locPak",
+      "size": 8373,
+      "date": 132531400980924830
+    },
+    {
+      "path": "pt-BR.locPak",
+      "size": 7968,
+      "date": 132531400980924830
+    },
+    {
+      "path": "ru-RU.locPak",
+      "size": 11343,
+      "date": 132705964052086699
+    },
+    {
+      "path": "sv-SE.locPak",
+      "size": 7644,
+      "date": 132664311633499561
+    },
+    {
+      "path": "zh-CN.locPak",
+      "size": 7172,
+      "date": 132531400994837395
+    },
+    {
       "path": "ContentInfo/tbm930-improvement/Thumbnail.jpg",
       "size": 74432,
       "date": 132759396684785776
@@ -131,14 +201,64 @@
       "date": 132447569545285976
     },
     {
+      "path": "MaterialLibs/tbm930/Library.xml",
+      "size": 1207,
+      "date": 132905409901724092
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_ALBD.PNG.DDS",
+      "size": 349700,
+      "date": 132905409904102979
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_ALBD.PNG.DDS.FLAGS",
+      "size": 39,
+      "date": 132905409622774464
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_ALBD.PNG.DDS.json",
+      "size": 198,
+      "date": 132905409904092958
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_NORM.PNG.DDS",
+      "size": 349680,
+      "date": 132905409902172884
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_NORM.PNG.DDS.FLAGS",
+      "size": 21,
+      "date": 132905409661334986
+    },
+    {
+      "path": "MaterialLibs/tbm930/texture/HEAT_NORM.PNG.DDS.json",
+      "size": 185,
+      "date": 132905409902172884
+    },
+    {
       "path": "ModelBehaviorDefs/TBM930_Templates.xml",
-      "size": 19431,
-      "date": 132834680401071887
+      "size": 19729,
+      "date": 132896946685188578
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/ai.cfg",
+      "size": 822,
+      "date": 132531401024744962
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/aircraft.cfg",
+      "size": 6632,
+      "date": 132911483792073252
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_TBM930/aircraft.loc",
+      "size": 188067,
+      "date": 132889879653117117
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/approach.flt",
       "size": 3061,
-      "date": 132758726450031149
+      "date": 132896802495440994
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/apron.flt",
@@ -187,8 +307,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/systems.cfg",
-      "size": 8545,
-      "date": 132729277385266058
+      "size": 8677,
+      "date": 132896805818204851
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/taxi.flt",
@@ -197,43 +317,43 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930.xml",
-      "size": 8311,
-      "date": 132836513979201152
+      "size": 9091,
+      "date": 132911483641607876
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior.xml",
-      "size": 121827,
-      "date": 132859771516870969
+      "size": 121933,
+      "date": 132911463788170400
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD00.gltf",
-      "size": 765759,
-      "date": 132834566501523917
+      "size": 765701,
+      "date": 132896877835419845
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD01.gltf",
-      "size": 732036,
-      "date": 132720645018572159
+      "size": 731978,
+      "date": 132905424332284226
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD02.gltf",
-      "size": 576629,
-      "date": 132720584350085275
+      "size": 576571,
+      "date": 132905426528776408
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD03.gltf",
-      "size": 159410,
-      "date": 132720585238239812
+      "size": 159352,
+      "date": 132905427158916765
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_interior_LOD04.gltf",
-      "size": 65152,
-      "date": 132720586082387925
+      "size": 65093,
+      "date": 132905427663040567
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD00.gltf",
-      "size": 242620,
-      "date": 132758737175237813
+      "size": 241027,
+      "date": 132896850272212437
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/model/TBM930_LOD01.gltf",
@@ -257,13 +377,13 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/panel/panel.cfg",
-      "size": 1817,
-      "date": 132720507643713217
+      "size": 1637,
+      "date": 132896807514381501
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/panel/panel.xml",
-      "size": 55470,
-      "date": 132720652263342607
+      "size": 55613,
+      "date": 132896808870198754
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930/texture/TBM_930_COCKPIT_COLOREDGLASS_COMP.PNG.dds",
@@ -292,8 +412,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930.xml",
-      "size": 8313,
-      "date": 132759443578179025
+      "size": 9076,
+      "date": 132896961263641922
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryAviators/model.aviators/TBM930_LOD00.gltf",
@@ -332,8 +452,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/model.testpilot/TBM930.xml",
-      "size": 8313,
-      "date": 132759516230368183
+      "size": 9076,
+      "date": 132896961263641922
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_LiveryTestPilot/model.testpilot/TBM930_LOD00.bin",
@@ -377,8 +497,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_01/model.01/TBM930.xml",
-      "size": 8313,
-      "date": 132759443147624131
+      "size": 9076,
+      "date": 132896961263641922
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_01/model.01/TBM930_LOD00.gltf",
@@ -417,8 +537,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930.xml",
-      "size": 8313,
-      "date": 132759443272556735
+      "size": 9076,
+      "date": 132896961263641922
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Kenmore/model.kenmore/TBM930_LOD00.gltf",
@@ -457,8 +577,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Xbox_Aviators/model.aviators/TBM930.xml",
-      "size": 8313,
-      "date": 132759443434526260
+      "size": 9076,
+      "date": 132896961263641922
     },
     {
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Xbox_Aviators/model.aviators/TBM930_LOD00.gltf",
@@ -494,6 +614,21 @@
       "path": "SimObjects/Airplanes/Asobo_TBM930_Livery_Xbox_Aviators/texture.aviators/thumbnail_small.jpg",
       "size": 52430,
       "date": 132720606979433527
+    },
+    {
+      "path": "VisualEffectLibs/mugz/tbm930-fx/tbm930_left.spb",
+      "size": 2901,
+      "date": 132905407378057611
+    },
+    {
+      "path": "VisualEffectLibs/mugz/tbm930-fx/tbm930_right.spb",
+      "size": 2900,
+      "date": 132905407378092253
+    },
+    {
+      "path": "VisualEffectLibs/mugz/tbm930-fx/VisualEffectLibrary.xml",
+      "size": 135,
+      "date": 132905407378112194
     }
   ]
 }

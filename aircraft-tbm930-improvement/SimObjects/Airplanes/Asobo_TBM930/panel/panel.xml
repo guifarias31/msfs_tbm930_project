@@ -1108,6 +1108,9 @@
               <Param>
                 <Substract>
                   <MaxSinceStart>
+                    <ResetCondition>
+                      <Simvar name="SIM ON GROUND" unit="bool"/>
+                    </ResetCondition>
                     <Simvar name="PLANE ALTITUDE" unit="feet"/>
                   </MaxSinceStart>
                   <Simvar name="PLANE ALTITUDE" unit="feet"/>
