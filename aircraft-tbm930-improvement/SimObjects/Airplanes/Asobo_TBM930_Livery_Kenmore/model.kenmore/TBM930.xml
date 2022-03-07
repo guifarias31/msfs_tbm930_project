@@ -163,6 +163,26 @@
 		<Component ID="LANDING_FX">
 			<UseTemplate Name="ASOBO_LANDING_FX"/>
 		</Component>
+		<Component ID="HEAT_FX_LEFT">
+			<OverrideTemplateParameters>
+				<FX_GUID>{91615FF9-CD8A-427F-B40A-EE74E95C5239}</FX_GUID>
+			</OverrideTemplateParameters>
+			<Component ID="fx_exhaust_left" Node="fx_exhaust_left">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+		</Component>
+		<Component ID="HEAT_FX_RIGHT">
+			<OverrideTemplateParameters>
+				<FX_GUID>{90D91CAD-B5B7-497D-A9B7-D6968B7BC79E}</FX_GUID>
+			</OverrideTemplateParameters>
+			<Component ID="fx_exhaust_right" Node="fx_exhaust_right">
+				<UseTemplate Name="ASOBO_GT_FX">
+					<FX_CODE>(A:GENERAL ENG COMBUSTION:1, Bool) 0 &gt;</FX_CODE>
+				</UseTemplate>
+			</Component>
+		</Component>
 		<Component ID="DOORS">
 			<DefaultTemplateParameters>
 				<BD_UNLOCK_STATE>L:XMLVAR_TBM930_BackDoor_Unlock</BD_UNLOCK_STATE>
@@ -194,4 +214,3 @@
 		</Component>
 	</Behaviors>
 </ModelInfo>
-

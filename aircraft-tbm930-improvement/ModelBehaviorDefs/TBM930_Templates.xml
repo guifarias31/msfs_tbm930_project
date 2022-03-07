@@ -23,6 +23,17 @@
   (A:LIGHT POTENTIOMETER:1, Percent over 100) @LightDimmingScale * @PanelMaxEmissivePercent @MinEmissivePercent - * @MinEmissivePercent +
 </Macro>
 
+<Template Name = "FX_HEAT">
+  <Parameters Type="Default">
+    <FX_CONTACT_POINT_ID>-1</FX_CONTACT_POINT_ID>
+    <FX_NODE>__NO_NODE__</FX_NODE>
+  </Parameters>
+  <Component ID="FX_HEAT" Node="#FX_NODE#">
+    <UseTemplate Name="ASOBO_GT_FX">
+    </UseTemplate>
+  </Component>
+</Template>
+
 <Template Name="ASOBO_AS3000_TSC_Screen_Template">
   <Parameters Type="Default">
     <STATIC_SCREEN_EMISSIVE_VALUE>0.5</STATIC_SCREEN_EMISSIVE_VALUE>

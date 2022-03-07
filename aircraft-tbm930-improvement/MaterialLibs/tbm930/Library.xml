@@ -1,0 +1,32 @@
+<Library Version="1.1.0">
+	<Material Version="1.4.0" Name="TBM930_Heat" Guid="{457634D4-B709-4D0E-97D0-1BE71D500A54}" SurfaceType="UNDEFINED" Type="CODE_HEATDEFORM" Metal="0.000000" Rough="0.000000" Opacity="1.000000" BlendMode="Transparent">
+		<TagList/>
+		<FlagList/>
+		<TextureList>
+			<Texture FileName="TEXTURE\HEAT_ALBD.PNG.DDS" Binding="MTL_BITMAP_DECAL0"/>
+			<Texture FileName="TEXTURE\HEAT_NORM.PNG.DDS" Binding="MTL_BITMAP_NORMAL"/>
+		</TextureList>
+		<Attributes>
+			<Diffuse Red="1.000000" Green="1.000000" Blue="1.000000"/>
+			<Emissive Red="0.000000" Green="0.000000" Blue="0.000000"/>
+			<UVOffset U="0.000000" V="0.000000"/>
+			<UVScale U="1.000000" V="1.000000"/>
+			<UVRotate>0.000000</UVRotate>
+			<ExtraParameters>
+				<Parameter Value="1.000000"/>
+				<Parameter Value="1.000000"/>
+				<Parameter Value="1.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+				<Parameter Value="0.000000"/>
+			</ExtraParameters>
+		</Attributes>
+	</Material>
+</Library>
+
