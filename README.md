@@ -1,6 +1,4 @@
-# MSFS TBM 930 Project 0.6.0 (Continue project)
-
-#Project temporary on HOLD
+# MSFS TBM 930 Project (Project temporary on HOLD)
 
 This is the continue improvement project for the MSFS default TBM 930.
 
