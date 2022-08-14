@@ -1140,7 +1140,7 @@
                     } els{
                         (L:AS3000_Brightness, Percent over 100) 9000 * (L:AS3000_PFD_1_ScreenLuminosity) *
                     }
-                    (L:AS3000_PFD_1_ScreenLuminosity) 10 * +
+                    (L:AS3000_PFD_1_ScreenLuminosity)
                 </BOUNCE_POTENTIOMETER_PERCENT>
                 <POTENTIOMETER>16</POTENTIOMETER>
                 <ID>3</ID>
@@ -1152,7 +1152,7 @@
                     } els{
                         (L:AS3000_Brightness, Percent over 100) 90 * (L:AS3000_MFD_ScreenLuminosity) * #DIMMING_SCALE# *
                     }
-                    (L:AS3000_MFD_ScreenLuminosity) 10 * +
+                    (L:AS3000_MFD_ScreenLuminosity)
                 </BOUNCE_POTENTIOMETER_PERCENT>
                 <POTENTIOMETER>17</POTENTIOMETER>
                 <ID>4</ID>
