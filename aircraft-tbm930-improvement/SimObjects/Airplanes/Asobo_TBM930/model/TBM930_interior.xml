@@ -105,8 +105,7 @@
                     <ANIM_NAME>YOKE_PUSH_BACK_R_LEFT</ANIM_NAME>
                 </UseTemplate>
             </Component>
-
-            <Component ID="HANDLING_Yoke_Stick_Right">
+			<Component ID="HANDLING_Yoke_Stick_Right">
                 <UseTemplate Name="ASOBO_HANDLING_Yoke_Hideable_Template">
                     <NODE_ID>yoke_right</NODE_ID>
                     <YOKE_HIDER_NODE_ID>YOKE_RIGHT_VISIBILITY</YOKE_HIDER_NODE_ID>
@@ -551,6 +550,15 @@
                         <ANIM_NAME>LEVER_THROTTLE_UNLOCK_TRIGGER</ANIM_NAME>
                         <ANIM_CODE>(O:_Anim_Pos_X_Current) 0 == (O:_Anim_Pos_Y_Current) 49.9 &lt; and 100 *</ANIM_CODE>
                     </UseTemplate>
+					<UseTemplate Name="ASOBO_GT_Anim_Code">
+						<ANIM_NAME>lever_throttle_leather_Left</ANIM_NAME> 
+						<ANIM_CODE>(O:_Anim_Pos_X_Current) 0 == if{ (O:_Anim_Pos_Y_Current) } els{ 50 }</ANIM_CODE>
+					</UseTemplate>
+					<UseTemplate Name="ASOBO_GT_Anim_Code">
+						<ANIM_NAME>lever_throttle_leather_Right</ANIM_NAME> 
+						<ANIM_CODE>(O:_Anim_Pos_X_Current) 100 == if{ (O:_Anim_Pos_Y_Current) } els{ 50 }</ANIM_CODE>
+						<ANIM_LENGTH>50</ANIM_LENGTH>
+					</UseTemplate>
                     <UseInputEvent ID="ENGINE">
                         <LEVER_ID>Throttle</LEVER_ID>
                         <TT_VALUE>
